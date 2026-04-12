@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام أوردرات العطور V7.0 - محمي</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--g:#d4a574;--g2:#c69963;--ok:#48bb78;--no:#fc5c65;--wn:#f7b731;--in:#45aaf2;--pr:#a55eea;--bg:rgba(26,26,46,.88);--bd:rgba(212,165,116,.13);--gg:linear-gradient(135deg,#d4a574,#c69963,#b8860b)}
+        body{font-family:'Cairo',sans-serif;background:linear-gradient(135deg,#0c0c1d,#1a1a2e,#16213e);min-height:100vh;color:#e0e0e0}
+
+        .bga{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;overflow:hidden}
+        .bga span{position:absolute;display:block;background:rgba(212,165,116,.06);animation:fl 25s infinite;border-radius:50%}
+        .bga span:nth-child(1){left:10%;width:70px;height:70px}.bga span:nth-child(2){left:30%;width:18px;height:18px;animation-delay:2s}.bga span:nth-child(3){left:50%;width:50px;height:50px;animation-delay:4s}.bga span:nth-child(4){left:70%;width:30px;height:30px;animation-delay:1s}.bga span:nth-child(5){left:90%;width:55px;height:55px;animation-delay:5s}
+        @keyframes fl{0%{transform:translateY(100vh);opacity:0}10%{opacity:.2}90%{opacity:.05}100%{transform:translateY(-100vh);opacity:0}}
+
+        .hdr{background:linear-gradient(135deg,rgba(26,26,46,.97),rgba(22,33,62,.97));border-bottom:2px solid var(--bd);padding:10px 0;position:sticky;top:0;z-index:1000;box-shadow:0 4px 25px rgba(0,0,0,.3)}
+        .hdr-c{max-width:1500px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+        .logo{display:flex;align-items:center;gap:10px}
+        .logo-i{width:42px;height:42px;background:var(--gg);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 3px 15px rgba(212,165,116,.3)}
+        .logo h1{font-size:1.15em;font-weight:800;background:var(--gg);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .hdr-s{display:flex;gap:6px;flex-wrap:wrap}
+        .sb{padding:3px 10px;border-radius:50px;font-size:.72em;border:1px solid}
+        .sb-g{background:rgba(212,165,116,.08);color:var(--g);border-color:rgba(212,165,116,.18)}
+        .sb-ok{background:rgba(72,187,120,.1);color:var(--ok);border-color:rgba(72,187,120,.2)}
+        .sb-no{background:rgba(252,92,101,.1);color:var(--no);border-color:rgba(252,92,101,.2)}
+        .sb span{font-weight:800}
+
+        /* Backup Status Bar */
+        .backup-bar{background:rgba(15,15,30,.5);border:1px solid var(--bd);border-radius:10px;padding:8px 14px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:.8em}
+        .backup-status{display:flex;align-items:center;gap:6px}
+        .backup-dot{width:8px;height:8px;border-radius:50%}
+        .backup-dot.online{background:var(--ok);box-shadow:0 0 8px var(--ok)}
+        .backup-dot.offline{background:var(--no);box-shadow:0 0 8px var(--no)}
+        .backup-actions{display:flex;gap:5px;flex-wrap:wrap}
+
+        .ctn{max-width:1500px;margin:0 auto;padding:18px;position:relative;z-index:1}
+        .tabs{display:flex;gap:3px;margin-bottom:18px;flex-wrap:wrap;background:rgba(26,26,46,.5);padding:6px;border-radius:14px;border:1px solid var(--bd)}
+        .tb{padding:7px 14px;border:none;background:0;color:#777;border-radius:9px;cursor:pointer;font-family:'Cairo';font-size:.8em;font-weight:600;transition:.3s;display:flex;align-items:center;gap:4px}
+        .tb:hover{background:rgba(212,165,116,.08);color:var(--g)}
+        .tb.act{background:var(--gg);color:#1a1a2e;box-shadow:0 3px 15px rgba(212,165,116,.25)}
+        .tb .bc{background:rgba(252,92,101,.85);color:#fff;padding:0 5px;border-radius:15px;font-size:.68em;font-weight:800}
+
+        .card{background:var(--bg);backdrop-filter:blur(15px);border-radius:14px;padding:18px;margin-bottom:14px;border:1px solid var(--bd);box-shadow:0 6px 30px rgba(0,0,0,.15)}
+        .ct{font-size:1.05em;font-weight:800;color:var(--g);margin-bottom:14px;display:flex;align-items:center;gap:8px;padding-bottom:8px;border-bottom:2px solid var(--bd)}
+
+        .dash-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+        .ds{background:rgba(15,15,30,.5);padding:14px;border-radius:12px;text-align:center;border:1px solid var(--bd);transition:.3s;cursor:pointer}
+        .ds:hover{border-color:rgba(212,165,116,.25);transform:translateY(-2px)}
+        .ds .dn{font-size:1.8em;font-weight:900;color:var(--g)}
+        .ds .dl{color:#777;font-size:.75em;margin-top:2px}
+        .ds.ok .dn{color:var(--ok)}.ds.no .dn{color:var(--no)}.ds.wn .dn{color:var(--wn)}.ds.pr .dn{color:var(--pr)}
+
+        .fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:14px}
+        .fi{display:flex;flex-direction:column;gap:3px}
+        .fi label{font-weight:600;color:var(--g);font-size:.78em}
+        .fi input,.fi select,.fi textarea{padding:8px 11px;border:2px solid var(--bd);border-radius:8px;font-family:'Cairo';font-size:.85em;background:rgba(15,15,30,.8);color:#e0e0e0;outline:0;transition:.3s}
+        .fi input:focus,.fi select:focus{border-color:var(--g)}
+        .fi textarea{min-height:45px;resize:vertical}
+
+        .cat-t{font-size:.85em;font-weight:700;color:var(--g2);margin:12px 0 8px;padding:7px 10px;background:rgba(212,165,116,.04);border-radius:8px;border-right:3px solid var(--g)}
+        .ci{display:flex;align-items:center;gap:8px;padding:7px 10px;margin-bottom:5px;background:rgba(15,15,30,.4);border-radius:8px;border:1px solid rgba(212,165,116,.04);flex-wrap:wrap;font-size:.88em}
+        .ci.sel{border-color:rgba(212,165,116,.2);background:rgba(212,165,116,.04)}
+        .ts{position:relative;width:40px;height:21px;flex-shrink:0}
+        .ts input{opacity:0;width:0;height:0}
+        .tsl{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:rgba(100,100,100,.3);border-radius:21px;transition:.3s}
+        .tsl:before{position:absolute;content:"";height:15px;width:15px;right:3px;bottom:3px;background:#777;border-radius:50%;transition:.3s}
+        .ts input:checked+.tsl{background:var(--gg)}
+        .ts input:checked+.tsl:before{transform:translateX(-19px);background:#1a1a2e}
+        .cn{font-weight:600;color:#bbb;min-width:110px;font-size:.84em}
+        .cq input{width:60px;padding:4px 6px;border:1px solid rgba(212,165,116,.1);border-radius:6px;text-align:center;font-family:'Cairo';font-weight:700;background:rgba(15,15,30,.8);color:var(--g);outline:0;font-size:.85em}
+        .cq .u{color:#777;font-size:.72em}
+
+        .btn{padding:7px 16px;border:none;border-radius:8px;cursor:pointer;font-family:'Cairo';font-size:.82em;font-weight:700;transition:.3s;display:inline-flex;align-items:center;gap:4px}
+        .btn:hover{transform:translateY(-1px)}
+        .btn-p{background:var(--gg);color:#1a1a2e}.btn-s{background:linear-gradient(135deg,#43e97b,#38f9d7);color:#1a1a2e}.btn-d{background:linear-gradient(135deg,#f093fb,#f5576c);color:#fff}.btn-i{background:linear-gradient(135deg,#4facfe,#00f2fe);color:#1a1a2e}.btn-w{background:linear-gradient(135deg,#f7b731,#fd9644);color:#1a1a2e}.btn-pr{background:linear-gradient(135deg,#a55eea,#8854d0);color:#fff}.btn-dk{background:rgba(212,165,116,.06);color:var(--g);border:1px solid var(--bd)}
+        .btn-sm{padding:4px 9px;font-size:.75em;border-radius:5px}
+        .bg2{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+
+        .dtbl{width:100%;border-collapse:collapse;font-size:.82em}
+        .dtbl th,.dtbl td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--bd)}
+        .dtbl th{background:rgba(212,165,116,.05);color:var(--g);font-weight:700;position:sticky;top:0}
+        .dtbl tr:hover{background:rgba(212,165,116,.03)}
+        .dtbl .cc{font-family:'Courier New',monospace;color:var(--g);font-size:.82em;direction:ltr;text-align:left;background:rgba(212,165,116,.04);padding:2px 5px;border-radius:3px}
+
+        .st{padding:2px 7px;border-radius:14px;font-size:.7em;font-weight:700;white-space:nowrap}
+        .st-ok{background:rgba(72,187,120,.12);color:var(--ok);border:1px solid rgba(72,187,120,.2)}
+        .st-no{background:rgba(252,92,101,.12);color:var(--no);border:1px solid rgba(252,92,101,.2)}
+        .st-pa{background:rgba(247,183,49,.12);color:var(--wn);border:1px solid rgba(247,183,49,.2)}
+        .st-dl{background:rgba(72,187,120,.15);color:var(--ok);border:1px solid rgba(72,187,120,.3)}
+
+        .dy{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:14px;font-size:.72em;font-weight:700}
+        .dy-ok{background:rgba(72,187,120,.1);color:var(--ok)}.dy-wn{background:rgba(247,183,49,.1);color:var(--wn)}.dy-no{background:rgba(252,92,101,.1);color:var(--no)}
+
+        .prg{height:7px;background:rgba(50,50,70,.5);border-radius:7px;overflow:hidden;margin:4px 0}
+        .prg-f{height:100%;border-radius:7px;background:linear-gradient(135deg,var(--no),var(--wn),var(--ok));transition:width .5s}
+
+        .srch{position:relative;margin-bottom:14px}
+        .srch input{width:100%;padding:9px 16px 9px 35px;border:2px solid var(--bd);border-radius:11px;font-family:'Cairo';font-size:.88em;background:rgba(15,15,30,.8);color:#e0e0e0;outline:0;transition:.3s}
+        .srch input:focus{border-color:var(--g)}
+        .srch .si{position:absolute;left:11px;top:50%;transform:translateY(-50%)}
+
+        .client-section{background:rgba(15,15,30,.4);border-radius:12px;border:1px solid var(--bd);margin-bottom:14px;overflow:hidden}
+        .client-header{padding:12px 14px;background:rgba(212,165,116,.05);display:flex;justify-content:space-between;align-items:center;cursor:pointer;flex-wrap:wrap;gap:6px}
+        .client-header:hover{background:rgba(212,165,116,.08)}
+        .client-header h3{color:var(--g);font-size:.95em}
+        .client-body{padding:14px}
+
+        .pb{padding:12px;background:rgba(15,15,30,.4);border-radius:10px;border:1px solid var(--bd);margin-top:12px}
+        .bc2{height:25px;background:rgba(50,50,70,.5);border-radius:12px;overflow:hidden;display:flex}
+        .bs{height:100%;display:flex;align-items:center;justify-content:center;font-size:.62em;font-weight:700;color:#1a1a2e;transition:width .5s}
+        .b-al{background:linear-gradient(135deg,#667eea,#764ba2)}.b-oi{background:linear-gradient(135deg,#f093fb,#f5576c)}.b-ba{background:linear-gradient(135deg,#43e97b,#38f9d7)}
+
+        .cp{background:rgba(15,15,30,.5);border:2px dashed rgba(212,165,116,.12);border-radius:10px;padding:12px;margin:10px 0;text-align:center}
+        .cp .mc{font-family:'Courier New',monospace;font-size:1.3em;font-weight:900;color:var(--g);letter-spacing:2px}
+        .cp .scs{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px;justify-content:center}
+        .cp .sc2{font-family:'Courier New',monospace;font-size:.72em;background:rgba(212,165,116,.06);padding:2px 6px;border-radius:4px;color:#bbb}
+
+        .trc{display:flex;align-items:flex-start;gap:8px;padding:9px;margin-bottom:6px;background:rgba(26,26,46,.4);border-radius:8px;border:1px solid var(--bd);flex-wrap:wrap}
+        .trc.rec{border-right:3px solid var(--ok)}.trc.nrec{border-right:3px solid var(--no)}
+        .ni{width:100%;padding:5px 8px;border:1px solid var(--bd);border-radius:5px;background:rgba(15,15,30,.8);color:#bbb;font-family:'Cairo';font-size:.75em;outline:0;resize:none;min-height:28px}
+
+        .fb{display:flex;gap:5px;margin-bottom:12px;flex-wrap:wrap}
+        .fbn{padding:5px 12px;border:1px solid var(--bd);background:0;color:#777;border-radius:7px;cursor:pointer;font-family:'Cairo';font-size:.78em;font-weight:600;transition:.3s}
+        .fbn:hover{border-color:var(--g);color:var(--g)}
+        .fbn.act{background:var(--gg);color:#1a1a2e;border-color:transparent}
+
+        /* Backup Settings */
+        .backup-card{background:rgba(15,15,30,.5);border-radius:12px;border:1px solid var(--bd);padding:16px;margin-bottom:14px}
+        .backup-card h3{color:var(--g);font-size:.95em;margin-bottom:10px}
+        .backup-option{display:flex;justify-content:space-between;align-items:center;padding:10px;margin-bottom:8px;background:rgba(26,26,46,.4);border-radius:8px;border:1px solid var(--bd);flex-wrap:wrap;gap:8px}
+        .backup-option .bo-info{flex:1;min-width:200px}
+        .backup-option .bo-info h4{color:#ccc;font-size:.88em}
+        .backup-option .bo-info p{color:#777;font-size:.75em}
+        .backup-history{max-height:200px;overflow-y:auto;margin-top:10px}
+        .backup-item{display:flex;justify-content:space-between;align-items:center;padding:6px 10px;margin-bottom:4px;background:rgba(15,15,30,.3);border-radius:6px;font-size:.78em}
+        .backup-item .bi-date{color:#888}
+        .backup-item .bi-size{color:var(--g)}
+
+        .tc0{display:none}.tc0.act{display:block;animation:fI .25s ease}
+        @keyframes fI{from{opacity:0}to{opacity:1}}
+
+        .es{text-align:center;padding:35px 18px;color:#555}
+        .es .ei{font-size:2.5em;margin-bottom:8px;opacity:.3}
+        .es h3{color:#777;font-size:.9em}
+
+        .mo{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);z-index:2000;justify-content:center;align-items:center;padding:12px}
+        .mo.act{display:flex}
+        .mdl{background:rgba(26,26,46,.98);border-radius:14px;width:100%;max-width:800px;max-height:90vh;overflow-y:auto;border:1px solid rgba(212,165,116,.2);box-shadow:0 20px 60px rgba(0,0,0,.5)}
+        .mh{padding:14px 18px;border-bottom:1px solid var(--bd);display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;background:rgba(26,26,46,.98);z-index:1}
+        .mh h2{color:var(--g);font-size:1.05em}
+        .mx{width:32px;height:32px;border:none;background:rgba(252,92,101,.1);color:var(--no);border-radius:6px;cursor:pointer;font-size:1em}
+        .mx:hover{background:var(--no);color:#fff}
+        .mb{padding:18px}
+
+        .tc2{position:fixed;top:75px;left:18px;z-index:3000;display:flex;flex-direction:column;gap:5px}
+        .tst{padding:8px 15px;border-radius:8px;font-weight:600;font-family:'Cairo';animation:sIn .3s,fO .3s 2.7s;display:flex;align-items:center;gap:5px;box-shadow:0 6px 20px rgba(0,0,0,.25);font-size:.82em}
+        .tst-s{background:linear-gradient(135deg,#43e97b,#38f9d7);color:#1a1a2e}
+        .tst-e{background:linear-gradient(135deg,#f093fb,#f5576c);color:#fff}
+        .tst-w{background:linear-gradient(135deg,#f7b731,#fd9644);color:#1a1a2e}
+        @keyframes sIn{from{transform:translateX(-100%);opacity:0}to{transform:translateX(0);opacity:1}}
+        @keyframes fO{from{opacity:1}to{opacity:0}}
+
+        .print-only{display:none}
+        @media print{
+            *{color:#000!important;background:transparent!important;border-color:#ddd!important;box-shadow:none!important}
+            body{background:#fff!important}
+            .hdr,.tabs,.bga,.tc2,.btn,.bg2,.mx,.mo,.no-print,.backup-bar{display:none!important}
+            .print-only{display:block!important}
+            .print-header{text-align:center;margin-bottom:15px;border-bottom:3px solid #333;padding-bottom:8px}
+            .print-header h1{font-size:16pt}
+            .dtbl th{background:#f0f0f0!important}
+            .dtbl th,.dtbl td{border:1px solid #ddd!important}
+            @page{margin:1.5cm}
+        }
+
+        ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:rgba(212,165,116,.2);border-radius:10px}
+        @media(max-width:768px){.hdr-c{flex-direction:column;text-align:center}.tabs{justify-content:center}.tb{padding:5px 8px;font-size:.73em}.fg{grid-template-columns:1fr}.ctn{padding:8px}.dash-stats{grid-template-columns:repeat(2,1fr)}}
+    </style>
+</head>
+<body>
+
+<div class="bga"><span></span><span></span><span></span><span></span><span></span></div>
+<div class="tc2" id="toasts"></div>
+
+<div class="print-only print-header"><h1>🌟 تقرير أوردرات العطور</h1><p id="pDate"></p></div>
+
+<div class="hdr no-print">
+    <div class="hdr-c">
+        <div class="logo">
+            <div class="logo-i">🌟</div>
+            <div><h1>أوردرات العطور V7.0 🔒</h1></div>
+        </div>
+        <div class="hdr-s">
+            <div class="sb sb-g">📋 <span id="s1">0</span></div>
+            <div class="sb sb-ok">✅ <span id="s2">0</span></div>
+            <div class="sb sb-no">⏳ <span id="s3">0</span></div>
+            <div class="sb sb-g">💰 <span id="s4">0</span></div>
+        </div>
+    </div>
+</div>
+
+<div class="ctn">
+    <!-- Backup Status Bar -->
+    <div class="backup-bar no-print" id="backupBar">
+        <div class="backup-status">
+            <div class="backup-dot online" id="bkDot"></div>
+            <span id="bkStatus">💾 آخر حفظ: جاري التحميل...</span>
+        </div>
+        <div class="backup-actions">
+            <button class="btn btn-s btn-sm" onclick="manualBackup()">💾 نسخ احتياطي الآن</button>
+            <button class="btn btn-i btn-sm" onclick="showBackups()">📂 النسخ السابقة</button>
+            <button class="btn btn-w btn-sm" onclick="restoreLatest()">♻️ استعادة آخر نسخة</button>
+        </div>
+    </div>
+
+    <div class="tabs no-print">
+        <button class="tb act" onclick="sw('dash',this)">📊 لوحة التحكم</button>
+        <button class="tb" onclick="sw('new',this)">🆕 أوردر جديد</button>
+        <button class="tb" onclick="sw('clients',this)">👥 العملاء</button>
+        <button class="tb" onclick="sw('track',this)">📦 المتابعة <span class="bc" id="pBdg">0</span></button>
+        <button class="tb" onclick="sw('short',this)">⚠️ النواقص</button>
+        <button class="tb" onclick="sw('ready',this)">✅ جاهز</button>
+        <button class="tb" onclick="sw('backup',this)">🔒 النسخ الاحتياطي</button>
+        <button class="tb" onclick="sw('exp',this)">💾 تصدير</button>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="tc0 act" id="tab-dash">
+        <div class="dash-stats" id="dashSt"></div>
+        <div class="card">
+            <div class="ct">📋 جميع الأوردرات
+                <div style="margin-right:auto;display:flex;gap:4px" class="no-print">
+                    <button class="btn btn-p btn-sm" onclick="printAll()">🖨️</button>
+                </div>
+            </div>
+            <div class="srch no-print"><span class="si">🔍</span><input id="dSearch" placeholder="بحث..." oninput="renderDash()"></div>
+            <div class="fb no-print">
+                <button class="fbn act" onclick="setDF('all',this)">الكل</button>
+                <button class="fbn" onclick="setDF('active',this)">🔄 نشط</button>
+                <button class="fbn" onclick="setDF('completed',this)">✅ مكتمل</button>
+                <button class="fbn" onclick="setDF('delivered',this)">📬 مُسلّم</button>
+            </div>
+            <div style="overflow-x:auto"><table class="dtbl"><thead><tr>
+                <th>#</th><th>الأوردر</th><th>العميل</th><th>المنتج</th><th>كود</th><th>الكمية</th><th>الإجمالي</th><th>الأيام</th><th>المكونات</th><th>الحالة</th><th class="no-print">إجراءات</th>
+            </tr></thead><tbody id="dBody"></tbody></table></div>
+        </div>
+        <div class="card"><div class="ct">⚡ ملخص النواقص</div><div id="qTrack"></div></div>
+    </div>
+
+    <!-- New Order -->
+    <div class="tc0" id="tab-new">
+        <div class="card">
+            <div class="ct">🆕 أوردر جديد</div>
+            <div class="fg">
+                <div class="fi"><label>👤 العميل</label><input id="oC" placeholder="تاب بيوتي"></div>
+                <div class="fi"><label>📝 المنتج</label><input id="oP" placeholder="هايل" oninput="upPrv()"></div>
+                <div class="fi"><label>🏷️ النوع</label><select id="oT"><option value="perfume">عطر</option><option value="splash">بودي سبلاش</option><option value="lotion">بودي لوشن</option></select></div>
+                <div class="fi"><label>📐 الحجم</label><input id="oS" placeholder="100ml"></div>
+                <div class="fi"><label>📦 الكمية</label><input type="number" id="oQ" min="1" oninput="calcT()"></div>
+                <div class="fi"><label>💰 سعر الحبة</label><input type="number" id="oPr" step="0.5" oninput="calcT()"></div>
+                <div class="fi"><label>💵 الإجمالي</label><input id="oTo" readonly style="color:var(--ok);font-weight:800"></div>
+                <div class="fi"><label>📅 التسليم</label><input type="date" id="oD"></div>
+            </div>
+            <div class="fi" style="margin-bottom:10px"><label>📝 ملاحظات</label><textarea id="oN" placeholder="..."></textarea></div>
+            <div class="cp"><h4 style="color:var(--g);font-size:.82em">🔑 الكود</h4><div class="mc" id="prvC">---</div><div class="scs" id="prvS"></div></div>
+            <div class="cat-t">📦 التغليف</div><div id="pkgC"></div>
+            <div class="cat-t">🧪 التصنيع</div><div id="mfgC"></div>
+            <div class="pb"><h4 style="color:var(--g);font-size:.82em;margin-bottom:6px">📊 السوائل</h4><div class="bc2"><div class="bs b-al" id="bA" style="width:70%">70%</div><div class="bs b-oi" id="bO" style="width:25%">25%</div><div class="bs b-ba" id="bB" style="width:5%">5%</div></div><div style="text-align:center;font-size:.85em;font-weight:800;margin-top:4px" id="tPc">100% ✅</div></div>
+            <div class="bg2"><button class="btn btn-p" onclick="saveOrd()">💾 حفظ</button><button class="btn btn-i" onclick="resetOrd()">🔄</button></div>
+        </div>
+    </div>
+
+    <!-- Clients -->
+    <div class="tc0" id="tab-clients"><div class="card"><div class="ct">👥 العملاء</div><div class="srch no-print"><span class="si">🔍</span><input id="cS" placeholder="بحث عميل..." oninput="renderClients()"></div><div id="cList"></div></div></div>
+
+    <!-- Tracking -->
+    <div class="tc0" id="tab-track"><div class="card"><div class="ct">📦 المتابعة</div><div class="srch no-print"><span class="si">🔍</span><input id="tS" placeholder="بحث..." oninput="renderTrack()"></div>
+        <div class="fb no-print"><button class="fbn act" onclick="setTF('all',this)">الكل</button><button class="fbn" onclick="setTF('pending',this)">⏳</button><button class="fbn" onclick="setTF('received',this)">✅</button><button class="fbn" onclick="setTF('partial',this)">🔶</button></div>
+        <div id="tList"></div></div></div>
+
+    <!-- Shortages -->
+    <div class="tc0" id="tab-short"><div class="card"><div class="ct">⚠️ النواقص</div><div id="sList"></div></div></div>
+
+    <!-- Ready -->
+    <div class="tc0" id="tab-ready"><div class="card"><div class="ct">✅ جاهز</div><div id="rList"></div></div></div>
+
+    <!-- Backup -->
+    <div class="tc0" id="tab-backup">
+        <div class="card">
+            <div class="ct">🔒 إدارة النسخ الاحتياطي وحماية البيانات</div>
+
+            <div class="backup-card">
+                <h3>⚙️ إعدادات النسخ الاحتياطي</h3>
+                <div class="backup-option">
+                    <div class="bo-info">
+                        <h4>💾 نسخ احتياطي تلقائي</h4>
+                        <p>يتم حفظ نسخة تلقائياً كل 5 دقائق وعند كل تعديل</p>
+                    </div>
+                    <label class="ts"><input type="checkbox" id="autoBackupToggle" checked onchange="toggleAutoBackup()"><span class="tsl"></span></label>
+                </div>
+                <div class="backup-option">
+                    <div class="bo-info">
+                        <h4>📥 تحميل نسخة احتياطية الآن</h4>
+                        <p>حفظ ملف JSON على جهازك</p>
+                    </div>
+                    <button class="btn btn-p btn-sm" onclick="manualBackup()">💾 تحميل</button>
+                </div>
+                <div class="backup-option">
+                    <div class="bo-info">
+                        <h4>📤 استعادة من ملف</h4>
+                        <p>رفع ملف نسخة احتياطية سابقة</p>
+                    </div>
+                    <input type="file" accept=".json" onchange="restoreFromFile(event)" style="font-size:.8em;max-width:200px">
+                </div>
+                <div class="backup-option">
+                    <div class="bo-info">
+                        <h4>🔄 نسخ مزدوج (حماية إضافية)</h4>
+                        <p>حفظ في localStorage + IndexedDB + ملف تلقائي</p>
+                    </div>
+                    <span class="st st-ok">✅ مفعّل</span>
+                </div>
+            </div>
+
+            <div class="backup-card">
+                <h3>📂 النسخ الاحتياطية المحلية (<span id="bkCount">0</span>)</h3>
+                <div class="backup-history" id="bkHistory"></div>
+                <div class="bg2">
+                    <button class="btn btn-d btn-sm" onclick="clearOldBackups()">🗑️ حذف النسخ القديمة (أبقي آخر 10)</button>
+                </div>
+            </div>
+
+            <div class="backup-card">
+                <h3>📊 حالة التخزين</h3>
+                <div class="dash-stats">
+                    <div class="ds"><div class="dn" id="storageSize">0</div><div class="dl">حجم البيانات (KB)</div></div>
+                    <div class="ds ok"><div class="dn" id="backupCount">0</div><div class="dl">عدد النسخ</div></div>
+                    <div class="ds"><div class="dn" id="lastBackupTime">-</div><div class="dl">آخر نسخة</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Export -->
+    <div class="tc0" id="tab-exp">
+        <div class="card"><div class="ct">💾 تصدير</div>
+            <div class="bg2">
+                <button class="btn btn-p" onclick="expJSON()">📄 JSON</button>
+                <button class="btn btn-s" onclick="expCSV()">📊 CSV</button>
+                <button class="btn btn-i" onclick="expTXT()">📝 TXT</button>
+                <button class="btn btn-p" onclick="printAll()">🖨️ طباعة</button>
+            </div>
+            <div style="margin-top:14px"><div class="fi"><label>📥 استيراد</label><input type="file" accept=".json" onchange="restoreFromFile(event)" style="padding:6px"></div></div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals -->
+<div class="mo" id="editMo"><div class="mdl"><div class="mh"><h2>✏️ تعديل</h2><button class="mx" onclick="clMo('editMo')">&times;</button></div><div class="mb" id="emB"></div></div></div>
+<div class="mo" id="detMo"><div class="mdl"><div class="mh"><h2>📊 تفاصيل</h2><button class="mx" onclick="clMo('detMo')">&times;</button></div><div class="mb" id="dmB"></div></div></div>
+<div class="mo" id="bkMo"><div class="mdl"><div class="mh"><h2>📂 النسخ الاحتياطية</h2><button class="mx" onclick="clMo('bkMo')">&times;</button></div><div class="mb" id="bkB"></div></div></div>
+
+<script>
+// ============================================
+// ===== TRIPLE STORAGE SYSTEM =====
+// ============================================
+
+const DB_NAME = 'PerfumeOrdersDB';
+const STORE_NAME = 'mainData';
+const BACKUP_STORE = 'backups';
+const DB_VERSION = 1;
+
+// ===== IndexedDB Setup =====
+function openIDB() {
+    return new Promise((resolve, reject) => {
+        const req = indexedDB.open(DB_NAME, DB_VERSION);
+        req.onupgradeneeded = e => {
+            const db = e.target.result;
+            if (!db.objectStoreNames.contains(STORE_NAME)) db.createObjectStore(STORE_NAME);
+            if (!db.objectStoreNames.contains(BACKUP_STORE)) db.createObjectStore(BACKUP_STORE, { keyPath: 'id' });
+        };
+        req.onsuccess = e => resolve(e.target.result);
+        req.onerror = e => reject(e);
+    });
+}
+
+async function saveToIDB(data) {
+    try {
+        const db = await openIDB();
+        const tx = db.transaction(STORE_NAME, 'readwrite');
+        tx.objectStore(STORE_NAME).put(data, 'mainData');
+        return true;
+    } catch(e) { console.warn('IDB save failed:', e); return false; }
+}
+
+async function loadFromIDB() {
+    try {
+        const db = await openIDB();
+        return new Promise((resolve, reject) => {
+            const tx = db.transaction(STORE_NAME, 'readonly');
+            const req = tx.objectStore(STORE_NAME).get('mainData');
+            req.onsuccess = () => resolve(req.result);
+            req.onerror = () => reject();
+        });
+    } catch(e) { return null; }
+}
+
+async function saveBackupToIDB(backup) {
+    try {
+        const db = await openIDB();
+        const tx = db.transaction(BACKUP_STORE, 'readwrite');
+        tx.objectStore(BACKUP_STORE).put(backup);
+        return true;
+    } catch(e) { return false; }
+}
+
+async function getAllBackups() {
+    try {
+        const db = await openIDB();
+        return new Promise((resolve) => {
+            const tx = db.transaction(BACKUP_STORE, 'readonly');
+            const req = tx.objectStore(BACKUP_STORE).getAll();
+            req.onsuccess = () => resolve(req.result || []);
+            req.onerror = () => resolve([]);
+        });
+    } catch(e) { return []; }
+}
+
+async function deleteBackup(id) {
+    try {
+        const db = await openIDB();
+        const tx = db.transaction(BACKUP_STORE, 'readwrite');
+        tx.objectStore(BACKUP_STORE).delete(id);
+    } catch(e) {}
+}
+
+// ===== Triple Save (localStorage + IndexedDB + Auto-backup) =====
+let D = { orders: {}, lO: 0, lP: 0 };
+let autoBackupEnabled = true;
+let lastSaveTime = null;
+
+async function tripleLoad() {
+    // Try localStorage first
+    let data = null;
+    try {
+        const ls = localStorage.getItem('pdb7');
+        if (ls) data = JSON.parse(ls);
+    } catch(e) {}
+
+    // Try IndexedDB if localStorage failed
+    if (!data || !data.orders) {
+        const idbData = await loadFromIDB();
+        if (idbData && idbData.orders) {
+            data = idbData;
+            // Restore to localStorage
+            try { localStorage.setItem('pdb7', JSON.stringify(data)); } catch(e) {}
+            toast('♻️ تم استعادة البيانات من النسخة الاحتياطية', 'w');
+        }
+    }
+
+    if (data && data.orders) {
+        D = data;
+    }
+
+    upStats();
+    renderDash();
+    updateBackupStatus();
+}
+
+async function tripleSave() {
+    const now = new Date();
+    lastSaveTime = now;
+
+    // 1. Save to localStorage
+    try {
+        localStorage.setItem('pdb7', JSON.stringify(D));
+    } catch(e) {
+        toast('⚠️ خطأ في الحفظ المحلي', 'e');
+    }
+
+    // 2. Save to IndexedDB
+    await saveToIDB(JSON.parse(JSON.stringify(D)));
+
+    // 3. Auto-backup every 20 saves or first save
+    const saveCount = parseInt(localStorage.getItem('saveCount') || '0') + 1;
+    localStorage.setItem('saveCount', saveCount);
+
+    if (autoBackupEnabled && (saveCount % 20 === 0 || saveCount === 1)) {
+        await createAutoBackup();
+    }
+
+    updateBackupStatus();
+    upStats();
+}
+
+async function createAutoBackup() {
+    const backup = {
+        id: 'backup_' + Date.now(),
+        date: new Date().toLocaleString('ar-EG'),
+        timestamp: Date.now(),
+        data: JSON.parse(JSON.stringify(D)),
+        type: 'auto',
+        ordersCount: Object.keys(D.orders).length,
+        size: new Blob([JSON.stringify(D)]).size
+    };
+    await saveBackupToIDB(backup);
+    // Keep only last 20 backups
+    const all = await getAllBackups();
+    if (all.length > 20) {
+        const sorted = all.sort((a, b) => a.timestamp - b.timestamp);
+        for (let i = 0; i < sorted.length - 20; i++) {
+            await deleteBackup(sorted[i].id);
+        }
+    }
+}
+
+function updateBackupStatus() {
+    const status = document.getElementById('bkStatus');
+    const dot = document.getElementById('bkDot');
+    if (lastSaveTime) {
+        status.textContent = `💾 آخر حفظ: ${lastSaveTime.toLocaleTimeString('ar-EG')} | حفظ ثلاثي مفعّل ✅`;
+        dot.className = 'backup-dot online';
+    }
+}
+
+// Manual Backup
+function manualBackup() {
+    const data = JSON.stringify(D, null, 2);
+    const date = new Date().toISOString().split('T')[0];
+    const time = new Date().toTimeString().split(' ')[0].replace(/:/g, '-');
+    const filename = `perfume_backup_${date}_${time}.json`;
+
+    const blob = new Blob([data], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    a.click();
+
+    // Also save to IDB
+    createAutoBackup();
+    toast(`💾 تم حفظ النسخة: ${filename}`, 's');
+}
+
+// Restore from file
+function restoreFromFile(e) {
+    const f = e.target.files[0];
+    if (!f) return;
+    if (!confirm('⚠️ سيتم استبدال جميع البيانات الحالية. هل أنت متأكد؟')) return;
+
+    const r = new FileReader();
+    r.onload = async ev => {
+        try {
+            const data = JSON.parse(ev.target.result);
+            // Handle both direct data and backup format
+            const actualData = data.data || data;
+            if (actualData.orders) {
+                D = actualData;
+                await tripleSave();
+                renderDash();
+                toast('✅ تم استعادة البيانات بنجاح!', 's');
+            } else {
+                toast('❌ ملف غير صالح', 'e');
+            }
+        } catch {
+            toast('❌ خطأ في الملف', 'e');
+        }
+    };
+    r.readAsText(f);
+}
+
+// Restore latest backup
+async function restoreLatest() {
+    const backups = await getAllBackups();
+    if (!backups.length) return toast('لا توجد نسخ احتياطية', 'w');
+
+    if (!confirm('استعادة آخر نسخة احتياطية؟')) return;
+
+    const latest = backups.sort((a, b) => b.timestamp - a.timestamp)[0];
+    D = latest.data;
+    await tripleSave();
+    renderDash();
+    toast(`✅ تم الاستعادة من نسخة ${latest.date}`, 's');
+}
+
+// Show backups
+async function showBackups() {
+    sw('backup', document.querySelectorAll('.tb')[6]);
+    renderBackups();
+}
+
+async function renderBackups() {
+    const backups = await getAllBackups();
+    const sorted = backups.sort((a, b) => b.timestamp - a.timestamp);
+
+    document.getElementById('bkCount').textContent = sorted.length;
+    document.getElementById('backupCount').textContent = sorted.length;
+    document.getElementById('storageSize').textContent = Math.round(new Blob([JSON.stringify(D)]).size / 1024);
+    document.getElementById('lastBackupTime').textContent = sorted.length ? sorted[0].date : '-';
+
+    const hist = document.getElementById('bkHistory');
+    if (!sorted.length) {
+        hist.innerHTML = '<div class="es"><h3>لا توجد نسخ بعد</h3></div>';
+        return;
+    }
+
+    hist.innerHTML = sorted.map(b => `
+        <div class="backup-item">
+            <span>${b.type === 'auto' ? '🔄' : '💾'} ${b.date}</span>
+            <span class="bi-size">${b.ordersCount || 0} أوردر | ${Math.round((b.size || 0) / 1024)} KB</span>
+            <div>
+                <button class="btn btn-s btn-sm" onclick="restoreBackup('${b.id}')">♻️</button>
+                <button class="btn btn-p btn-sm" onclick="downloadBackup('${b.id}')">💾</button>
+                <button class="btn btn-d btn-sm" onclick="delBk('${b.id}')">🗑️</button>
+            </div>
+        </div>
+    `).join('');
+}
+
+async function restoreBackup(id) {
+    if (!confirm('استعادة هذه النسخة؟')) return;
+    const backups = await getAllBackups();
+    const bk = backups.find(b => b.id === id);
+    if (!bk) return;
+    D = bk.data;
+    await tripleSave();
+    renderDash();
+    toast('✅ تم الاستعادة', 's');
+}
+
+async function downloadBackup(id) {
+    const backups = await getAllBackups();
+    const bk = backups.find(b => b.id === id);
+    if (!bk) return;
+    const blob = new Blob([JSON.stringify(bk.data, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `backup_${bk.date.replace(/[/:]/g, '-')}.json`;
+    a.click();
+}
+
+async function delBk(id) {
+    if (!confirm('حذف هذه النسخة؟')) return;
+    await deleteBackup(id);
+    renderBackups();
+    toast('تم الحذف', 'w');
+}
+
+async function clearOldBackups() {
+    if (!confirm('حذف النسخ القديمة؟ سيتم الاحتفاظ بآخر 10 فقط')) return;
+    const backups = await getAllBackups();
+    const sorted = backups.sort((a, b) => b.timestamp - a.timestamp);
+    for (let i = 10; i < sorted.length; i++) {
+        await deleteBackup(sorted[i].id);
+    }
+    renderBackups();
+    toast('تم التنظيف', 's');
+}
+
+function toggleAutoBackup() {
+    autoBackupEnabled = document.getElementById('autoBackupToggle').checked;
+    toast(autoBackupEnabled ? '✅ النسخ التلقائي مفعّل' : '⚠️ النسخ التلقائي متوقف', autoBackupEnabled ? 's' : 'w');
+}
+
+// Auto-save timer (every 5 minutes)
+setInterval(async () => {
+    if (autoBackupEnabled) {
+        await createAutoBackup();
+        updateBackupStatus();
+    }
+}, 5 * 60 * 1000);
+
+// ============================================
+// ===== MAIN APPLICATION LOGIC =====
+// ============================================
+
+const AE={ا:'A',أ:'A',إ:'A',آ:'A',ب:'B',ت:'T',ث:'TH',ج:'J',ح:'H',خ:'KH',د:'D',ذ:'Z',ر:'R',ز:'Z',س:'S',ش:'SH',ص:'S',ض:'D',ط:'T',ظ:'Z',ع:'A',غ:'GH',ف:'F',ق:'Q',ك:'K',ل:'L',م:'M',ن:'N',ه:'H',و:'W',ي:'Y',ى:'A',ة:'H'};
+function toE(t){let r='';for(let c of t.trim().toUpperCase())if(/[A-Z0-9]/.test(c))r+=c;else if(AE[c])r+=AE[c];return r.substring(0,4)||'PRD'}
+
+const CC={bottle:'BTL',cap:'CAP',pump:'PMP',spray:'SPR',box:'BOX',sticker:'STK',plate:'PLT',bottomsticker:'BST',dye:'DYE',alcohol:'ALC',oil:'OIL',bacteria:'BAC'};
+const CS={pkg:[{id:'bottle',n:'غرشة',u:'قطعة',q:1},{id:'cap',n:'كاب',u:'قطعة',q:1},{id:'pump',n:'بمب',u:'قطعة',q:1},{id:'spray',n:'بخاخ',u:'قطعة',q:1},{id:'box',n:'بوكس',u:'قطعة',q:1},{id:'sticker',n:'ستيكر',u:'قطعة',q:1},{id:'plate',n:'بلايت',u:'قطعة',q:1},{id:'bottomsticker',n:'ستيكر أسفل',u:'قطعة',q:1}],mfg:[{id:'dye',n:'صبغ',u:'مل',q:5},{id:'alcohol',n:'كحول',u:'%',q:70},{id:'oil',n:'زيت',u:'%',q:25},{id:'bacteria',n:'بكتيريا',u:'%',q:5}]};
+const TM={perfume:'عطر',splash:'سبلاش',lotion:'لوشن'};
+
+document.addEventListener('DOMContentLoaded', async () => {
+    buildUI();
+    await tripleLoad();
+    upPrv();
+});
+
+// Use tripleSave instead of simple save
+async function sDB() { await tripleSave(); }
+
+function buildUI(){
+    const p=document.getElementById('pkgC'),m=document.getElementById('mfgC');
+    CS.pkg.forEach(c=>p.innerHTML+=cH(c));CS.mfg.forEach(c=>m.innerHTML+=cH(c));
+}
+function cH(c){
+    const ev=c.u==='%'?'onchange="upBar()" oninput="upBar()"':'';
+    return`<div class="ci sel" id="c-${c.id}"><label class="ts"><input type="checkbox" checked onchange="tgC('${c.id}');upPrv()"><span class="tsl"></span></label><span class="cn">${c.n} <span class="pn"></span></span><div class="cq"><input type="number" id="q-${c.id}" value="${c.q}" min="0" step="${c.u==='%'?'0.1':'1'}" ${ev}><span class="u">${c.u}</span></div></div>`;
+}
+function tgC(id){const e=document.getElementById('c-'+id);e.classList.toggle('sel',e.querySelector('input[type=checkbox]').checked);upBar()}
+function calcT(){const q=parseFloat(document.getElementById('oQ').value)||0,p=parseFloat(document.getElementById('oPr').value)||0;document.getElementById('oTo').value=(q*p).toLocaleString()+' درهم'}
+function upPrv(){
+    const n=document.getElementById('oP').value.trim(),nc=n?toE(n):'????';
+    document.getElementById('prvC').textContent=`${nc}-${String(D.lP+1).padStart(3,'0')}`;
+    document.querySelectorAll('.pn').forEach(e=>e.textContent=n||'...');
+    let s='',i=1;[...CS.pkg,...CS.mfg].forEach(c=>{const e=document.getElementById('c-'+c.id);if(e&&e.querySelector('input[type=checkbox]').checked){s+=`<span class="sc2">${c.n}: ${nc}-${CC[c.id]}-${String(i).padStart(2,'0')}</span>`;i++}});
+    document.getElementById('prvS').innerHTML=s;
+}
+function upBar(){
+    const gv=id=>{const e=document.getElementById('c-'+id);return e.querySelector('input[type=checkbox]').checked?(parseFloat(document.getElementById('q-'+id).value)||0):0};
+    const a=gv('alcohol'),o=gv('oil'),b=gv('bacteria'),t=a+o+b;
+    document.getElementById('bA').style.width=a+'%';document.getElementById('bA').textContent=a>5?a+'%':'';
+    document.getElementById('bO').style.width=o+'%';document.getElementById('bO').textContent=o>5?o+'%':'';
+    document.getElementById('bB').style.width=b+'%';document.getElementById('bB').textContent=b>5?b+'%':'';
+    const e=document.getElementById('tPc');e.style.color=t===100?'var(--ok)':'var(--no)';e.textContent=t===100?`${t}% ✅`:t?`${t}% ⚠️`:'--';
+}
+
+function daysSince(d){return Math.floor((Date.now()-new Date(d).getTime())/864e5)}
+function daysUntil(d){return Math.ceil((new Date(d).getTime()-Date.now())/864e5)}
+function dyC(d){return d<=3?'dy-ok':d<=7?'dy-wn':'dy-no'}
+
+async function saveOrd(){
+    const cl=document.getElementById('oC').value.trim(),pr=document.getElementById('oP').value.trim();
+    const ty=TM[document.getElementById('oT').value]||'عطر',sz=document.getElementById('oS').value.trim()||'-';
+    const qt=parseInt(document.getElementById('oQ').value)||0,pc=parseFloat(document.getElementById('oPr').value)||0;
+    const dl=document.getElementById('oD').value,nt=document.getElementById('oN').value.trim();
+    if(!cl)return toast('العميل مطلوب','e');if(!pr)return toast('المنتج مطلوب','e');if(!qt)return toast('الكمية مطلوبة','e');
+
+    D.lP++;D.lO++;const nc=toE(pr);
+    const pC=`${nc}-${String(D.lP).padStart(3,'0')}`,oC=`ORD-${String(D.lO).padStart(4,'0')}`;
+    const comps={};let idx=1;
+    [...CS.pkg,...CS.mfg].forEach(c=>{const el=document.getElementById('c-'+c.id);if(el.querySelector('input[type=checkbox]').checked){comps[c.id]={id:c.id,dn:`${c.n} ${pr}`,name:c.n,unit:c.u,qty:parseFloat(document.getElementById('q-'+c.id).value)||0,idx,received:false,recDate:null,notes:'',code:`${nc}-${CC[c.id]}-${String(idx).padStart(2,'0')}`};idx++}});
+    if(!Object.keys(comps).length)return toast('اختر مكون','e');
+
+    D.orders[oC]={oc:oC,client:cl,prd:{name:pr,type:ty,size:sz,code:pC,comps},qty:qt,price:pc,total:qt*pc,date:new Date().toISOString(),dateStr:new Date().toLocaleString('ar-EG'),deadline:dl||null,notes:nt,status:'active',pNotes:'',hist:[{a:'📋 إنشاء',d:new Date().toLocaleString('ar-EG')}]};
+
+    await sDB();toast(`✅ ${oC} - ${cl}`,'s');resetOrd();sw('dash',document.querySelector('.tb'));
+}
+
+function resetOrd(){['oC','oP','oS','oQ','oPr','oTo','oD','oN'].forEach(id=>{const e=document.getElementById(id);if(e)e.value=''});[...CS.pkg,...CS.mfg].forEach(c=>{const e=document.getElementById('c-'+c.id);e.querySelector('input[type=checkbox]').checked=true;e.classList.add('sel');document.getElementById('q-'+c.id).value=c.q});upPrv();upBar()}
+
+function upStats(){
+    const O=Object.values(D.orders);let r=0,p=0,m=0,pc=0;
+    O.forEach(o=>{m+=o.total||0;const c=Object.values(o.prd.comps);if(c.length&&c.every(x=>x.received))r++;else p++;pc+=c.filter(x=>!x.received).length});
+    document.getElementById('s1').textContent=O.length;document.getElementById('s2').textContent=r;document.getElementById('s3').textContent=p;document.getElementById('s4').textContent=m.toLocaleString();document.getElementById('pBdg').textContent=pc;
+}
+
+function sw(n,btn){document.querySelectorAll('.tc0').forEach(t=>t.classList.remove('act'));document.querySelectorAll('.tb').forEach(b=>b.classList.remove('act'));document.getElementById('tab-'+n).classList.add('act');if(btn)btn.classList.add('act');
+    if(n==='dash')renderDash();if(n==='clients')renderClients();if(n==='track')renderTrack();if(n==='short')renderShort();if(n==='ready')renderReady();if(n==='backup')renderBackups()}
+
+let dFil='all',tFil='all';
+function setDF(f,b){dFil=f;document.querySelectorAll('#tab-dash .fbn').forEach(x=>x.classList.remove('act'));if(b)b.classList.add('act');renderDash()}
+function setTF(f,b){tFil=f;document.querySelectorAll('#tab-track .fbn').forEach(x=>x.classList.remove('act'));if(b)b.classList.add('act');renderTrack()}
+
+function renderDash(){
+    upStats();const O=Object.values(D.orders);
+    let m=0,r=0,p=0,dl=0,tc=0,rc=0;
+    O.forEach(o=>{m+=o.total||0;if(o.status==='delivered')dl++;const c=Object.values(o.prd.comps);tc+=c.length;const rv=c.filter(x=>x.received).length;rc+=rv;if(c.length&&c.every(x=>x.received))r++;else p++});
+    document.getElementById('dashSt').innerHTML=`<div class="ds pr"><div class="dn">${O.length}</div><div class="dl">📋 أوردرات</div></div><div class="ds ok"><div class="dn">${r}</div><div class="dl">✅ مكتمل</div></div><div class="ds no"><div class="dn">${p}</div><div class="dl">⏳ ناقص</div></div><div class="ds"><div class="dn">${dl}</div><div class="dl">📬 مُسلّم</div></div><div class="ds ok"><div class="dn">${rc}</div><div class="dl">🧪 مستلم</div></div><div class="ds no"><div class="dn">${tc-rc}</div><div class="dl">⏳ لم يصل</div></div><div class="ds wn"><div class="dn">${m.toLocaleString()}</div><div class="dl">💰 درهم</div></div>`;
+
+    const srch=(document.getElementById('dSearch').value||'').toLowerCase();
+    let orders=O.sort((a,b)=>new Date(b.date)-new Date(a.date));
+    if(srch)orders=orders.filter(o=>o.client.toLowerCase().includes(srch)||o.prd.name.toLowerCase().includes(srch)||o.oc.toLowerCase().includes(srch));
+    if(dFil!=='all')orders=orders.filter(o=>o.status===dFil||(dFil==='completed'&&Object.values(o.prd.comps).every(c=>c.received)&&o.status!=='delivered'));
+    const tb=document.getElementById('dBody');
+    if(!orders.length){tb.innerHTML='<tr><td colspan="11" style="text-align:center;padding:20px;color:#666">لا أوردرات</td></tr>';document.getElementById('qTrack').innerHTML='';return}
+
+    tb.innerHTML=orders.map((o,i)=>{const c=Object.values(o.prd.comps);const rv=c.filter(x=>x.received).length;const pct=c.length?Math.round(rv/c.length*100):0;const d=daysSince(o.date);const sc=o.status==='delivered'?'st-dl':pct===100?'st-ok':pct>0?'st-pa':'st-no';const st=o.status==='delivered'?'📬':pct===100?'✅':pct>0?`${pct}%`:'⏳';
+    let di='';if(o.deadline){const du=daysUntil(o.deadline);di=du>0?`<br><span style="font-size:.65em;color:var(--wn)">⏰${du}d</span>`:`<br><span style="font-size:.65em;color:var(--no)">⚠️متأخر</span>`}
+    return`<tr><td>${i+1}</td><td class="cc">${o.oc}</td><td><strong>${o.client}</strong></td><td>${o.prd.name}</td><td class="cc">${o.prd.code}</td><td>${o.qty}</td><td style="color:var(--ok)">${(o.total||0).toLocaleString()}</td><td><span class="dy ${dyC(d)}">${d}d</span>${di}</td><td>${rv}/${c.length}</td><td><span class="st ${sc}">${st}</span></td><td class="no-print"><button class="btn btn-i btn-sm" onclick="viewOrd('${o.oc}')">📊</button><button class="btn btn-p btn-sm" onclick="printOrd('${o.oc}')">🖨️</button><button class="btn btn-dk btn-sm" onclick="editOrd('${o.oc}')">✏️</button>${o.status!=='delivered'?`<button class="btn btn-pr btn-sm" onclick="deliver('${o.oc}')">📬</button>`:''}<button class="btn btn-d btn-sm" onclick="delOrd('${o.oc}')">🗑️</button></td></tr>`}).join('');
+
+    // Quick track
+    const qt=document.getElementById('qTrack');
+    const pnd=O.filter(o=>o.status!=='delivered'&&Object.values(o.prd.comps).some(c=>!c.received));
+    qt.innerHTML=pnd.length?pnd.slice(0,5).map(o=>{const ms=Object.values(o.prd.comps).filter(c=>!c.received);const d=daysSince(o.date);return`<div style="display:flex;justify-content:space-between;align-items:center;padding:6px;margin-bottom:4px;background:rgba(15,15,30,.3);border-radius:6px;border-right:3px solid var(--no);flex-wrap:wrap;gap:4px"><div><strong style="font-size:.85em">${o.client}</strong> - ${o.prd.name} <span class="dy ${dyC(d)}" style="margin:0 3px">${d}d</span></div><div style="display:flex;gap:3px;flex-wrap:wrap">${ms.map(c=>`<span class="st st-no">${c.name}</span>`).join('')}</div></div>`}).join(''):'<div class="es"><h3>🎉 لا نواقص!</h3></div>';
+}
+
+function renderClients(){const c=document.getElementById('cList');const srch=(document.getElementById('cS').value||'').toLowerCase();const O=Object.values(D.orders);const cls={};O.forEach(o=>{if(!cls[o.client])cls[o.client]=[];cls[o.client].push(o)});let list=Object.entries(cls);if(srch)list=list.filter(([n])=>n.toLowerCase().includes(srch));if(!list.length){c.innerHTML='<div class="es"><h3>لا عملاء</h3></div>';return}
+    c.innerHTML=list.map(([n,orders])=>{const tm=orders.reduce((s,o)=>s+(o.total||0),0);return`<div class="client-section"><div class="client-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'"><h3>👤 ${n} (${orders.length})</h3><div style="display:flex;gap:5px"><span class="sb sb-ok">💰 ${tm.toLocaleString()}</span><button class="btn btn-p btn-sm no-print" onclick="event.stopPropagation();printClient('${n}')">🖨️</button></div></div><div class="client-body" style="display:none"><table class="dtbl"><thead><tr><th>الأوردر</th><th>المنتج</th><th>كود</th><th>الكمية</th><th>الإجمالي</th><th>الأيام</th><th>الحالة</th><th class="no-print">-</th></tr></thead><tbody>${orders.map(o=>{const c=Object.values(o.prd.comps);const rv=c.filter(x=>x.received).length;const pct=c.length?Math.round(rv/c.length*100):0;const d=daysSince(o.date);return`<tr><td class="cc">${o.oc}</td><td>${o.prd.name}</td><td class="cc">${o.prd.code}</td><td>${o.qty}</td><td style="color:var(--ok)">${(o.total||0).toLocaleString()}</td><td><span class="dy ${dyC(d)}">${d}d</span></td><td><span class="st ${pct===100?'st-ok':'st-no'}">${pct===100?'✅':`${pct}%`}</span></td><td class="no-print"><button class="btn btn-i btn-sm" onclick="viewOrd('${o.oc}')">📊</button><button class="btn btn-p btn-sm" onclick="printOrd('${o.oc}')">🖨️</button></td></tr>`}).join('')}</tbody></table></div></div>`}).join('')}
+
+function renderTrack(){const c=document.getElementById('tList');const srch=(document.getElementById('tS').value||'').toLowerCase();let O=Object.values(D.orders).filter(o=>o.status!=='delivered');if(srch)O=O.filter(o=>o.client.toLowerCase().includes(srch)||o.prd.name.toLowerCase().includes(srch));if(tFil!=='all')O=O.filter(o=>{const c=Object.values(o.prd.comps);const r=c.filter(x=>x.received).length;return tFil==='pending'?r===0:tFil==='received'?r===c.length:r>0&&r<c.length});if(!O.length){c.innerHTML='<div class="es"><h3>لا نتائج</h3></div>';return}
+    c.innerHTML=O.map(o=>{const comps=Object.values(o.prd.comps);const rv=comps.filter(c=>c.received).length;const pct=comps.length?Math.round(rv/comps.length*100):0;const d=daysSince(o.date);return`<div class="client-section"><div class="client-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'"><h3>${pct===100?'✅':pct>0?'🔶':'⏳'} ${o.client} - ${o.prd.name} <span style="font-size:.7em;color:#888">${o.oc}</span></h3><div style="display:flex;gap:6px;align-items:center"><span class="dy ${dyC(d)}">${d}d</span><span style="font-size:.8em">${rv}/${comps.length} ${pct}%</span></div></div><div class="client-body" style="display:none">${comps.map(cc=>`<div class="trc ${cc.received?'rec':'nrec'}"><div style="flex:1;min-width:150px"><h4 style="color:#ccc;font-size:.84em">${cc.received?'✅':'⏳'} ${cc.dn}</h4><div style="color:#777;font-size:.73em">${cc.qty} ${cc.unit} | ${cc.code}${cc.recDate?' | 📅'+cc.recDate:''}${cc.notes?' | 📝'+cc.notes:''}</div></div><div style="display:flex;flex-direction:column;gap:3px;min-width:130px"><div style="display:flex;gap:3px"><button class="btn btn-s btn-sm" onclick="tgR('${o.oc}','${cc.id}',1)" ${cc.received?'disabled':''}>✅</button><button class="btn btn-d btn-sm" onclick="tgR('${o.oc}','${cc.id}',0)" ${!cc.received?'disabled':''}>⏳</button></div><textarea class="ni" placeholder="ملاحظات..." onchange="svN('${o.oc}','${cc.id}',this.value)">${cc.notes||''}</textarea></div></div>`).join('')}<div style="display:flex;gap:3px;margin-top:6px"><button class="btn btn-s btn-sm" onclick="mA('${o.oc}',1)">✅ الكل</button><button class="btn btn-d btn-sm" onclick="mA('${o.oc}',0)">⏳</button></div></div></div>`}).join('')}
+
+async function tgR(oc,cid,st){const c=D.orders[oc].prd.comps[cid];c.received=!!st;c.recDate=st?new Date().toLocaleString('ar-EG'):null;D.orders[oc].hist.push({a:`${st?'✅':'⏳'} ${c.dn}`,d:new Date().toLocaleString('ar-EG')});D.orders[oc].status=Object.values(D.orders[oc].prd.comps).every(x=>x.received)?'completed':'active';await sDB();renderTrack();renderDash();toast(`${st?'✅':'⏳'} ${c.dn}`,st?'s':'w')}
+function svN(oc,cid,n){D.orders[oc].prd.comps[cid].notes=n;sDB()}
+async function mA(oc,st){for(let k in D.orders[oc].prd.comps){D.orders[oc].prd.comps[k].received=!!st;D.orders[oc].prd.comps[k].recDate=st?new Date().toLocaleString('ar-EG'):null}D.orders[oc].status=st?'completed':'active';await sDB();renderTrack();renderDash();toast(st?'✅':'⏳',st?'s':'w')}
+
+function renderShort(){const c=document.getElementById('sList');const O=Object.values(D.orders).filter(o=>o.status!=='delivered'&&Object.values(o.prd.comps).some(c=>!c.received));if(!O.length){c.innerHTML='<div class="es"><h3>🎉 لا نواقص!</h3></div>';return}
+    c.innerHTML=O.map(o=>{const ms=Object.values(o.prd.comps).filter(c=>!c.received);const d=daysSince(o.date);return`<div style="padding:8px;margin-bottom:6px;background:rgba(15,15,30,.3);border-radius:7px;border-right:3px solid var(--no)"><div style="display:flex;justify-content:space-between;margin-bottom:5px;flex-wrap:wrap;gap:4px"><strong style="font-size:.88em">⚠️ ${o.client} - ${o.prd.name}</strong><div><span class="dy ${dyC(d)}">${d}d</span> <span class="st st-no">${ms.length} ناقص</span></div></div>${ms.map(c=>`<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 7px;margin-bottom:2px;background:rgba(252,92,101,.03);border-radius:4px;font-size:.82em"><span>❌ ${c.dn} <span class="cc" style="font-size:.7em">${c.code}</span></span><button class="btn btn-s btn-sm" onclick="tgR('${o.oc}','${c.id}',1);renderShort()">✅</button></div>`).join('')}</div>`}).join('')}
+
+function renderReady(){const c=document.getElementById('rList');const O=Object.values(D.orders).filter(o=>{const c=Object.values(o.prd.comps);return c.length&&c.every(x=>x.received)&&o.status!=='delivered'});if(!O.length){c.innerHTML='<div class="es"><h3>⏳ لا مكتمل بعد</h3></div>';return}
+    c.innerHTML=`<div class="dash-stats"><div class="ds ok"><div class="dn">${O.length}</div><div class="dl">جاهز 🎉</div></div></div><table class="dtbl"><tr><th>الأوردر</th><th>العميل</th><th>المنتج</th><th>الكمية</th><th>الإجمالي</th><th>الأيام</th><th class="no-print">-</th></tr>${O.map(o=>`<tr><td class="cc">${o.oc}</td><td>${o.client}</td><td>${o.prd.name}</td><td>${o.qty}</td><td style="color:var(--ok)">${(o.total||0).toLocaleString()}</td><td><span class="dy ${dyC(daysSince(o.date))}">${daysSince(o.date)}d</span></td><td class="no-print"><button class="btn btn-pr btn-sm" onclick="deliver('${o.oc}')">📬</button><button class="btn btn-p btn-sm" onclick="printOrd('${o.oc}')">🖨️</button></td></tr>`).join('')}</table>`}
+
+function viewOrd(code){const o=D.orders[code];if(!o)return;const c=Object.values(o.prd.comps);const rv=c.filter(x=>x.received).length;const pct=c.length?Math.round(rv/c.length*100):0;const d=daysSince(o.date);
+    document.getElementById('dmB').innerHTML=`<div class="dash-stats"><div class="ds ${pct===100?'ok':'no'}"><div class="dn">${pct}%</div><div class="dl">اكتمال</div></div><div class="ds ok"><div class="dn">${rv}</div><div class="dl">مستلم</div></div><div class="ds no"><div class="dn">${c.length-rv}</div><div class="dl">لم يصل</div></div><div class="ds pr"><div class="dn">${d}</div><div class="dl">يوم</div></div></div><table class="dtbl"><tr><th>البيان</th><th>القيمة</th></tr><tr><td>الأوردر</td><td class="cc">${o.oc}</td></tr><tr><td>العميل</td><td><strong>${o.client}</strong></td></tr><tr><td>المنتج</td><td>${o.prd.name}</td></tr><tr><td>كود</td><td class="cc">${o.prd.code}</td></tr><tr><td>الكمية</td><td>${o.qty}</td></tr><tr><td>السعر</td><td>${o.price}</td></tr><tr><td>الإجمالي</td><td style="color:var(--ok);font-weight:800">${(o.total||0).toLocaleString()}</td></tr></table><h3 style="color:var(--g);margin:12px 0 6px;font-size:.9em">🧪 المكونات</h3><table class="dtbl"><tr><th>المكون</th><th>الكمية</th><th>الكود</th><th>الحالة</th></tr>${c.map(x=>`<tr><td>${x.dn}</td><td>${x.qty} ${x.unit}</td><td class="cc">${x.code}</td><td>${x.received?'<span class="st st-ok">✅</span>':'<span class="st st-no">⏳</span>'}</td></tr>`).join('')}</table><div class="bg2"><button class="btn btn-p" onclick="clMo('detMo');printOrd('${code}')">🖨️ طباعة</button></div>`;
+    document.getElementById('detMo').classList.add('act')}
+
+function editOrd(code){const o=D.orders[code];if(!o)return;
+    let h=`<div class="fg"><div class="fi"><label>👤</label><input id="ed-c" value="${o.client}"></div><div class="fi"><label>📝</label><input id="ed-p" value="${o.prd.name}"></div><div class="fi"><label>🏷️</label><input id="ed-t" value="${o.prd.type}"></div><div class="fi"><label>📐</label><input id="ed-s" value="${o.prd.size}"></div><div class="fi"><label>📦</label><input type="number" id="ed-q" value="${o.qty}"></div><div class="fi"><label>💰</label><input type="number" id="ed-pc" value="${o.price}" step="0.5"></div><div class="fi"><label>📅</label><input type="date" id="ed-dl" value="${o.deadline||''}"></div></div><div class="fi" style="margin-bottom:8px"><label>📝</label><textarea id="ed-n">${o.notes||''}</textarea></div>`;
+    [...CS.pkg,...CS.mfg].forEach(c=>{const comp=o.prd.comps[c.id];h+=`<div class="ci ${comp?'sel':''}"><label class="ts"><input type="checkbox" id="ed-k-${c.id}" ${comp?'checked':''}><span class="tsl"></span></label><span class="cn">${c.n}</span><div class="cq"><input type="number" id="ed-v-${c.id}" value="${comp?comp.qty:c.q}" min="0" step="${c.u==='%'?'0.1':'1'}"><span class="u">${c.u}</span></div></div>`});
+    h+=`<div class="bg2"><button class="btn btn-p" onclick="svEd('${code}')">💾</button><button class="btn btn-d" onclick="clMo('editMo')">❌</button></div>`;
+    document.getElementById('emB').innerHTML=h;document.getElementById('editMo').classList.add('act')}
+
+async function svEd(code){const o=D.orders[code];const cl=document.getElementById('ed-c').value.trim(),pr=document.getElementById('ed-p').value.trim();if(!cl||!pr)return toast('مطلوب','e');
+    o.client=cl;o.prd.name=pr;o.prd.type=document.getElementById('ed-t').value.trim();o.prd.size=document.getElementById('ed-s').value.trim();o.qty=parseInt(document.getElementById('ed-q').value)||0;o.price=parseFloat(document.getElementById('ed-pc').value)||0;o.total=o.qty*o.price;o.deadline=document.getElementById('ed-dl').value||null;o.notes=document.getElementById('ed-n').value.trim();
+    const nc=toE(pr),old={...o.prd.comps};o.prd.comps={};let i=1;
+    [...CS.pkg,...CS.mfg].forEach(c=>{if(document.getElementById('ed-k-'+c.id).checked){const q=parseFloat(document.getElementById('ed-v-'+c.id).value)||0;const oc=old[c.id]||{};o.prd.comps[c.id]={id:c.id,dn:`${c.n} ${pr}`,name:c.n,unit:c.u,qty:q,idx:i,received:oc.received||false,recDate:oc.recDate||null,notes:oc.notes||'',code:`${nc}-${CC[c.id]}-${String(i).padStart(2,'0')}`};i++}});
+    o.hist.push({a:'✏️ تعديل',d:new Date().toLocaleString('ar-EG')});await sDB();clMo('editMo');renderDash();toast('✅','s')}
+
+async function deliver(code){if(!confirm('تأكيد التسليم؟'))return;D.orders[code].status='delivered';D.orders[code].hist.push({a:'📬',d:new Date().toLocaleString('ar-EG')});await sDB();renderDash();toast('📬','s')}
+async function delOrd(code){if(!confirm('حذف؟'))return;delete D.orders[code];await sDB();renderDash();toast('🗑️','w')}
+
+function printOrd(code){const o=D.orders[code];if(!o)return;const c=Object.values(o.prd.comps);const rv=c.filter(x=>x.received).length;const pct=c.length?Math.round(rv/c.length*100):0;const d=daysSince(o.date);
+    const w=window.open('','_blank');w.document.write(`<!DOCTYPE html><html dir="rtl"><head><meta charset="UTF-8"><title>${o.oc}</title><style>@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Cairo',sans-serif;padding:20px;color:#333;font-size:11pt}h1{text-align:center;font-size:16pt;margin-bottom:4px}h2{font-size:12pt;margin:12px 0 6px;border-bottom:2px solid #333;padding-bottom:4px}.info{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:12px}.info div{padding:4px 7px;background:#f9f9f9;border-radius:4px;font-size:9.5pt}table{width:100%;border-collapse:collapse;margin-bottom:12px}th,td{padding:6px 8px;border:1px solid #ddd;text-align:right;font-size:9.5pt}th{background:#f0f0f0}.code{font-family:monospace;direction:ltr;text-align:left;font-size:8.5pt}.ok{color:green}.no{color:red}.total{font-size:13pt;font-weight:800;text-align:center;margin:8px 0;padding:8px;background:#f5f5f5;border-radius:6px}.footer{margin-top:15px;text-align:center;font-size:8pt;color:#999;border-top:1px solid #ddd;padding-top:8px}@media print{@page{margin:1.2cm}}</style></head><body><h1>🌟 تقرير أوردر</h1><p style="text-align:center;color:#666;font-size:9pt">${new Date().toLocaleString('ar-EG')}</p><h2>📋 البيانات</h2><div class="info"><div><strong>الأوردر:</strong> ${o.oc}</div><div><strong>العميل:</strong> ${o.client}</div><div><strong>المنتج:</strong> ${o.prd.name}</div><div><strong>كود:</strong> <span class="code">${o.prd.code}</span></div><div><strong>النوع:</strong> ${o.prd.type}</div><div><strong>الحجم:</strong> ${o.prd.size}</div><div><strong>الكمية:</strong> ${o.qty} حبة</div><div><strong>السعر:</strong> ${o.price} درهم</div><div><strong>التاريخ:</strong> ${o.dateStr}</div><div><strong>الأيام:</strong> ${d} يوم</div>${o.deadline?`<div><strong>التسليم:</strong> ${o.deadline}</div>`:''}</div><div class="total">💰 ${(o.total||0).toLocaleString()} درهم</div>${o.notes?`<p style="background:#fff3cd;padding:6px;border-radius:4px;font-size:9pt">📝 ${o.notes}</p>`:''}<h2>🧪 المكونات (${rv}/${c.length} - ${pct}%)</h2><table><tr><th>#</th><th>المكون</th><th>الكمية</th><th>الكود</th><th>الحالة</th><th>ملاحظات</th></tr>${c.map((x,i)=>`<tr><td>${i+1}</td><td>${x.dn}</td><td>${x.qty} ${x.unit}</td><td class="code">${x.code}</td><td class="${x.received?'ok':'no'}">${x.received?'✅ مستلم':'⏳ لم يصل'}</td><td>${x.notes||'-'}</td></tr>`).join('')}</table><div class="footer">نظام أوردرات العطور V7.0</div><script>window.onload=()=>window.print()<\/script></body></html>`);w.document.close()}
+
+function printClient(name){const orders=Object.values(D.orders).filter(o=>o.client===name);const tm=orders.reduce((s,o)=>s+(o.total||0),0);
+    const w=window.open('','_blank');w.document.write(`<!DOCTYPE html><html dir="rtl"><head><meta charset="UTF-8"><title>${name}</title><style>@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Cairo',sans-serif;padding:20px;color:#333;font-size:11pt}h1{text-align:center;font-size:16pt}h2{font-size:12pt;margin:12px 0 6px;border-bottom:2px solid #333;padding-bottom:4px}table{width:100%;border-collapse:collapse;margin-bottom:12px}th,td{padding:6px 8px;border:1px solid #ddd;text-align:right;font-size:9.5pt}th{background:#f0f0f0}.code{font-family:monospace;direction:ltr;text-align:left;font-size:8.5pt}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.summary div{background:#f9f9f9;padding:10px;text-align:center;border-radius:6px}.summary .num{font-size:14pt;font-weight:800}.ok{color:green}.no{color:red}.footer{margin-top:15px;text-align:center;font-size:8pt;color:#999;border-top:1px solid #ddd;padding-top:8px}@media print{@page{margin:1.2cm}}</style></head><body><h1>👤 ${name}</h1><p style="text-align:center;color:#666;font-size:9pt">${new Date().toLocaleString('ar-EG')}</p><div class="summary"><div><div class="num">${orders.length}</div>أوردرات</div><div><div class="num">${orders.reduce((s,o)=>s+o.qty,0)}</div>حبة</div><div><div class="num">${tm.toLocaleString()}</div>درهم</div></div>${orders.map(o=>{const c=Object.values(o.prd.comps);const rv=c.filter(x=>x.received).length;return`<h2>${o.oc} - ${o.prd.name} (${daysSince(o.date)} يوم)</h2><p style="font-size:9pt">${o.prd.type} | ${o.prd.size} | ${o.qty} حبة | ${(o.total||0).toLocaleString()} درهم | <span class="code">${o.prd.code}</span></p><table><tr><th>المكون</th><th>الكمية</th><th>الكود</th><th>الحالة</th></tr>${c.map(x=>`<tr><td>${x.dn}</td><td>${x.qty} ${x.unit}</td><td class="code">${x.code}</td><td class="${x.received?'ok':'no'}">${x.received?'✅':'⏳'}</td></tr>`).join('')}</table>`}).join('')}<div class="footer">V7.0</div><script>window.onload=()=>window.print()<\/script></body></html>`);w.document.close()}
+
+function printAll(){document.getElementById('pDate').textContent=new Date().toLocaleString('ar-EG');window.print()}
+
+function expJSON(){dl(JSON.stringify(D,null,2),'orders.json','application/json');toast('✅','s')}
+function expCSV(){let csv='الأوردر,العميل,المنتج,كود,الكمية,الإجمالي,المكون,كود المكون,الاستلام,الأيام\n';Object.values(D.orders).forEach(o=>{const d=daysSince(o.date);Object.values(o.prd.comps).forEach(c=>{csv+=`${o.oc},${o.client},${o.prd.name},${o.prd.code},${o.qty},${o.total},${c.dn},${c.code},${c.received?'مستلم':'لم يصل'},${d}\n`})});dl('\ufeff'+csv,'orders.csv','text/csv;charset=utf-8');toast('✅','s')}
+function expTXT(){let t='══ أوردرات ══\n'+new Date().toLocaleString('ar-EG')+'\n\n';Object.values(D.orders).forEach(o=>{const c=Object.values(o.prd.comps);const r=c.filter(x=>x.received).length;t+=`${o.oc} | ${o.client} | ${o.prd.name} [${o.prd.code}] | ${o.qty}×${o.price}=${(o.total||0).toLocaleString()} | ${daysSince(o.date)}d | ${r}/${c.length}\n`;c.forEach(x=>{t+=` ${x.received?'✅':'⏳'} ${x.dn} [${x.code}]\n`});t+='──\n'});dl(t,'orders.txt','text/plain;charset=utf-8');toast('✅','s')}
+
+function dl(c,n,t){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([c],{type:t}));a.download=n;a.click()}
+function clMo(id){document.getElementById(id).classList.remove('act')}
+document.querySelectorAll('.mo').forEach(m=>m.addEventListener('click',function(e){if(e.target===this)this.classList.remove('act')}));
+function toast(m,t='s'){const c=document.getElementById('toasts');const e=document.createElement('div');e.className='tst tst-'+t;e.innerHTML=`${{s:'✅',e:'❌',w:'⚠️'}[t]||''} ${m}`;c.appendChild(e);setTimeout(()=>e.remove(),3000)}
+upBar();
+</script>
+
+<!-- ============================================ -->
+<!-- ===== GROQ AI CHATBOT INJECTION ===== -->
+<!-- ============================================ -->
+<style>
+.ai-fab{position:fixed;bottom:24px;left:24px;width:56px;height:56px;border-radius:50%;background:var(--gg);border:none;cursor:pointer;z-index:4000;display:flex;align-items:center;justify-content:center;font-size:24px;box-shadow:0 4px 20px rgba(212,165,116,.5);transition:.3s}
+.ai-fab:hover{transform:scale(1.1)}
+.ai-fab::before{content:'';position:absolute;width:100%;height:100%;border-radius:50%;background:rgba(212,165,116,.3);animation:aipulse 2s infinite}
+@keyframes aipulse{0%{transform:scale(1);opacity:.7}70%{transform:scale(1.5);opacity:0}100%{transform:scale(1.5);opacity:0}}
+.ai-win{position:fixed;bottom:90px;left:24px;width:370px;height:520px;background:rgba(18,18,35,.97);backdrop-filter:blur(20px);border:1px solid rgba(212,165,116,.25);border-radius:18px;z-index:4001;display:none;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.6);overflow:hidden}
+.ai-win.open{display:flex}
+.ai-hdr{padding:12px 14px;background:linear-gradient(135deg,rgba(212,165,116,.12),rgba(212,165,116,.06));border-bottom:1px solid rgba(212,165,116,.15);display:flex;align-items:center;gap:10px}
+.ai-hdr-ic{width:34px;height:34px;background:var(--gg);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.ai-hdr h3{flex:1;font-size:.88em;font-weight:700;color:var(--g);margin:0}
+.ai-hdr-btns{display:flex;gap:5px}
+.ai-ic-btn{width:26px;height:26px;border:none;border-radius:6px;cursor:pointer;font-size:13px;display:flex;align-items:center;justify-content:center;background:rgba(212,165,116,.08);color:var(--g);transition:.2s}
+.ai-ic-btn:hover{background:rgba(212,165,116,.2)}
+.ai-msgs{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px}
+.ai-msgs::-webkit-scrollbar{width:3px}
+.ai-msgs::-webkit-scrollbar-thumb{background:rgba(212,165,116,.2);border-radius:10px}
+.ai-msg{display:flex;flex-direction:column;max-width:85%}
+.ai-msg.user{align-self:flex-end;align-items:flex-end}
+.ai-msg.bot{align-self:flex-start;align-items:flex-start}
+.ai-bubble{padding:8px 12px;border-radius:12px;font-size:.82em;line-height:1.5;word-break:break-word;font-family:'Cairo',sans-serif}
+.ai-msg.user .ai-bubble{background:linear-gradient(135deg,#d4a574,#b8860b);color:#1a1a2e;border-bottom-left-radius:4px}
+.ai-msg.bot .ai-bubble{background:rgba(40,40,65,.9);color:#ddd;border:1px solid rgba(212,165,116,.1);border-bottom-right-radius:4px}
+.ai-time{font-size:.62em;color:#555;margin-top:2px;padding:0 3px}
+.ai-typing-wrap{display:flex;gap:4px;padding:8px;align-items:center}
+.ai-dot{width:6px;height:6px;border-radius:50%;background:var(--g);animation:aidot .8s infinite}
+.ai-dot:nth-child(2){animation-delay:.15s}.ai-dot:nth-child(3){animation-delay:.3s}
+@keyframes aidot{0%,60%,100%{transform:translateY(0);opacity:.4}30%{transform:translateY(-6px);opacity:1}}
+.ai-inp-area{padding:10px 12px;border-top:1px solid rgba(212,165,116,.1);display:flex;gap:7px;align-items:flex-end}
+.ai-inp{flex:1;padding:8px 11px;border:1px solid rgba(212,165,116,.15);border-radius:10px;background:rgba(15,15,30,.8);color:#e0e0e0;font-family:'Cairo';font-size:.82em;outline:none;resize:none;min-height:36px;max-height:90px;transition:.2s}
+.ai-inp:focus{border-color:rgba(212,165,116,.4)}
+.ai-send{width:36px;height:36px;border:none;border-radius:9px;background:var(--gg);color:#1a1a2e;font-size:15px;cursor:pointer;transition:.2s;flex-shrink:0}
+.ai-send:hover{transform:scale(1.05)}.ai-send:disabled{opacity:.4;cursor:default;transform:none}
+.ai-key-modal{display:none;position:absolute;inset:0;background:rgba(10,10,25,.95);z-index:10;flex-direction:column;align-items:center;justify-content:center;padding:20px;gap:12px;border-radius:18px}
+.ai-key-modal.open{display:flex}
+.ai-key-modal h4{color:var(--g);font-size:.95em;margin:0}
+.ai-key-modal p{color:#888;font-size:.75em;text-align:center;margin:0}
+.ai-key-inp{width:100%;padding:9px 12px;border:2px solid rgba(212,165,116,.2);border-radius:9px;background:rgba(15,15,30,.9);color:#e0e0e0;font-family:'Cairo';font-size:.82em;outline:none;text-align:left;direction:ltr}
+.ai-key-inp:focus{border-color:var(--g)}
+.ai-key-btns{display:flex;gap:8px;width:100%}
+.ai-key-btns button{flex:1;padding:8px;border:none;border-radius:8px;font-family:'Cairo';font-weight:700;cursor:pointer;font-size:.82em}
+.ai-suggs{display:flex;flex-wrap:wrap;gap:5px;padding:0 12px 8px}
+.ai-sugg{padding:4px 9px;border:1px solid rgba(212,165,116,.15);border-radius:20px;background:rgba(212,165,116,.05);color:var(--g);font-family:'Cairo';font-size:.72em;cursor:pointer;transition:.2s;white-space:nowrap}
+.ai-sugg:hover{background:rgba(212,165,116,.12);border-color:rgba(212,165,116,.3)}
+</style>
+
+<button class="ai-fab" onclick="aiToggle()" title="المساعد الذكي">🤖</button>
+
+<div class="ai-win" id="aiWin">
+  <div class="ai-key-modal" id="aiKeyModal">
+    <div style="font-size:2em">🔑</div>
+    <h4>GROQ API Key</h4>
+    <p>أدخل مفتاح GROQ للتفعيل<br><a href="https://console.groq.com" target="_blank" style="color:var(--g)">console.groq.com</a></p>
+    <input class="ai-key-inp" id="aiKeyInp" type="password" placeholder="gsk_...">
+    <div class="ai-key-btns">
+      <button onclick="aiSaveKey()" style="background:var(--gg);color:#1a1a2e">حفظ ✅</button>
+      <button onclick="document.getElementById('aiKeyModal').classList.remove('open')" style="background:rgba(252,92,101,.15);color:var(--no)">إغلاق</button>
+    </div>
+  </div>
+  <div class="ai-hdr">
+    <div class="ai-hdr-ic">🤖</div>
+    <h3>مساعد العطور الذكي</h3>
+    <div class="ai-hdr-btns">
+      <button class="ai-ic-btn" onclick="document.getElementById('aiKeyInp').value=aiGK();document.getElementById('aiKeyModal').classList.add('open')" title="إعدادات">⚙️</button>
+      <button class="ai-ic-btn" onclick="aiClear()" title="مسح">🗑️</button>
+      <button class="ai-ic-btn" onclick="aiToggle()">✕</button>
+    </div>
+  </div>
+  <div class="ai-msgs" id="aiMsgs"></div>
+  <div class="ai-suggs" id="aiSuggs">
+    <span class="ai-sugg" onclick="aiQ(this)">⚠️ وش الناقص؟</span>
+    <span class="ai-sugg" onclick="aiQ(this)">📊 إحصائيات</span>
+    <span class="ai-sugg" onclick="aiQ(this)">✅ جاهز للتسليم؟</span>
+    <span class="ai-sugg" onclick="aiQ(this)">📋 اعرض كل الأوردرات</span>
+  </div>
+  <div class="ai-inp-area">
+    <textarea class="ai-inp" id="aiInp" placeholder="اكتب سؤال أو أمر... (Enter للإرسال)" rows="1"
+      onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();aiSend()}"
+      oninput="this.style.height='auto';this.style.height=Math.min(this.scrollHeight,90)+'px'"></textarea>
+    <button class="ai-send" id="aiSendBtn" onclick="aiSend()">➤</button>
+  </div>
+</div>
+
+<script>
+const _AI_EP='https://api.groq.com/openai/v1/chat/completions';
+const _AI_MDL='llama-3.3-70b-versatile';
+const _AI_KS='groq_key_pf8';
+let _aiH=[],_aiTyping=false;
+
+function aiGK(){return localStorage.getItem(_AI_KS)||''}
+function aiSaveKey(){const k=document.getElementById('aiKeyInp').value.trim();if(!k){toast('أدخل المفتاح','e');return;}localStorage.setItem(_AI_KS,k);document.getElementById('aiKeyModal').classList.remove('open');toast('✅ تم حفظ المفتاح','s');if(!_aiH.length)_aiWelcome()}
+
+function aiToggle(){
+  const w=document.getElementById('aiWin');
+  const open=w.classList.toggle('open');
+  if(open){if(!aiGK())document.getElementById('aiKeyModal').classList.add('open');else if(!_aiH.length)_aiWelcome();setTimeout(()=>document.getElementById('aiInp').focus(),100)}
+}
+
+function _aiWelcome(){
+  const O=Object.values(D.orders);
+  const miss=O.filter(o=>Object.values(o.prd.comps).some(c=>!c.received)).length;
+  const rdy=O.filter(o=>Object.values(o.prd.comps).every(c=>c.received)&&o.status!=='delivered').length;
+  _aiBotMsg(`مرحباً! 👋 أنا مساعدك لنظام العطور.\n\n📋 **${O.length}** أوردر | ⚠️ **${miss}** ناقص | ✅ **${rdy}** جاهز\n\nاسألني عن أي شيء أو اعطني أمر!`);
+}
+
+function aiClear(){_aiH=[];document.getElementById('aiMsgs').innerHTML='';document.getElementById('aiSuggs').style.display='flex';_aiWelcome()}
+function aiQ(el){document.getElementById('aiInp').value=el.textContent.trim();aiSend()}
+
+function _aiUserMsg(txt){
+  const m=document.getElementById('aiMsgs');
+  const d=document.createElement('div');d.className='ai-msg user';
+  d.innerHTML=`<div class="ai-bubble">${txt.replace(/\n/g,'<br>')}</div><div class="ai-time">${new Date().toLocaleTimeString('ar-EG',{hour:'2-digit',minute:'2-digit'})}</div>`;
+  m.appendChild(d);document.getElementById('aiSuggs').style.display='none';m.scrollTop=m.scrollHeight;
+}
+
+function _aiBotMsg(txt){
+  const m=document.getElementById('aiMsgs');
+  const tp=document.getElementById('_aiTypEl');if(tp)tp.remove();
+  const d=document.createElement('div');d.className='ai-msg bot';
+  const fmt=txt.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>');
+  d.innerHTML=`<div class="ai-bubble">${fmt}</div><div class="ai-time">${new Date().toLocaleTimeString('ar-EG',{hour:'2-digit',minute:'2-digit'})}</div>`;
+  m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+
+function _aiShowTyp(){
+  const m=document.getElementById('aiMsgs');
+  const d=document.createElement('div');d.className='ai-msg bot';d.id='_aiTypEl';
+  d.innerHTML='<div class="ai-bubble"><div class="ai-typing-wrap"><div class="ai-dot"></div><div class="ai-dot"></div><div class="ai-dot"></div></div></div>';
+  m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+
+function _aiCtx(){
+  const O=Object.values(D.orders);
+  const lines=O.map(o=>{
+    const comps=Object.values(o.prd.comps);
+    const rcv=comps.filter(c=>c.received).length;
+    const miss=comps.filter(c=>!c.received).map(c=>c.name).join(',');
+    return `${o.oc}|${o.client}|${o.prd.name}|${o.prd.type}|${o.prd.size||'-'}|كمية:${o.qty}|سعر:${o.price}|إجمالي:${o.total||0}|وصل:${rcv}/${comps.length}|ناقص:[${miss}]|حالة:${o.status}${o.deadline?'|تسليم:'+o.deadline:''}`;
+  }).join('\n');
+  return `أنت مساعد ذكي لنظام تتبع مواد خام لأوردرات عطور. رد بالعربية فقط. كن مختصراً.
+
+## غرض النظام
+تتبع وصول مكونات التغليف والتصنيع لكل أوردر. المكونات: غرشة(bottle) كاب(cap) بمب(pump) بخاخ(spray) بوكس(box) ستيكر(sticker) بلايت(plate) ستيكرأسفل(bottomsticker) صبغ(dye) كحول(alcohol) زيت(oil) بكتيريا(bacteria)
+
+## البيانات الحالية
+إجمالي: ${O.length} أوردر | إيرادات: ${O.reduce((s,o)=>s+(o.total||0),0).toLocaleString()} درهم
+${lines||'لا أوردرات'}
+
+## الإجراءات - أضفها في نهاية ردك بكتلة json:
+add_order: {"action":"add_order","client":"...","product":"...","type":"perfume|splash|lotion","size":"100ml","qty":0,"price":0,"deadline":"","notes":""}
+recv_comp: {"action":"recv_comp","oc":"ORD-0001","cid":"bottle"}
+recv_all: {"action":"recv_all","oc":"ORD-0001"}
+deliver: {"action":"deliver","oc":"ORD-0001"}
+del_order: {"action":"del_order","oc":"ORD-0001"}
+goto: {"action":"goto","tab":"dash|new|clients|track|short|ready"}`;
+}
+
+async function aiSend(){
+  if(_aiTyping)return;
+  const inp=document.getElementById('aiInp');
+  const txt=inp.value.trim();if(!txt)return;
+  const key=aiGK();if(!key){document.getElementById('aiKeyModal').classList.add('open');return;}
+  inp.value='';inp.style.height='auto';
+  document.getElementById('aiSendBtn').disabled=true;
+  _aiUserMsg(txt);_aiH.push({role:'user',content:txt});
+  _aiTyping=true;_aiShowTyp();
+  try{
+    const res=await fetch(_AI_EP,{method:'POST',
+      headers:{'Authorization':'Bearer '+key,'Content-Type':'application/json'},
+      body:JSON.stringify({model:_AI_MDL,messages:[{role:'system',content:_aiCtx()},..._aiH.slice(-18)],temperature:0.6,max_tokens:700})
+    });
+    if(!res.ok){const e=await res.json().catch(()=>({}));_aiBotMsg('❌ '+(e.error?.message||'خطأ في الاتصال')+(res.status===401?'\n🔑 تحقق من API Key':'')); }
+    else{
+      const data=await res.json();
+      const reply=data.choices?.[0]?.message?.content||'لم أتمكن من الرد';
+      const jm=reply.match(/```json\s*([\s\S]*?)\s*```/);
+      const display=reply.replace(/```json[\s\S]*?```/g,'').trim();
+      _aiBotMsg(display||reply);
+      _aiH.push({role:'assistant',content:reply});
+      if(_aiH.length>40)_aiH=_aiH.slice(-40);
+      if(jm){try{const r=await _aiExec(JSON.parse(jm[1]));if(r)_aiBotMsg('✅ '+r);}catch(e){console.warn('AI exec err',e);}}
+    }
+  }catch(e){_aiBotMsg('❌ تعذر الاتصال: '+e.message);}
+  finally{_aiTyping=false;document.getElementById('aiSendBtn').disabled=false;}
+}
+
+async function _aiExec(act){
+  switch(act.action){
+    case'add_order':{
+      if(!act.client||!act.product)return'بيانات ناقصة';
+      D.lP++;D.lO++;
+      const nc=toE(act.product),pC=`${nc}-${String(D.lP).padStart(3,'0')}`,oC=`ORD-${String(D.lO).padStart(4,'0')}`;
+      const ty={perfume:'عطر',splash:'سبلاش',lotion:'لوشن'}[act.type]||'عطر';
+      const comps={};let idx=1;
+      [...CS.pkg,...CS.mfg].forEach(c=>{comps[c.id]={id:c.id,dn:`${c.n} ${act.product}`,name:c.n,unit:c.u,qty:c.q,idx,received:false,recDate:null,notes:'',code:`${nc}-${CC[c.id]}-${String(idx).padStart(2,'0')}`};idx++;});
+      D.orders[oC]={oc:oC,client:act.client,prd:{name:act.product,type:ty,size:act.size||'-',code:pC,comps},qty:act.qty||0,price:act.price||0,total:(act.qty||0)*(act.price||0),date:new Date().toISOString(),dateStr:new Date().toLocaleString('ar-EG'),deadline:act.deadline||null,notes:act.notes||'',status:'active',pNotes:'',hist:[{a:'📋 إنشاء (AI)',d:new Date().toLocaleString('ar-EG')}]};
+      await sDB();renderDash();return`تم إنشاء ${oC} - ${act.client} | ${act.product}`;
+    }
+    case'recv_comp':{
+      const o=D.orders[act.oc];if(!o)return'أوردر غير موجود';
+      const c=o.prd.comps[act.cid];if(!c)return'مكون غير موجود';
+      c.received=true;c.recDate=new Date().toLocaleString('ar-EG');
+      o.hist.push({a:`✅ وصل ${c.name}`,d:c.recDate});
+      if(Object.values(o.prd.comps).every(x=>x.received)){o.status='completed';}
+      await sDB();renderDash();return`سُجِّل وصول ${c.name} في ${act.oc}`;
+    }
+    case'recv_all':{
+      const o=D.orders[act.oc];if(!o)return'أوردر غير موجود';
+      const now=new Date().toLocaleString('ar-EG');
+      Object.values(o.prd.comps).forEach(c=>{c.received=true;c.recDate=now;});
+      o.status='completed';o.hist.push({a:'✅ كل المكونات وصلت (AI)',d:now});
+      await sDB();renderDash();return`كل مكونات ${act.oc} مستلمة`;
+    }
+    case'deliver':{
+      const o=D.orders[act.oc];if(!o)return'أوردر غير موجود';
+      o.status='delivered';o.hist.push({a:'📬 تسليم (AI)',d:new Date().toLocaleString('ar-EG')});
+      await sDB();renderDash();return`تم تسليم ${act.oc}`;
+    }
+    case'del_order':{
+      if(!D.orders[act.oc])return'أوردر غير موجود';
+      delete D.orders[act.oc];await sDB();renderDash();return`تم حذف ${act.oc}`;
+    }
+    case'goto':{
+      const tbm={dash:0,new:1,clients:2,track:3,short:4,ready:5,backup:6,exp:7};
+      const i=tbm[act.tab];
+      if(i!==undefined)sw(act.tab,document.querySelectorAll('.tb')[i]);
+      return null;
+    }
+    default:return null;
+  }
+}
+</script>
+
+</body>
+</html>
