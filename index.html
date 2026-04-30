@@ -1042,14 +1042,27 @@ function ghAPI(cfg, path, method='GET', body=null) {
     return fetch(`https://api.github.com/repos/${cfg.user}/${cfg.repo}/contents/${path}`, opts);
 }
 
+// Base64 encode/decode helpers - Unicode safe
+function b64encode(str) {
+    const bytes = new TextEncoder().encode(str);
+    let bin = '';
+    for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+    return btoa(bin);
+}
+function b64decode(b64) {
+    const bin = atob(b64.replace(/\n/g, ''));
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder('utf-8').decode(bytes);
+}
+
 // Get current file from GitHub (returns {content, sha} or null)
 async function ghGetFile(cfg) {
     const res = await ghAPI(cfg, GH_FILE);
     if (res.status === 404) return null;
     if (!res.ok) throw new Error('GitHub API: ' + res.status);
     const data = await res.json();
-    const raw = atob(data.content.replace(/\n/g,''));
-    const content = JSON.parse(decodeURIComponent(escape(raw)));
+    const content = JSON.parse(b64decode(data.content));
     return { content, sha: data.sha };
 }
 
@@ -1077,7 +1090,7 @@ async function ghPush(manual = false) {
 
         const body = {
             message: `sync: ${new Date().toLocaleString('ar-EG')} | ${ghGetDeviceId()}`,
-            content: btoa(unescape(encodeURIComponent(JSON.stringify(payload,null,2)))),
+            content: b64encode(JSON.stringify(payload, null, 2)),
         };
         if (sha) body.sha = sha;
 
