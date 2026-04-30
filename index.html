@@ -999,7 +999,9 @@ async function ghGetFile(cfg) {
     if (res.status === 404) return null;
     if (!res.ok) throw new Error('GitHub API: ' + res.status);
     const data = await res.json();
-    const content = JSON.parse(atob(data.content.replace(/\n/g, '')));
+    const b64 = data.content.replace(/\n/g, '');
+    const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+    const content = JSON.parse(new TextDecoder('utf-8').decode(bytes));
     return { content, sha: data.sha };
 }
 
@@ -1027,7 +1029,7 @@ async function ghPush(manual = false) {
 
         const body = {
             message: `sync: ${new Date().toLocaleString('ar-EG')} | ${ghGetDeviceId()}`,
-            content: btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2)))),
+            content: (()=>{const bytes=new TextEncoder().encode(JSON.stringify(payload,null,2));let b='';bytes.forEach(b2=>b+=String.fromCharCode(b2));return btoa(b);})(),
         };
         if (sha) body.sha = sha;
 
