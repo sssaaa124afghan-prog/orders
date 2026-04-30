@@ -16,8 +16,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٦ ص",
             "notes": "",
             "code": "HAYL-BTL-01"
           },
@@ -28,8 +28,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٩ ص",
             "notes": "",
             "code": "HAYL-CAP-02"
           },
@@ -40,8 +40,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:١٢ ص",
             "notes": "",
             "code": "HAYL-PMP-03"
           },
@@ -168,6 +168,18 @@
         {
           "a": "📋 إنشاء",
           "d": "٣٠‏/٤‏/٢٠٢٦ ١٠:٠٢:١١ ص"
+        },
+        {
+          "a": "✅ غرشة هايل",
+          "d": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٦ ص"
+        },
+        {
+          "a": "✅ كاب هايل",
+          "d": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٩ ص"
+        },
+        {
+          "a": "✅ بمب هايل",
+          "d": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:١٢ ص"
         }
       ]
     }
@@ -175,8 +187,8 @@
   "lO": 3,
   "lP": 3,
   "_meta": {
-    "device": "device_fbf1d5i1",
-    "timestamp": 1777529088462,
-    "date": "٣٠‏/٤‏/٢٠٢٦ ١٠:٠٤:٤٨ ص"
+    "device": "device_kjh2lngr",
+    "timestamp": 1777529117061,
+    "date": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:١٧ ص"
   }
 }
