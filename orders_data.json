@@ -1,206 +1,2129 @@
 {
   "orders": {
-    "ORD-0003": {
-      "oc": "ORD-0003",
-      "client": "تاب",
+    "ORD-0002": {
+      "oc": "ORD-0002",
+      "client": "ايمن الخالدي",
       "prd": {
         "name": "هايل",
         "type": "عطر",
         "size": "-",
-        "code": "HAYL-003",
+        "code": "HAYL-002",
         "comps": {
           "bottle": {
             "id": "bottle",
             "dn": "غرشة هايل",
             "name": "غرشة",
             "unit": "قطعة",
-            "qty": 1,
+            "qty": 2200,
             "idx": 1,
             "received": true,
-            "recDate": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٦ ص",
+            "recDate": "١٢‏/٤‏/٢٠٢٦، ٦:١١:٢٢ م",
             "notes": "",
             "code": "HAYL-BTL-01"
-          },
-          "cap": {
-            "id": "cap",
-            "dn": "كاب هايل",
-            "name": "كاب",
-            "unit": "قطعة",
-            "qty": 1,
-            "idx": 2,
-            "received": true,
-            "recDate": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٩ ص",
-            "notes": "موجود",
-            "code": "HAYL-CAP-02"
-          },
-          "pump": {
-            "id": "pump",
-            "dn": "بمب هايل",
-            "name": "بمب",
-            "unit": "قطعة",
-            "qty": 1,
-            "idx": 3,
-            "received": true,
-            "recDate": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:١٢ ص",
-            "notes": "",
-            "code": "HAYL-PMP-03"
-          },
-          "spray": {
-            "id": "spray",
-            "dn": "بخاخ هايل",
-            "name": "بخاخ",
-            "unit": "قطعة",
-            "qty": 1,
-            "idx": 4,
-            "received": true,
-            "recDate": "٣٠‏/٤‏/٢٠٢٦ ١١:١٠:٣٨ ص",
-            "notes": "",
-            "code": "HAYL-SPR-04"
           },
           "box": {
             "id": "box",
             "dn": "بوكس هايل",
             "name": "بوكس",
             "unit": "قطعة",
-            "qty": 1,
-            "idx": 5,
+            "qty": 2000,
+            "idx": 2,
             "received": false,
             "recDate": null,
             "notes": "",
-            "code": "HAYL-BOX-05"
-          },
-          "sticker": {
-            "id": "sticker",
-            "dn": "ستيكر هايل",
-            "name": "ستيكر",
-            "unit": "قطعة",
-            "qty": 1,
-            "idx": 6,
-            "received": false,
-            "recDate": null,
-            "notes": "",
-            "code": "HAYL-STK-06"
-          },
-          "plate": {
-            "id": "plate",
-            "dn": "بلايت هايل",
-            "name": "بلايت",
-            "unit": "قطعة",
-            "qty": 1,
-            "idx": 7,
-            "received": false,
-            "recDate": null,
-            "notes": "",
-            "code": "HAYL-PLT-07"
-          },
-          "bottomsticker": {
-            "id": "bottomsticker",
-            "dn": "ستيكر أسفل هايل",
-            "name": "ستيكر أسفل",
-            "unit": "قطعة",
-            "qty": 1,
-            "idx": 8,
-            "received": false,
-            "recDate": null,
-            "notes": "",
-            "code": "HAYL-BST-08"
+            "code": "HAYL-BOX-02"
           },
           "dye": {
             "id": "dye",
             "dn": "صبغ هايل",
             "name": "صبغ",
             "unit": "مل",
-            "qty": 5,
-            "idx": 9,
+            "qty": 2200,
+            "idx": 3,
             "received": false,
             "recDate": null,
             "notes": "",
-            "code": "HAYL-DYE-09"
-          },
-          "alcohol": {
-            "id": "alcohol",
-            "dn": "كحول هايل",
-            "name": "كحول",
-            "unit": "%",
-            "qty": 70,
-            "idx": 10,
-            "received": true,
-            "recDate": "٣٠‏/٤‏/٢٠٢٦ ١١:١٠:٤٢ ص",
-            "notes": "",
-            "code": "HAYL-ALC-10"
+            "code": "HAYL-DYE-03"
           },
           "oil": {
             "id": "oil",
             "dn": "زيت هايل",
             "name": "زيت",
             "unit": "%",
-            "qty": 25,
-            "idx": 11,
+            "qty": 1,
+            "idx": 4,
             "received": false,
             "recDate": null,
-            "notes": "",
-            "code": "HAYL-OIL-11"
+            "notes": "تم طلب الاورر وبانتظاره",
+            "code": "HAYL-OIL-04"
+          }
+        }
+      },
+      "qty": 2000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T06:07:29.724Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ١٠:٠٧:٢٩ ص",
+      "deadline": null,
+      "notes": "باقي بكسات من الاوردر القديل 200 والصبغ اضافه 200",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ١٠:٠٧:٢٩ ص"
+        },
+        {
+          "a": "✏️ تعديل",
+          "d": "٣١‏/٣‏/٢٠٢٦ ١٠:٠٨:١٤ ص"
+        },
+        {
+          "a": "✅ غرشة هايل",
+          "d": "٣١‏/٣‏/٢٠٢٦ ١٠:٠٩:٠٣ ص"
+        },
+        {
+          "a": "✅ وصل غرشة",
+          "d": "١٢‏/٤‏/٢٠٢٦، ٦:١١:٢٢ م"
+        }
+      ]
+    },
+    "ORD-0003": {
+      "oc": "ORD-0003",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "فواح",
+        "type": "عطر",
+        "size": "-",
+        "code": "FWAH-003",
+        "comps": {
+          "cap": {
+            "id": "cap",
+            "dn": "كاب فواح",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": true,
+            "recDate": "٧‏/٤‏/٢٠٢٦ ٣:٥٤:٢٧ م",
+            "notes": "غير متوفر في السوق",
+            "code": "FWAH-CAP-01"
           },
-          "bacteria": {
-            "id": "bacteria",
-            "dn": "بكتيريا هايل",
-            "name": "بكتيريا",
-            "unit": "%",
-            "qty": 5,
-            "idx": 12,
-            "received": false,
-            "recDate": null,
+          "box": {
+            "id": "box",
+            "dn": "بوكس فواح",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": true,
+            "recDate": "٧‏/٤‏/٢٠٢٦ ٣:٥٤:٣٤ م",
             "notes": "",
-            "code": "HAYL-BAC-12"
+            "code": "FWAH-BOX-02"
           }
         }
       },
       "qty": 250,
       "price": 0,
       "total": 0,
-      "date": "2026-04-30T06:02:11.062Z",
-      "dateStr": "٣٠‏/٤‏/٢٠٢٦ ١٠:٠٢:١١ ص",
+      "date": "2026-03-31T06:12:20.332Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ١٠:١٢:٢٠ ص",
       "deadline": null,
-      "notes": "اكتب هنا اللي انت عايزه عن الاوردر",
+      "notes": "",
+      "status": "completed",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ١٠:١٢:٢٠ ص"
+        },
+        {
+          "a": "✅ كاب فواح",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٥٤:٢٧ م"
+        },
+        {
+          "a": "✅ بوكس فواح",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٥٤:٣٤ م"
+        }
+      ]
+    },
+    "ORD-0004": {
+      "oc": "ORD-0004",
+      "client": "ايمن الخالري",
+      "prd": {
+        "name": "الثائر",
+        "type": "عطر",
+        "size": "-",
+        "code": "ALTH-004",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة الثائر",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALTH-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب الثائر",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALTH-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس الثائر",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALTH-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ الثائر",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 1,
+            "idx": 4,
+            "received": true,
+            "recDate": "٤‏/٤‏/٢٠٢٦ ٥:٢٩:٠٨ م",
+            "notes": "",
+            "code": "ALTH-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت الثائر",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALTH-OIL-05"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:15:43.929Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:١٥:٤٣ م",
+      "deadline": null,
+      "notes": "",
       "status": "active",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
-          "d": "٣٠‏/٤‏/٢٠٢٦ ١٠:٠٢:١١ ص"
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:١٥:٤٣ م"
         },
         {
-          "a": "✅ غرشة هايل",
-          "d": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٦ ص"
+          "a": "✅ صبغ الثائر",
+          "d": "٤‏/٤‏/٢٠٢٦ ٥:٢٩:٠٨ م"
+        }
+      ]
+    },
+    "ORD-0005": {
+      "oc": "ORD-0005",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "كوكو",
+        "type": "عطر",
+        "size": "-",
+        "code": "KWKW-005",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة كوكو",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب كوكو",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس كوكو",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ كوكو",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت كوكو",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-OIL-05"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:16:51.330Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:١٦:٥١ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:١٦:٥١ م"
+        }
+      ]
+    },
+    "ORD-0006": {
+      "oc": "ORD-0006",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "بلاك تايجر",
+        "type": "عطر",
+        "size": "-",
+        "code": "BLAK-006",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة بلاك تايجر",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BLAK-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب بلاك تايجر",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BLAK-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس بلاك تايجر",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BLAK-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بلاك تايجر",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BLAK-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت بلاك تايجر",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BLAK-OIL-05"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:17:52.545Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:١٧:٥٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:١٧:٥٢ م"
+        }
+      ]
+    },
+    "ORD-0007": {
+      "oc": "ORD-0007",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "لوف",
+        "type": "عطر",
+        "size": "-",
+        "code": "LWF-007",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة لوف",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LWF-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب لوف",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LWF-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس لوف",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LWF-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ لوف",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LWF-DYE-04"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:18:52.918Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:١٨:٥٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:١٨:٥٢ م"
+        }
+      ]
+    },
+    "ORD-0008": {
+      "oc": "ORD-0008",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "برايف",
+        "type": "عطر",
+        "size": "-",
+        "code": "BRAY-008",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة برايف",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BRAY-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب برايف",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BRAY-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس برايف",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BRAY-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ برايف",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BRAY-DYE-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:20:04.287Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٢٠:٠٤ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٢٠:٠٤ م"
+        }
+      ]
+    },
+    "ORD-0009": {
+      "oc": "ORD-0009",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "اكسجين",
+        "type": "عطر",
+        "size": "-",
+        "code": "AKSJ-009",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس اكسجين",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AKSJ-BOX-01"
+          }
+        }
+      },
+      "qty": 300,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:21:21.284Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٢١:٢١ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٢١:٢١ م"
+        }
+      ]
+    },
+    "ORD-0010": {
+      "oc": "ORD-0010",
+      "client": "نور الخليج مصنع",
+      "prd": {
+        "name": "معر فراش",
+        "type": "عطر",
+        "size": "-",
+        "code": "MARF-010",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس معر فراش",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MARF-BOX-01"
+          }
+        }
+      },
+      "qty": 3000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:26:18.964Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٢٦:١٨ م",
+      "deadline": null,
+      "notes": "معطر فراش ( 10 اسماء كل اسم 300 حبه)",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٢٦:١٨ م"
+        }
+      ]
+    },
+    "ORD-0011": {
+      "oc": "ORD-0011",
+      "client": "نور الخليج مصنع",
+      "prd": {
+        "name": "اولفر سبري",
+        "type": "عطر",
+        "size": "-",
+        "code": "AWLF-011",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس اولفر سبري",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": true,
+            "recDate": "٧‏/٤‏/٢٠٢٦ ٣:٣٢:١٥ م",
+            "notes": "",
+            "code": "AWLF-BOX-01"
+          }
+        }
+      },
+      "qty": 5000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:28:45.220Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٢٨:٤٥ م",
+      "deadline": null,
+      "notes": "10 اسماء كل اسم 500 حبه",
+      "status": "completed",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٢٨:٤٥ م"
         },
         {
-          "a": "✅ كاب هايل",
-          "d": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:٠٩ ص"
+          "a": "⏳ بوكس اولفر سبري",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٣٢:١١ م"
         },
         {
-          "a": "✅ بمب هايل",
-          "d": "٣٠‏/٤‏/٢٠٢٦، ١٠:٠٥:١٢ ص"
+          "a": "✅ بوكس اولفر سبري",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٣٢:١٥ م"
+        }
+      ]
+    },
+    "ORD-0012": {
+      "oc": "ORD-0012",
+      "client": "نور الخليج مصنع",
+      "prd": {
+        "name": "عود توله",
+        "type": "عطر",
+        "size": "12",
+        "code": "AWDT-012",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة عود توله",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWDT-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب عود توله",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWDT-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس عود توله",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWDT-BOX-03"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت عود توله",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWDT-OIL-04"
+          }
+        }
+      },
+      "qty": 1250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:30:44.472Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٣٠:٤٤ م",
+      "deadline": null,
+      "notes": "5 اسماء كل اسم 250 حبه",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٣٠:٤٤ م"
+        }
+      ]
+    },
+    "ORD-0013": {
+      "oc": "ORD-0013",
+      "client": "lm",
+      "prd": {
+        "name": "رشوش",
+        "type": "عطر",
+        "size": "500",
+        "code": "RSHW-013",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس رشوش",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": true,
+            "recDate": "٧‏/٤‏/٢٠٢٦ ٣:٥٣:٤١ م",
+            "notes": "",
+            "code": "RSHW-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر رشوش",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RSHW-STK-02"
+          }
+        }
+      },
+      "qty": 1000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:33:29.904Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٣٣:٢٩ م",
+      "deadline": null,
+      "notes": "مرشات مع بكس 4 اسماء \nكل اسم 250 حبه",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٣٣:٢٩ م"
         },
         {
-          "a": "✏️ تعديل",
-          "d": "٣٠‏/٤‏/٢٠٢٦ ١١:١٠:١٠ ص"
+          "a": "✅ بوكس رشوش",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٥٣:٤١ م"
+        }
+      ]
+    },
+    "ORD-0014": {
+      "oc": "ORD-0014",
+      "client": "دانيال",
+      "prd": {
+        "name": "hacivat",
+        "type": "عطر",
+        "size": "-",
+        "code": "HACI-014",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس hacivat",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HACI-BOX-01"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت hacivat",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HACI-PLT-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت hacivat",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HACI-OIL-03"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:37:46.872Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٣٧:٤٦ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٣٧:٤٦ م"
+        }
+      ]
+    },
+    "ORD-0015": {
+      "oc": "ORD-0015",
+      "client": "دانيال",
+      "prd": {
+        "name": "21",
+        "type": "عطر",
+        "size": "-",
+        "code": "21-015",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة 21",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "21-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب 21",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "21-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس 21",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "21-BOX-03"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت 21",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "21-PLT-04"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-03-31T12:49:26.157Z",
+      "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٤٩:٢٦ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٣١‏/٣‏/٢٠٢٦ ٤:٤٩:٢٦ م"
+        }
+      ]
+    },
+    "ORD-0016": {
+      "oc": "ORD-0016",
+      "client": "نوار",
+      "prd": {
+        "name": "بيانا سانتا",
+        "type": "عطر",
+        "size": "-",
+        "code": "BYAN-016",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس بيانا سانتا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر بيانا سانتا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-STK-02"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت بيانا سانتا",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-PLT-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بيانا سانتا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-DYE-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:22:25.106Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٢:٢٥ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٢٢:٢٥ م"
+        }
+      ]
+    },
+    "ORD-0017": {
+      "oc": "ORD-0017",
+      "client": "نوار",
+      "prd": {
+        "name": "بيانا اخضر",
+        "type": "عطر",
+        "size": "-",
+        "code": "BYAN-017",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس بيانا اخضر",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر بيانا اخضر",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-STK-02"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت بيانا اخضر",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-PLT-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بيانا اخضر",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-DYE-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:23:46.789Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٣:٤٦ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٢٣:٤٦ م"
+        }
+      ]
+    },
+    "ORD-0018": {
+      "oc": "ORD-0018",
+      "client": "نوار",
+      "prd": {
+        "name": "اثينا",
+        "type": "عطر",
+        "size": "-",
+        "code": "ATHY-018",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة اثينا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATHY-BTL-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر اثينا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATHY-STK-02"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت اثينا",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATHY-PLT-03"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل اثينا",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATHY-BST-04"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ اثينا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATHY-DYE-05"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:24:34.407Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٤:٣٤ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٢٤:٣٤ م"
+        }
+      ]
+    },
+    "ORD-0019": {
+      "oc": "ORD-0019",
+      "client": "نوار",
+      "prd": {
+        "name": "لافيلا",
+        "type": "عطر",
+        "size": "-",
+        "code": "LAFY-019",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة لافيلا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAFY-BTL-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس لافيلا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAFY-BOX-02"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت لافيلا",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAFY-PLT-03"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل لافيلا",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAFY-BST-04"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ لافيلا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LAFY-DYE-05"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:25:50.688Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٥:٥٠ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٢٥:٥٠ م"
+        }
+      ]
+    },
+    "ORD-0020": {
+      "oc": "ORD-0020",
+      "client": "نوار",
+      "prd": {
+        "name": "اوبال",
+        "type": "عطر",
+        "size": "-",
+        "code": "AWBA-020",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة اوبال",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWBA-BTL-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس اوبال",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWBA-BOX-02"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت اوبال",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWBA-PLT-03"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل اوبال",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWBA-BST-04"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ اوبال",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWBA-DYE-05"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:26:18.068Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٦:١٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٢٦:١٨ م"
+        }
+      ]
+    },
+    "ORD-0021": {
+      "oc": "ORD-0021",
+      "client": "كرار",
+      "prd": {
+        "name": "اشا",
+        "type": "عطر",
+        "size": "200",
+        "code": "ASHA-021",
+        "comps": {
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ اشا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 1,
+            "received": true,
+            "recDate": "٧‏/٤‏/٢٠٢٦ ٣:٥٢:٣٠ م",
+            "notes": "",
+            "code": "ASHA-DYE-01"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:29:12.250Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٩:١٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "completed",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٢٩:١٢ م"
         },
         {
-          "a": "✅ بخاخ هايل",
-          "d": "٣٠‏/٤‏/٢٠٢٦ ١١:١٠:٣٨ ص"
+          "a": "✅ صبغ اشا",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٥٢:٣٠ م"
+        }
+      ]
+    },
+    "ORD-0022": {
+      "oc": "ORD-0022",
+      "client": "كرار",
+      "prd": {
+        "name": "اريا",
+        "type": "عطر",
+        "size": "200",
+        "code": "ARYA-022",
+        "comps": {
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ اريا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 1,
+            "received": true,
+            "recDate": "٧‏/٤‏/٢٠٢٦ ٣:٥٢:٣٢ م",
+            "notes": "",
+            "code": "ARYA-DYE-01"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:29:49.202Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٩:٤٩ م",
+      "deadline": null,
+      "notes": "",
+      "status": "completed",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٢٩:٤٩ م"
         },
         {
-          "a": "✅ كحول هايل",
-          "d": "٣٠‏/٤‏/٢٠٢٦ ١١:١٠:٤٢ ص"
+          "a": "✅ صبغ اريا",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٥٢:٣٢ م"
+        }
+      ]
+    },
+    "ORD-0023": {
+      "oc": "ORD-0023",
+      "client": "كرار",
+      "prd": {
+        "name": "اليا",
+        "type": "عطر",
+        "size": "200",
+        "code": "ALYA-023",
+        "comps": {
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ اليا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 1,
+            "received": true,
+            "recDate": "٧‏/٤‏/٢٠٢٦ ٣:٥٢:٣٥ م",
+            "notes": "",
+            "code": "ALYA-DYE-01"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:30:26.904Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٠:٢٦ م",
+      "deadline": null,
+      "notes": "",
+      "status": "completed",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٣٠:٢٦ م"
+        },
+        {
+          "a": "✅ صبغ اليا",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٥٢:٣٥ م"
+        }
+      ]
+    },
+    "ORD-0024": {
+      "oc": "ORD-0024",
+      "client": "رسايل عود",
+      "prd": {
+        "name": "كريم حرير",
+        "type": "عطر",
+        "size": "30",
+        "code": "KRYM-024",
+        "comps": {
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ كريم حرير",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KRYM-DYE-01"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت كريم حرير",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KRYM-OIL-02"
+          }
+        }
+      },
+      "qty": 1750,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:32:06.758Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٢:٠٦ م",
+      "deadline": null,
+      "notes": "7 اسماء كل اسم 250 حبه",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٣٢:٠٦ م"
+        }
+      ]
+    },
+    "ORD-0025": {
+      "oc": "ORD-0025",
+      "client": "اطياب",
+      "prd": {
+        "name": "اورا",
+        "type": "عطر",
+        "size": "-",
+        "code": "AWRA-025",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة اورا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWRA-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب اورا",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWRA-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس اورا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWRA-BOX-03"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر اورا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWRA-STK-04"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت اورا",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWRA-PLT-05"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل اورا",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AWRA-BST-06"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:33:05.315Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٠٥ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٠٥ م"
+        }
+      ]
+    },
+    "ORD-0026": {
+      "oc": "ORD-0026",
+      "client": "اطياب",
+      "prd": {
+        "name": "فيلفت ميست",
+        "type": "عطر",
+        "size": "-",
+        "code": "FYLF-026",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة فيلفت ميست",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYLF-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب فيلفت ميست",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYLF-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس فيلفت ميست",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYLF-BOX-03"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر فيلفت ميست",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYLF-STK-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:33:48.703Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٤٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٤٨ م"
+        }
+      ]
+    },
+    "ORD-0027": {
+      "oc": "ORD-0027",
+      "client": "اطياب",
+      "prd": {
+        "name": "ah",
+        "type": "عطر",
+        "size": "-",
+        "code": "AH-027",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة ah",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AH-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب ah",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AH-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس ah",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AH-BOX-03"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر ah",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "AH-STK-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:34:31.009Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٤:٣١ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٣٤:٣١ م"
+        }
+      ]
+    },
+    "ORD-0028": {
+      "oc": "ORD-0028",
+      "client": "اطياب",
+      "prd": {
+        "name": "مومينت",
+        "type": "عطر",
+        "size": "-",
+        "code": "MWMY-028",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة مومينت",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MWMY-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب مومينت",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MWMY-CAP-02"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر مومينت",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MWMY-STK-03"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل مومينت",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MWMY-BST-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:35:18.053Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٥:١٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٣٥:١٨ م"
+        }
+      ]
+    },
+    "ORD-0029": {
+      "oc": "ORD-0029",
+      "client": "علي",
+      "prd": {
+        "name": "icon",
+        "type": "عطر",
+        "size": "-",
+        "code": "ICON-029",
+        "comps": {
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ icon",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ICON-DYE-01"
+          }
+        }
+      },
+      "qty": 5750,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-01T10:39:56.739Z",
+      "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٩:٥٦ م",
+      "deadline": null,
+      "notes": "23 نوع كل اسم 250 حبه المجموع 5750",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١‏/٤‏/٢٠٢٦ ٢:٣٩:٥٦ م"
+        }
+      ]
+    },
+    "ORD-0030": {
+      "oc": "ORD-0030",
+      "client": "نوار",
+      "prd": {
+        "name": "ديلارا",
+        "type": "عطر",
+        "size": "-",
+        "code": "DYLA-030",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة ديلارا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLA-BTL-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس ديلارا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLA-BOX-02"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر ديلارا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLA-STK-03"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل ديلارا",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLA-BST-04"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ ديلارا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLA-DYE-05"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت ديلارا",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLA-OIL-06"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-07T11:30:02.348Z",
+      "dateStr": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٠٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٠٢ م"
+        }
+      ]
+    },
+    "ORD-0031": {
+      "oc": "ORD-0031",
+      "client": "نوار",
+      "prd": {
+        "name": "ديلونا",
+        "type": "عطر",
+        "size": "-",
+        "code": "DYLW-031",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة ديلونا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLW-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب ديلونا",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLW-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس ديلونا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLW-BOX-03"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر ديلونا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLW-STK-04"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل ديلونا",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLW-BST-05"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ ديلونا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLW-DYE-06"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت ديلونا",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DYLW-OIL-07"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-04-07T11:30:40.611Z",
+      "dateStr": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٤٠ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٤٠ م"
         }
       ]
     }
   },
-  "lO": 3,
-  "lP": 3,
+  "lO": 31,
+  "lP": 31,
   "_meta": {
-    "device": "device_ttg6vb6l",
-    "timestamp": 1777713497499,
-    "date": "٢‏/٥‏/٢٠٢٦، ١:١٨:١٧ م"
+    "device": "device_8yp9oogz",
+    "timestamp": 1777713925253,
+    "date": "٢‏/٥‏/٢٠٢٦، ١:٢٥:٢٥ م"
   }
 }
