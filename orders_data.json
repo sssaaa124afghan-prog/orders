@@ -3112,13 +3112,88 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٤:١٧ م"
         }
       ]
+    },
+    "ORD-0041": {
+      "oc": "ORD-0041",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "ڤيتا",
+        "type": "عطر",
+        "size": "-",
+        "code": "YTA-041",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة ڤيتا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YTA-BTL-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس ڤيتا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YTA-BOX-02"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر ڤيتا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YTA-STK-03"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت ڤيتا",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YTA-OIL-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:35:00.127Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٠٠ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٠٠ م"
+        }
+      ]
     }
   },
-  "lO": 40,
-  "lP": 40,
+  "lO": 41,
+  "lP": 41,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778664862522,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٤:٢٢ م"
+    "timestamp": 1778664904796,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٠٤ م"
   }
 }
