@@ -3298,13 +3298,124 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٤٧ م"
         }
       ]
+    },
+    "ORD-0043": {
+      "oc": "ORD-0043",
+      "client": "عطور السلطان",
+      "prd": {
+        "name": "-",
+        "type": "عطر",
+        "size": "-",
+        "code": "PRD-043",
+        "comps": {
+          "cap": {
+            "id": "cap",
+            "dn": "كاب -",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "PRD-CAP-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس -",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "PRD-BOX-02"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر -",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "PRD-STK-03"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت -",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "PRD-PLT-04"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل -",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "PRD-BST-05"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ -",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "PRD-DYE-06"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت -",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "PRD-OIL-07"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:38:22.418Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٨:٢٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٨:٢٢ م"
+        }
+      ]
     }
   },
-  "lO": 42,
-  "lP": 42,
+  "lO": 43,
+  "lP": 43,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778664951223,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٥:٥١ م"
+    "timestamp": 1778665106841,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٨:٢٦ م"
   }
 }
