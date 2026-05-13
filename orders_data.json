@@ -566,8 +566,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٨ م",
             "notes": "",
             "code": "BRAY-CAP-02"
           },
@@ -578,8 +578,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٨ م",
             "notes": "",
             "code": "BRAY-BOX-03"
           },
@@ -590,8 +590,8 @@
             "unit": "مل",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:١٠ م",
             "notes": "",
             "code": "BRAY-DYE-04"
           }
@@ -604,7 +604,7 @@
       "dateStr": "٣١‏/٣‏/٢٠٢٦ ٤:٢٠:٠٤ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
@@ -614,6 +614,18 @@
         {
           "a": "✅ غرشة برايف",
           "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٧ م"
+        },
+        {
+          "a": "✅ كاب برايف",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٨ م"
+        },
+        {
+          "a": "✅ بوكس برايف",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٨ م"
+        },
+        {
+          "a": "✅ صبغ برايف",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:١٠ م"
         }
       ]
     },
@@ -2515,7 +2527,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659388219,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:٠٨ م"
+    "timestamp": 1778659394541,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٣:١٤ م"
   }
 }
