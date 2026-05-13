@@ -1677,8 +1677,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٦ م",
             "notes": "",
             "code": "AWRA-BTL-01"
           },
@@ -1689,8 +1689,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٧ م",
             "notes": "",
             "code": "AWRA-CAP-02"
           },
@@ -1701,8 +1701,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٨ م",
             "notes": "",
             "code": "AWRA-BOX-03"
           },
@@ -1713,8 +1713,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٩ م",
             "notes": "",
             "code": "AWRA-STK-04"
           },
@@ -1725,8 +1725,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٩ م",
             "notes": "",
             "code": "AWRA-PLT-05"
           },
@@ -1737,8 +1737,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 6,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٠ م",
             "notes": "",
             "code": "AWRA-BST-06"
           }
@@ -1751,12 +1751,36 @@
       "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٠٥ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٠٥ م"
+        },
+        {
+          "a": "✅ غرشة اورا",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٦ م"
+        },
+        {
+          "a": "✅ كاب اورا",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٧ م"
+        },
+        {
+          "a": "✅ بوكس اورا",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٨ م"
+        },
+        {
+          "a": "✅ ستيكر اورا",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٩ م"
+        },
+        {
+          "a": "✅ بلايت اورا",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٩ م"
+        },
+        {
+          "a": "✅ ستيكر أسفل اورا",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٠ م"
         }
       ]
     },
@@ -1776,8 +1800,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٢ م",
             "notes": "",
             "code": "FYLF-BTL-01"
           },
@@ -1788,8 +1812,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٢ م",
             "notes": "",
             "code": "FYLF-CAP-02"
           },
@@ -1800,8 +1824,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٤ م",
             "notes": "",
             "code": "FYLF-BOX-03"
           },
@@ -1812,8 +1836,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٥ م",
             "notes": "",
             "code": "FYLF-STK-04"
           }
@@ -1826,12 +1850,28 @@
       "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٤٨ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١‏/٤‏/٢٠٢٦ ٢:٣٣:٤٨ م"
+        },
+        {
+          "a": "✅ غرشة فيلفت ميست",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٢ م"
+        },
+        {
+          "a": "✅ كاب فيلفت ميست",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٢ م"
+        },
+        {
+          "a": "✅ بوكس فيلفت ميست",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٤ م"
+        },
+        {
+          "a": "✅ ستيكر فيلفت ميست",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٥ م"
         }
       ]
     },
@@ -2575,7 +2615,7 @@
   "lP": 35,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778659440332,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:٠٠ م"
+    "timestamp": 1778659458552,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١٢:٠٤:١٨ م"
   }
 }
