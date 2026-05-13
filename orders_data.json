@@ -2788,13 +2788,88 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٢٨:١٣ م"
         }
       ]
+    },
+    "ORD-0037": {
+      "oc": "ORD-0037",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "الادهم",
+        "type": "عطر",
+        "size": "-",
+        "code": "ALAD-037",
+        "comps": {
+          "pump": {
+            "id": "pump",
+            "dn": "بمب الادهم",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALAD-PMP-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس الادهم",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALAD-BOX-02"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ الادهم",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALAD-DYE-03"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت الادهم",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALAD-OIL-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:31:29.421Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣١:٢٩ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٣١:٢٩ م"
+        }
+      ]
     }
   },
-  "lO": 36,
-  "lP": 36,
+  "lO": 37,
+  "lP": 37,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778664498039,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٢٨:١٨ م"
+    "timestamp": 1778664693926,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣١:٣٣ م"
   }
 }
