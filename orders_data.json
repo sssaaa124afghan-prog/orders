@@ -3037,13 +3037,88 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٣٨ م"
         }
       ]
+    },
+    "ORD-0040": {
+      "oc": "ORD-0040",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "جاد",
+        "type": "عطر",
+        "size": "-",
+        "code": "JAD-040",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة جاد",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "JAD-BTL-01"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس جاد",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "JAD-BOX-02"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر جاد",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "JAD-STK-03"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت جاد",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "JAD-OIL-04"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T09:34:17.540Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٤:١٧ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٤:١٧ م"
+        }
+      ]
     }
   },
-  "lO": 39,
-  "lP": 39,
+  "lO": 40,
+  "lP": 40,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778664822870,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٤٢ م"
+    "timestamp": 1778664862522,
+    "date": "١٣‏/٥‏/٢٠٢٦، ١:٣٤:٢٢ م"
   }
 }
