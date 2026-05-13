@@ -3547,13 +3547,64 @@
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٤٠:٥٨ م"
         }
       ]
+    },
+    "ORD-0046": {
+      "oc": "ORD-0046",
+      "client": "اردال",
+      "prd": {
+        "name": "بكس سلايد",
+        "type": "عطر",
+        "size": "-",
+        "code": "BKSS-046",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس بكس سلايد",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSS-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بكس سلايد",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSS-DYE-02"
+          }
+        }
+      },
+      "qty": 550,
+      "price": 0,
+      "total": 0,
+      "date": "2026-05-13T10:14:51.278Z",
+      "dateStr": "١٣‏/٥‏/٢٠٢٦، ٢:١٤:٥١ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٥‏/٢٠٢٦، ٢:١٤:٥١ م"
+        }
+      ]
     }
   },
-  "lO": 45,
-  "lP": 45,
+  "lO": 46,
+  "lP": 46,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1778665273280,
-    "date": "١٣‏/٥‏/٢٠٢٦، ١:٤١:١٣ م"
+    "timestamp": 1778667295786,
+    "date": "١٣‏/٥‏/٢٠٢٦، ٢:١٤:٥٥ م"
   }
 }
