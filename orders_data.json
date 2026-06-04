@@ -4434,13 +4434,52 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٦:٣٣ م"
         }
       ]
+    },
+    "ORD-0059": {
+      "oc": "ORD-0059",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "فواح",
+        "type": "عطر",
+        "size": "-",
+        "code": "FWAH-059",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس فواح",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FWAH-BOX-01"
+          }
+        }
+      },
+      "qty": 300,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:27:20.137Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٧:٢٠ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٧:٢٠ م"
+        }
+      ]
     }
   },
-  "lO": 58,
-  "lP": 58,
+  "lO": 59,
+  "lP": 59,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561598140,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٦:٣٨ م"
+    "timestamp": 1780561646180,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٧:٢٦ م"
   }
 }
