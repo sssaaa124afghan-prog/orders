@@ -4203,13 +4203,76 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:١٣ م"
         }
       ]
+    },
+    "ORD-0054": {
+      "oc": "ORD-0054",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "قصه بينك",
+        "type": "عطر",
+        "size": "-",
+        "code": "QSHB-054",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس قصه بينك",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSHB-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ قصه بينك",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSHB-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت قصه بينك",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSHB-OIL-03"
+          }
+        }
+      },
+      "qty": 300,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:22:53.126Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٥٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٥٣ م"
+        }
+      ]
     }
   },
-  "lO": 53,
-  "lP": 53,
+  "lO": 54,
+  "lP": 54,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561340262,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٢٠ م"
+    "timestamp": 1780561377172,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٥٧ م"
   }
 }
