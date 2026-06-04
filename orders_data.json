@@ -3673,8 +3673,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٤‏/٦‏/٢٠٢٦، ١٢:١٣:٥١ م",
             "notes": "",
             "code": "AMBY-BOX-01"
           }
@@ -3687,12 +3687,16 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٤٠:٥٨ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٤٠:٥٨ م"
+        },
+        {
+          "a": "✅ بوكس امبيريال",
+          "d": "٤‏/٦‏/٢٠٢٦، ١٢:١٣:٥١ م"
         }
       ]
     },
@@ -3878,7 +3882,7 @@
   "lP": 48,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1780560828015,
-    "date": "٤‏/٦‏/٢٠٢٦، ١٢:١٣:٤٨ م"
+    "timestamp": 1780560835695,
+    "date": "٤‏/٦‏/٢٠٢٦، ١٢:١٣:٥٥ م"
   }
 }
