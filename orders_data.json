@@ -4140,13 +4140,76 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٠:٥٠ م"
         }
       ]
+    },
+    "ORD-0053": {
+      "oc": "ORD-0053",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "250",
+        "type": "عطر",
+        "size": "-",
+        "code": "250-053",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس 250",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "250-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ 250",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "250-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت 250",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "250-OIL-03"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:22:13.592Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:١٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:١٣ م"
+        }
+      ]
     }
   },
-  "lO": 52,
-  "lP": 52,
+  "lO": 53,
+  "lP": 53,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561254831,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٠:٥٤ م"
+    "timestamp": 1780561340262,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٢٠ م"
   }
 }
