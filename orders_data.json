@@ -4644,13 +4644,52 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:١٩ م"
         }
       ]
+    },
+    "ORD-0061": {
+      "oc": "ORD-0061",
+      "client": "حرير",
+      "prd": {
+        "name": "كيف",
+        "type": "عطر",
+        "size": "-",
+        "code": "KYF-061",
+        "comps": {
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ كيف",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KYF-DYE-01"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:29:54.982Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:٥٤ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:٥٤ م"
+        }
+      ]
     }
   },
-  "lO": 60,
-  "lP": 60,
+  "lO": 61,
+  "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561764046,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:٢٤ م"
+    "timestamp": 1780561801116,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٣٠:٠١ م"
   }
 }
