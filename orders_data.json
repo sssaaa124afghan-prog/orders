@@ -4266,13 +4266,64 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٥٣ م"
         }
       ]
+    },
+    "ORD-0055": {
+      "oc": "ORD-0055",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "جويل",
+        "type": "عطر",
+        "size": "-",
+        "code": "JWYL-055",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس جويل",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "JWYL-BOX-01"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت جويل",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "JWYL-OIL-02"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:24:13.356Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٤:١٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٤:١٣ م"
+        }
+      ]
     }
   },
-  "lO": 54,
-  "lP": 54,
+  "lO": 55,
+  "lP": 55,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561377172,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٥٧ م"
+    "timestamp": 1780561459370,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٤:١٩ م"
   }
 }
