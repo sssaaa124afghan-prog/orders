@@ -4002,13 +4002,76 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٠٦ م"
         }
       ]
+    },
+    "ORD-0051": {
+      "oc": "ORD-0051",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "كوكو",
+        "type": "عطر",
+        "size": "-",
+        "code": "KWKW-051",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس كوكو",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ كوكو",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت كوكو",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-OIL-03"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:19:59.738Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٥٩ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٥٩ م"
+        }
+      ]
     }
   },
-  "lO": 50,
-  "lP": 50,
+  "lO": 51,
+  "lP": 51,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561150384,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:١٠ م"
+    "timestamp": 1780561204765,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٠:٠٤ م"
   }
 }
