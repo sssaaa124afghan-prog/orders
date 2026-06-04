@@ -4065,13 +4065,88 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٥٩ م"
         }
       ]
+    },
+    "ORD-0052": {
+      "oc": "ORD-0052",
+      "client": "عبير دانيال",
+      "prd": {
+        "name": "هارد",
+        "type": "عطر",
+        "size": "-",
+        "code": "HARD-052",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس هارد",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HARD-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر هارد",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HARD-STK-02"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ هارد",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HARD-DYE-03"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت هارد",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HARD-OIL-04"
+          }
+        }
+      },
+      "qty": 750,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:20:50.795Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٠:٥٠ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٠:٥٠ م"
+        }
+      ]
     }
   },
-  "lO": 51,
-  "lP": 51,
+  "lO": 52,
+  "lP": 52,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561204765,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٠:٠٤ م"
+    "timestamp": 1780561254831,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٠:٥٤ م"
   }
 }
