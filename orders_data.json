@@ -4473,13 +4473,184 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٧:٢٠ م"
         }
       ]
+    },
+    "ORD-0060": {
+      "oc": "ORD-0060",
+      "client": "حرير",
+      "prd": {
+        "name": "سموك",
+        "type": "عطر",
+        "size": "-",
+        "code": "SMWK-060",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة سموك",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب سموك",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب سموك",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ سموك",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس سموك",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر سموك",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت سموك",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل سموك",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-BST-08"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ سموك",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-DYE-09"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول سموك",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 10,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-ALC-10"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت سموك",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 11,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-OIL-11"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا سموك",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 12,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SMWK-BAC-12"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:29:19.101Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:١٩ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:١٩ م"
+        }
+      ]
     }
   },
-  "lO": 59,
-  "lP": 59,
+  "lO": 60,
+  "lP": 60,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561646180,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٧:٢٦ م"
+    "timestamp": 1780561764046,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:٢٤ م"
   }
 }
