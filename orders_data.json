@@ -4395,13 +4395,52 @@
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٥:٥٠ م"
         }
       ]
+    },
+    "ORD-0058": {
+      "oc": "ORD-0058",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "روج",
+        "type": "عطر",
+        "size": "-",
+        "code": "RWJ-058",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس روج",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RWJ-BOX-01"
+          }
+        }
+      },
+      "qty": 300,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-04T08:26:33.014Z",
+      "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٦:٣٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٦:٣٣ م"
+        }
+      ]
     }
   },
-  "lO": 57,
-  "lP": 57,
+  "lO": 58,
+  "lP": 58,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1780561556284,
-    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٥:٥٦ م"
+    "timestamp": 1780561593957,
+    "date": "٤‏/٦‏/٢٠٢٦ ١٢:٢٦:٣٣ م"
   }
 }
