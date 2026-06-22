@@ -5572,13 +5572,76 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٩:٢١ ص"
         }
       ]
+    },
+    "ORD-0073": {
+      "oc": "ORD-0073",
+      "client": "مصنع نور الخليج",
+      "prd": {
+        "name": "عطر مخملي",
+        "type": "عطر",
+        "size": "-",
+        "code": "ATRM-073",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس عطر مخملي",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATRM-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ عطر مخملي",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATRM-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت عطر مخملي",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ATRM-OIL-03"
+          }
+        }
+      },
+      "qty": 1500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T06:00:30.808Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٠:٣٠ ص",
+      "deadline": null,
+      "notes": "6 اسماء كل اسم 250 حبه",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٠:٣٠ ص"
+        }
+      ]
     }
   },
-  "lO": 72,
-  "lP": 72,
+  "lO": 73,
+  "lP": 73,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782107966266,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٩:٢٦ ص"
+    "timestamp": 1782108034866,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٠:٣٤ ص"
   }
 }
