@@ -5419,13 +5419,64 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:٠٦ ص"
         }
       ]
+    },
+    "ORD-0070": {
+      "oc": "ORD-0070",
+      "client": "نوار",
+      "prd": {
+        "name": "بيانا كايا",
+        "type": "عطر",
+        "size": "-",
+        "code": "BYAN-070",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس بيانا كايا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر بيانا كايا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-STK-02"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T05:57:58.642Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:٥٨ ص",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:٥٨ ص"
+        }
+      ]
     }
   },
-  "lO": 69,
-  "lP": 69,
+  "lO": 70,
+  "lP": 70,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782107831630,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:١١ ص"
+    "timestamp": 1782107882698,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٨:٠٢ ص"
   }
 }
