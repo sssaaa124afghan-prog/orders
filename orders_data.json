@@ -5098,13 +5098,52 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٦:٠٨ ص"
         }
       ]
+    },
+    "ORD-0063": {
+      "oc": "ORD-0063",
+      "client": "مصنع نور الخليج",
+      "prd": {
+        "name": "مرشات بكس",
+        "type": "عطر",
+        "size": "-",
+        "code": "MRSH-063",
+        "comps": {
+          "oil": {
+            "id": "oil",
+            "dn": "زيت مرشات بكس",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MRSH-OIL-01"
+          }
+        }
+      },
+      "qty": 400,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T05:47:20.223Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٧:٢٠ ص",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٧:٢٠ ص"
+        }
+      ]
     }
   },
-  "lO": 62,
-  "lP": 62,
+  "lO": 63,
+  "lP": 63,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782107172606,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٦:١٢ ص"
+    "timestamp": 1782107245671,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٧:٢٥ ص"
   }
 }
