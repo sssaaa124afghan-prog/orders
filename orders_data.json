@@ -3896,8 +3896,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٦ ص",
             "notes": "",
             "code": "BKSS-DYE-02"
           }
@@ -3910,7 +3910,7 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ٢:١٤:٥١ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
@@ -3920,6 +3920,10 @@
         {
           "a": "✅ بوكس بكس سلايد",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٥ ص"
+        },
+        {
+          "a": "✅ صبغ بكس سلايد",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٦ ص"
         }
       ]
     },
@@ -4065,8 +4069,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٣ ص",
             "notes": "",
             "code": "LWF-PMP-01"
           },
@@ -4077,8 +4081,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٤ ص",
             "notes": "",
             "code": "LWF-BOX-02"
           },
@@ -4089,8 +4093,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٤ ص",
             "notes": "",
             "code": "LWF-DYE-03"
           },
@@ -4101,8 +4105,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٥ ص",
             "notes": "",
             "code": "LWF-OIL-04"
           }
@@ -4115,12 +4119,28 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:١٨:٠٩ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:١٨:٠٩ م"
+        },
+        {
+          "a": "✅ بمب لوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٣ ص"
+        },
+        {
+          "a": "✅ بوكس لوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٤ ص"
+        },
+        {
+          "a": "✅ صبغ لوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٤ ص"
+        },
+        {
+          "a": "✅ زيت لوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٥ ص"
         }
       ]
     },
@@ -4140,8 +4160,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٧ ص",
             "notes": "",
             "code": "NYSH-BOX-01"
           },
@@ -4152,8 +4172,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٨ ص",
             "notes": "",
             "code": "NYSH-DYE-02"
           }
@@ -4166,12 +4186,20 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٠٦ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٠٦ م"
+        },
+        {
+          "a": "✅ بوكس نيشان",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٧ ص"
+        },
+        {
+          "a": "✅ صبغ نيشان",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٤٨ ص"
         }
       ]
     },
@@ -4392,8 +4420,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠١ ص",
             "notes": "",
             "code": "QSHB-BOX-01"
           },
@@ -4404,8 +4432,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠٢ ص",
             "notes": "",
             "code": "QSHB-DYE-02"
           },
@@ -4416,8 +4444,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠٢ ص",
             "notes": "",
             "code": "QSHB-OIL-03"
           }
@@ -4430,12 +4458,24 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٥٣ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:٥٣ م"
+        },
+        {
+          "a": "✅ بوكس قصه بينك",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠١ ص"
+        },
+        {
+          "a": "✅ صبغ قصه بينك",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠٢ ص"
+        },
+        {
+          "a": "✅ زيت قصه بينك",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠٢ ص"
         }
       ]
     },
@@ -4455,8 +4495,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠٩ ص",
             "notes": "",
             "code": "JWYL-BOX-01"
           },
@@ -4467,8 +4507,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٠ ص",
             "notes": "",
             "code": "JWYL-OIL-02"
           }
@@ -4481,12 +4521,20 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٤:١٣ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٤:١٣ م"
+        },
+        {
+          "a": "✅ بوكس جويل",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٠٩ ص"
+        },
+        {
+          "a": "✅ زيت جويل",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٠ ص"
         }
       ]
     },
@@ -4506,8 +4554,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٣ ص",
             "notes": "",
             "code": "AWDL-BOX-01"
           }
@@ -4520,12 +4568,16 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٤:٥٧ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٤:٥٧ م"
+        },
+        {
+          "a": "✅ بوكس عود لندن",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٣ ص"
         }
       ]
     },
@@ -4545,8 +4597,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٤ ص",
             "notes": "",
             "code": "FRFS-BOX-01"
           }
@@ -4559,12 +4611,16 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٥:٥٠ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٥:٥٠ م"
+        },
+        {
+          "a": "✅ بوكس فرفشه",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٤ ص"
         }
       ]
     },
@@ -4584,8 +4640,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٦ ص",
             "notes": "",
             "code": "RWJ-BOX-01"
           }
@@ -4598,12 +4654,16 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٦:٣٣ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٦:٣٣ م"
+        },
+        {
+          "a": "✅ بوكس روج",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:١٦ ص"
         }
       ]
     },
@@ -4861,7 +4921,7 @@
   "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105636348,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٦ ص"
+    "timestamp": 1782105698739,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢١:٣٨ ص"
   }
 }
