@@ -2890,8 +2890,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥١ ص",
             "notes": "",
             "code": "LAYK-BOX-01"
           },
@@ -2902,8 +2902,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥١ ص",
             "notes": "",
             "code": "LAYK-BST-02"
           },
@@ -2914,8 +2914,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٢ ص",
             "notes": "",
             "code": "LAYK-DYE-03"
           },
@@ -2926,8 +2926,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٣ ص",
             "notes": "",
             "code": "LAYK-OIL-04"
           }
@@ -2940,12 +2940,28 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٢٨:١٣ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٢٨:١٣ م"
+        },
+        {
+          "a": "✅ بوكس لايك",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥١ ص"
+        },
+        {
+          "a": "✅ ستيكر أسفل لايك",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥١ ص"
+        },
+        {
+          "a": "✅ صبغ لايك",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٢ ص"
+        },
+        {
+          "a": "✅ زيت لايك",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٣ ص"
         }
       ]
     },
@@ -2965,8 +2981,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٥ ص",
             "notes": "",
             "code": "ALAD-PMP-01"
           },
@@ -2977,8 +2993,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٦ ص",
             "notes": "",
             "code": "ALAD-BOX-02"
           },
@@ -2989,8 +3005,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٦ ص",
             "notes": "",
             "code": "ALAD-DYE-03"
           },
@@ -3001,8 +3017,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٧ ص",
             "notes": "",
             "code": "ALAD-OIL-04"
           }
@@ -3015,12 +3031,28 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣١:٢٩ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣١:٢٩ م"
+        },
+        {
+          "a": "✅ بمب الادهم",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٥ ص"
+        },
+        {
+          "a": "✅ بوكس الادهم",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٦ ص"
+        },
+        {
+          "a": "✅ صبغ الادهم",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٦ ص"
+        },
+        {
+          "a": "✅ زيت الادهم",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٥٧ ص"
         }
       ]
     },
@@ -3040,8 +3072,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٠ ص",
             "notes": "",
             "code": "NFS-BOX-01"
           },
@@ -3052,8 +3084,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٠ ص",
             "notes": "",
             "code": "NFS-STK-02"
           },
@@ -3064,8 +3096,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠١ ص",
             "notes": "",
             "code": "NFS-BST-03"
           },
@@ -3076,8 +3108,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠١ ص",
             "notes": "",
             "code": "NFS-DYE-04"
           },
@@ -3088,8 +3120,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٣ ص",
             "notes": "",
             "code": "NFS-OIL-05"
           }
@@ -3102,12 +3134,32 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٢:٥٨ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٢:٥٨ م"
+        },
+        {
+          "a": "✅ بوكس نفس",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٠ ص"
+        },
+        {
+          "a": "✅ ستيكر نفس",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٠ ص"
+        },
+        {
+          "a": "✅ ستيكر أسفل نفس",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠١ ص"
+        },
+        {
+          "a": "✅ صبغ نفس",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠١ ص"
+        },
+        {
+          "a": "✅ زيت نفس",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٣ ص"
         }
       ]
     },
@@ -4733,7 +4785,7 @@
   "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105586799,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٤٦ ص"
+    "timestamp": 1782105608536,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٨ ص"
   }
 }
