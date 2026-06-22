@@ -5059,13 +5059,52 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٥٦ ص"
         }
       ]
+    },
+    "ORD-0062": {
+      "oc": "ORD-0062",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "ريد نايت",
+        "type": "عطر",
+        "size": "-",
+        "code": "RYDN-062",
+        "comps": {
+          "oil": {
+            "id": "oil",
+            "dn": "زيت ريد نايت",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYDN-OIL-01"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T05:46:08.542Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٦:٠٨ ص",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٦:٠٨ ص"
+        }
+      ]
     }
   },
-  "lO": 61,
-  "lP": 61,
+  "lO": 62,
+  "lP": 62,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105937200,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٥:٣٧ ص"
+    "timestamp": 1782107172606,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٦:١٢ ص"
   }
 }
