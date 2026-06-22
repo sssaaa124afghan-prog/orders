@@ -2236,8 +2236,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٦ ص",
             "notes": "",
             "code": "DYLA-BTL-01"
           },
@@ -2248,8 +2248,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٧ ص",
             "notes": "",
             "code": "DYLA-BOX-02"
           },
@@ -2260,8 +2260,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٧ ص",
             "notes": "",
             "code": "DYLA-STK-03"
           },
@@ -2272,8 +2272,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٨ ص",
             "notes": "",
             "code": "DYLA-BST-04"
           },
@@ -2284,8 +2284,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٤٠ ص",
             "notes": "",
             "code": "DYLA-DYE-05"
           },
@@ -2296,8 +2296,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 6,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٤١ ص",
             "notes": "",
             "code": "DYLA-OIL-06"
           }
@@ -2310,12 +2310,36 @@
       "dateStr": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٠٢ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٠٢ م"
+        },
+        {
+          "a": "✅ غرشة ديلارا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٦ ص"
+        },
+        {
+          "a": "✅ بوكس ديلارا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٧ ص"
+        },
+        {
+          "a": "✅ ستيكر ديلارا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٧ ص"
+        },
+        {
+          "a": "✅ ستيكر أسفل ديلارا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٨ ص"
+        },
+        {
+          "a": "✅ صبغ ديلارا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٤٠ ص"
+        },
+        {
+          "a": "✅ زيت ديلارا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٤١ ص"
         }
       ]
     },
@@ -4709,7 +4733,7 @@
   "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105574187,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٤ ص"
+    "timestamp": 1782105586799,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٤٦ ص"
   }
 }
