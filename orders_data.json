@@ -3179,8 +3179,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٨ ص",
             "notes": "",
             "code": "ALHN-BOX-01"
           },
@@ -3191,8 +3191,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٩ ص",
             "notes": "",
             "code": "ALHN-STK-02"
           },
@@ -3203,8 +3203,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٩ ص",
             "notes": "",
             "code": "ALHN-BST-03"
           },
@@ -3215,8 +3215,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٠ ص",
             "notes": "",
             "code": "ALHN-DYE-04"
           },
@@ -3227,8 +3227,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٢ ص",
             "notes": "",
             "code": "ALHN-OIL-05"
           }
@@ -3241,12 +3241,32 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٣٨ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٣:٣٨ م"
+        },
+        {
+          "a": "✅ بوكس الهنوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٨ ص"
+        },
+        {
+          "a": "✅ ستيكر الهنوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٩ ص"
+        },
+        {
+          "a": "✅ ستيكر أسفل الهنوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٩ ص"
+        },
+        {
+          "a": "✅ صبغ الهنوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٠ ص"
+        },
+        {
+          "a": "✅ زيت الهنوف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٢ ص"
         }
       ]
     },
@@ -3559,8 +3579,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٦ ص",
             "notes": "",
             "code": "PRD-CAP-01"
           },
@@ -3651,6 +3671,10 @@
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٨:٢٢ م"
+        },
+        {
+          "a": "✅ كاب -",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٦ ص"
         }
       ]
     },
@@ -4785,7 +4809,7 @@
   "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105608536,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٠٨ ص"
+    "timestamp": 1782105617133,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٧ ص"
   }
 }
