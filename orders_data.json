@@ -5137,13 +5137,52 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٧:٢٠ ص"
         }
       ]
+    },
+    "ORD-0064": {
+      "oc": "ORD-0064",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "وناسه",
+        "type": "عطر",
+        "size": "-",
+        "code": "WNAS-064",
+        "comps": {
+          "oil": {
+            "id": "oil",
+            "dn": "زيت وناسه",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "WNAS-OIL-01"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T05:48:05.331Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٨:٠٥ ص",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٨:٠٥ ص"
+        }
+      ]
     }
   },
-  "lO": 63,
-  "lP": 63,
+  "lO": 64,
+  "lP": 64,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782107245671,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٧:٢٥ ص"
+    "timestamp": 1782107289387,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٨:٠٩ ص"
   }
 }
