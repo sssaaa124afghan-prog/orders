@@ -5521,13 +5521,64 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٨:٤٣ ص"
         }
       ]
+    },
+    "ORD-0072": {
+      "oc": "ORD-0072",
+      "client": "نوار",
+      "prd": {
+        "name": "كازان",
+        "type": "عطر",
+        "size": "-",
+        "code": "KAZA-072",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس كازان",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KAZA-BOX-01"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت كازان",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KAZA-OIL-02"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T05:59:21.485Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٩:٢١ ص",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٩:٢١ ص"
+        }
+      ]
     }
   },
-  "lO": 71,
-  "lP": 71,
+  "lO": 72,
+  "lP": 72,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782107928853,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٨:٤٨ ص"
+    "timestamp": 1782107966266,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٩:٢٦ ص"
   }
 }
