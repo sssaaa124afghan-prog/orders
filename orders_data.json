@@ -3591,8 +3591,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٧ ص",
             "notes": "",
             "code": "PRD-BOX-02"
           },
@@ -3603,8 +3603,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٧ ص",
             "notes": "",
             "code": "PRD-STK-03"
           },
@@ -3615,8 +3615,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٨ ص",
             "notes": "",
             "code": "PRD-PLT-04"
           },
@@ -3627,8 +3627,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٨ ص",
             "notes": "",
             "code": "PRD-BST-05"
           },
@@ -3639,8 +3639,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 6,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢١ ص",
             "notes": "",
             "code": "PRD-DYE-06"
           },
@@ -3651,8 +3651,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 7,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٢ ص",
             "notes": "",
             "code": "PRD-OIL-07"
           }
@@ -3665,7 +3665,7 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٨:٢٢ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
@@ -3675,6 +3675,30 @@
         {
           "a": "✅ كاب -",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٦ ص"
+        },
+        {
+          "a": "✅ بوكس -",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٧ ص"
+        },
+        {
+          "a": "✅ ستيكر -",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٧ ص"
+        },
+        {
+          "a": "✅ بلايت -",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٨ ص"
+        },
+        {
+          "a": "✅ ستيكر أسفل -",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٨ ص"
+        },
+        {
+          "a": "✅ صبغ -",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢١ ص"
+        },
+        {
+          "a": "✅ زيت -",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٢ ص"
         }
       ]
     },
@@ -3694,8 +3718,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٦ ص",
             "notes": "",
             "code": "STYK-BTL-01"
           },
@@ -3706,8 +3730,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٦ ص",
             "notes": "",
             "code": "STYK-PMP-02"
           },
@@ -3718,8 +3742,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٧ ص",
             "notes": "",
             "code": "STYK-BOX-03"
           },
@@ -3730,8 +3754,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٨ ص",
             "notes": "",
             "code": "STYK-STK-04"
           },
@@ -3742,8 +3766,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣١ ص",
             "notes": "",
             "code": "STYK-PLT-05"
           },
@@ -3754,8 +3778,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 6,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٠ ص",
             "notes": "",
             "code": "STYK-BST-06"
           }
@@ -3768,12 +3792,36 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ١:٣٩:٤١ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ١:٣٩:٤١ م"
+        },
+        {
+          "a": "✅ غرشة ستيكر",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٦ ص"
+        },
+        {
+          "a": "✅ بمب ستيكر",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٦ ص"
+        },
+        {
+          "a": "✅ بوكس ستيكر",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٧ ص"
+        },
+        {
+          "a": "✅ ستيكر ستيكر",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٢٨ ص"
+        },
+        {
+          "a": "✅ ستيكر أسفل ستيكر",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٠ ص"
+        },
+        {
+          "a": "✅ بلايت ستيكر",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣١ ص"
         }
       ]
     },
@@ -3836,8 +3884,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٥ ص",
             "notes": "",
             "code": "BKSS-BOX-01"
           },
@@ -3868,6 +3916,10 @@
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ٢:١٤:٥١ م"
+        },
+        {
+          "a": "✅ بوكس بكس سلايد",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٥ ص"
         }
       ]
     },
@@ -4809,7 +4861,7 @@
   "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105617133,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:١٧ ص"
+    "timestamp": 1782105636348,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٠:٣٦ ص"
   }
 }
