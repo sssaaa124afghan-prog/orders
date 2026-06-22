@@ -1296,8 +1296,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٤ ص",
             "notes": "",
             "code": "ATHY-BTL-01"
           },
@@ -1308,8 +1308,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٥ ص",
             "notes": "",
             "code": "ATHY-STK-02"
           },
@@ -1320,8 +1320,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٧ ص",
             "notes": "",
             "code": "ATHY-PLT-03"
           },
@@ -1332,8 +1332,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٨ ص",
             "notes": "",
             "code": "ATHY-BST-04"
           },
@@ -1344,8 +1344,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٩ ص",
             "notes": "",
             "code": "ATHY-DYE-05"
           }
@@ -1358,12 +1358,32 @@
       "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٢٤:٣٤ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١‏/٤‏/٢٠٢٦ ٢:٢٤:٣٤ م"
+        },
+        {
+          "a": "✅ غرشة اثينا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٤ ص"
+        },
+        {
+          "a": "✅ ستيكر اثينا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٥ ص"
+        },
+        {
+          "a": "✅ بلايت اثينا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٧ ص"
+        },
+        {
+          "a": "✅ ستيكر أسفل اثينا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٨ ص"
+        },
+        {
+          "a": "✅ صبغ اثينا",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٢٩ ص"
         }
       ]
     },
@@ -4689,7 +4709,7 @@
   "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105354323,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:١٥:٥٤ ص"
+    "timestamp": 1782105574187,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:١٩:٣٤ ص"
   }
 }
