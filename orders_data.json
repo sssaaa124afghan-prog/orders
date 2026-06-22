@@ -5635,13 +5635,76 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٠:٣٠ ص"
         }
       ]
+    },
+    "ORD-0074": {
+      "oc": "ORD-0074",
+      "client": "مصنع نور الخليج",
+      "prd": {
+        "name": "لمسه حرير",
+        "type": "عطر",
+        "size": "-",
+        "code": "LMSH-074",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس لمسه حرير",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LMSH-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ لمسه حرير",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LMSH-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت لمسه حرير",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LMSH-OIL-03"
+          }
+        }
+      },
+      "qty": 1000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T06:02:02.888Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٢:٠٢ ص",
+      "deadline": null,
+      "notes": "4 اسماء كل اسم 250 حبه\nكوين - مس نور - عود - كادين",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٢:٠٢ ص"
+        }
+      ]
     }
   },
-  "lO": 73,
-  "lP": 73,
+  "lO": 74,
+  "lP": 74,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782108034866,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٠:٣٤ ص"
+    "timestamp": 1782108126948,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٢:٠٦ ص"
   }
 }
