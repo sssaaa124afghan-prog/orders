@@ -5278,13 +5278,64 @@
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٠:٤٧ ص"
         }
       ]
+    },
+    "ORD-0067": {
+      "oc": "ORD-0067",
+      "client": "رويال باسم",
+      "prd": {
+        "name": "قطعه وحده",
+        "type": "عطر",
+        "size": "-",
+        "code": "QTAH-067",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس قطعه وحده",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QTAH-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر قطعه وحده",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QTAH-STK-02"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-06-22T05:53:34.115Z",
+      "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٣:٣٤ ص",
+      "deadline": null,
+      "notes": "بكس قطعه وحده - لونين برتقالي - زهري ( كل لون 250 حبه )  - 10 اسماء كل اسم 50 حبه",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٣:٣٤ ص"
+        }
+      ]
     }
   },
-  "lO": 66,
-  "lP": 66,
+  "lO": 67,
+  "lP": 67,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782107451921,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٠:٥١ ص"
+    "timestamp": 1782107618671,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٣:٣٨ ص"
   }
 }
