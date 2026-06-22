@@ -4449,8 +4449,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٢٨ ص",
             "notes": "",
             "code": "250-BOX-01"
           },
@@ -4461,8 +4461,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٢٩ ص",
             "notes": "",
             "code": "250-DYE-02"
           },
@@ -4473,8 +4473,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٢٩ ص",
             "notes": "",
             "code": "250-OIL-03"
           }
@@ -4487,12 +4487,24 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:١٣ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٢:١٣ م"
+        },
+        {
+          "a": "✅ بوكس 250",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٢٨ ص"
+        },
+        {
+          "a": "✅ صبغ 250",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٢٩ ص"
+        },
+        {
+          "a": "✅ زيت 250",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٢٩ ص"
         }
       ]
     },
@@ -5013,8 +5025,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٣٥ ص",
             "notes": "",
             "code": "KYF-DYE-01"
           }
@@ -5027,12 +5039,16 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:٥٤ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:٥٤ م"
+        },
+        {
+          "a": "✅ صبغ كيف",
+          "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٣٥ ص"
         }
       ]
     }
@@ -5041,7 +5057,7 @@
   "lP": 61,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1782105827616,
-    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٣:٤٧ ص"
+    "timestamp": 1782105876030,
+    "date": "٢٢‏/٦‏/٢٠٢٦ ٩:٢٤:٣٦ ص"
   }
 }
