@@ -5773,13 +5773,64 @@
           "d": "٥‏/٧‏/٢٠٢٦، ١:٣٣:٣٨ م"
         }
       ]
+    },
+    "ORD-0076": {
+      "oc": "ORD-0076",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "كوكو",
+        "type": "عطر",
+        "size": "100",
+        "code": "KWKW-076",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس كوكو",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ كوكو",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KWKW-DYE-02"
+          }
+        }
+      },
+      "qty": 500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-05T09:34:23.498Z",
+      "dateStr": "٥‏/٧‏/٢٠٢٦، ١:٣٤:٢٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٥‏/٧‏/٢٠٢٦، ١:٣٤:٢٣ م"
+        }
+      ]
     }
   },
-  "lO": 75,
-  "lP": 75,
+  "lO": 76,
+  "lP": 76,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783244023571,
-    "date": "٥‏/٧‏/٢٠٢٦، ١:٣٣:٤٣ م"
+    "timestamp": 1783244067524,
+    "date": "٥‏/٧‏/٢٠٢٦، ١:٣٤:٢٧ م"
   }
 }
