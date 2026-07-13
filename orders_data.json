@@ -2387,8 +2387,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٣ م",
             "notes": "",
             "code": "DYLW-BTL-01"
           },
@@ -2399,8 +2399,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٤ م",
             "notes": "",
             "code": "DYLW-CAP-02"
           },
@@ -2411,8 +2411,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٤ م",
             "notes": "",
             "code": "DYLW-BOX-03"
           },
@@ -2423,8 +2423,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٥ م",
             "notes": "",
             "code": "DYLW-STK-04"
           },
@@ -2435,8 +2435,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٥ م",
             "notes": "",
             "code": "DYLW-BST-05"
           },
@@ -2447,8 +2447,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 6,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٦ م",
             "notes": "",
             "code": "DYLW-DYE-06"
           },
@@ -2459,8 +2459,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 7,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٦ م",
             "notes": "",
             "code": "DYLW-OIL-07"
           }
@@ -2473,12 +2473,40 @@
       "dateStr": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٤٠ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٧‏/٤‏/٢٠٢٦ ٣:٣٠:٤٠ م"
+        },
+        {
+          "a": "✅ غرشة ديلونا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٣ م"
+        },
+        {
+          "a": "✅ كاب ديلونا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٤ م"
+        },
+        {
+          "a": "✅ بوكس ديلونا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٤ م"
+        },
+        {
+          "a": "✅ ستيكر ديلونا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٥ م"
+        },
+        {
+          "a": "✅ ستيكر أسفل ديلونا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٥ م"
+        },
+        {
+          "a": "✅ صبغ ديلونا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٦ م"
+        },
+        {
+          "a": "✅ زيت ديلونا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٣٦ م"
         }
       ]
     },
@@ -6640,7 +6668,7 @@
   "lP": 86,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783937960679,
-    "date": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٢٠ م"
+    "timestamp": 1783937981835,
+    "date": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤١ م"
   }
 }
