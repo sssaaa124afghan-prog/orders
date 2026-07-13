@@ -6500,13 +6500,52 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:٥٤ م"
         }
       ]
+    },
+    "ORD-0085": {
+      "oc": "ORD-0085",
+      "client": "رسايل عود",
+      "prd": {
+        "name": "لمسه حرير",
+        "type": "عطر",
+        "size": "-",
+        "code": "LMSH-085",
+        "comps": {
+          "oil": {
+            "id": "oil",
+            "dn": "زيت لمسه حرير",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "LMSH-OIL-01"
+          }
+        }
+      },
+      "qty": 1500,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T10:09:23.545Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ٢:٠٩:٢٣ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٩:٢٣ م"
+        }
+      ]
     }
   },
-  "lO": 84,
-  "lP": 84,
+  "lO": 85,
+  "lP": 85,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783937142394,
-    "date": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٤٢ م"
+    "timestamp": 1783937375961,
+    "date": "١٣‏/٧‏/٢٠٢٦، ٢:٠٩:٣٥ م"
   }
 }
