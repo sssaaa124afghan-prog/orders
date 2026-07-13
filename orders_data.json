@@ -5986,13 +5986,136 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٤٩:٢٢ م"
         }
       ]
+    },
+    "ORD-0079": {
+      "oc": "ORD-0079",
+      "client": "نوار",
+      "prd": {
+        "name": "ريبونا",
+        "type": "عطر",
+        "size": "-",
+        "code": "RYBW-079",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة ريبونا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب ريبونا",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس ريبونا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-BOX-03"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر ريبونا",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-STK-04"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ ريبونا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-DYE-05"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول ريبونا",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-ALC-06"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت ريبونا",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-OIL-07"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا ريبونا",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "RYBW-BAC-08"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T09:50:06.229Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥٠:٠٦ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٠:٠٦ م"
+        }
+      ]
     }
   },
-  "lO": 78,
-  "lP": 78,
+  "lO": 79,
+  "lP": 79,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783936166558,
-    "date": "١٣‏/٧‏/٢٠٢٦، ١:٤٩:٢٦ م"
+    "timestamp": 1783936211210,
+    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٠:١١ م"
   }
 }
