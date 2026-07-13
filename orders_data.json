@@ -5923,13 +5923,76 @@
           "d": "٥‏/٧‏/٢٠٢٦، ١:٣٥:٠٧ م"
         }
       ]
+    },
+    "ORD-0078": {
+      "oc": "ORD-0078",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "هايل",
+        "type": "عطر",
+        "size": "-",
+        "code": "HAYL-078",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس هايل",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HAYL-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ هايل",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HAYL-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت هايل",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "HAYL-OIL-03"
+          }
+        }
+      },
+      "qty": 2000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T09:49:22.500Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٤٩:٢٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ١:٤٩:٢٢ م"
+        }
+      ]
     }
   },
-  "lO": 77,
-  "lP": 77,
+  "lO": 78,
+  "lP": 78,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783244112865,
-    "date": "٥‏/٧‏/٢٠٢٦، ١:٣٥:١٢ م"
+    "timestamp": 1783936166558,
+    "date": "١٣‏/٧‏/٢٠٢٦، ١:٤٩:٢٦ م"
   }
 }
