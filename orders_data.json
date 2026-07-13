@@ -4819,8 +4819,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٢ م",
             "notes": "",
             "code": "FWAH-BOX-01"
           }
@@ -4833,12 +4833,16 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٧:٢٠ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٧:٢٠ م"
+        },
+        {
+          "a": "✅ بوكس فواح",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٢ م"
         }
       ]
     },
@@ -4858,8 +4862,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٥ م",
             "notes": "",
             "code": "SMWK-BTL-01"
           },
@@ -4870,8 +4874,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٦ م",
             "notes": "",
             "code": "SMWK-CAP-02"
           },
@@ -4882,8 +4886,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٦ م",
             "notes": "",
             "code": "SMWK-PMP-03"
           },
@@ -4894,8 +4898,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٩ م",
             "notes": "",
             "code": "SMWK-SPR-04"
           },
@@ -4906,8 +4910,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٩ م",
             "notes": "",
             "code": "SMWK-BOX-05"
           },
@@ -4918,8 +4922,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 6,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١١ م",
             "notes": "",
             "code": "SMWK-STK-06"
           },
@@ -4930,8 +4934,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 7,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١١ م",
             "notes": "",
             "code": "SMWK-PLT-07"
           },
@@ -4942,8 +4946,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 8,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٢ م",
             "notes": "",
             "code": "SMWK-BST-08"
           },
@@ -4954,8 +4958,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 9,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٢ م",
             "notes": "",
             "code": "SMWK-DYE-09"
           },
@@ -4966,8 +4970,8 @@
             "unit": "%",
             "qty": 70,
             "idx": 10,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٣ م",
             "notes": "",
             "code": "SMWK-ALC-10"
           },
@@ -4978,8 +4982,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 11,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٤ م",
             "notes": "",
             "code": "SMWK-OIL-11"
           },
@@ -4990,8 +4994,8 @@
             "unit": "%",
             "qty": 5,
             "idx": 12,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٥ م",
             "notes": "",
             "code": "SMWK-BAC-12"
           }
@@ -5004,12 +5008,60 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:١٩ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:٢٩:١٩ م"
+        },
+        {
+          "a": "✅ غرشة سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٥ م"
+        },
+        {
+          "a": "✅ كاب سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٦ م"
+        },
+        {
+          "a": "✅ بمب سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٦ م"
+        },
+        {
+          "a": "✅ بخاخ سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٩ م"
+        },
+        {
+          "a": "✅ بوكس سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٠٩ م"
+        },
+        {
+          "a": "✅ ستيكر سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١١ م"
+        },
+        {
+          "a": "✅ بلايت سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١١ م"
+        },
+        {
+          "a": "✅ ستيكر أسفل سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٢ م"
+        },
+        {
+          "a": "✅ صبغ سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٢ م"
+        },
+        {
+          "a": "✅ كحول سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٣ م"
+        },
+        {
+          "a": "✅ زيت سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٤ م"
+        },
+        {
+          "a": "✅ بكتيريا سموك",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٥ م"
         }
       ]
     },
@@ -5076,8 +5128,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٧ م",
             "notes": "",
             "code": "RYDN-OIL-01"
           }
@@ -5090,12 +5142,16 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٦:٠٨ ص",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٦:٠٨ ص"
+        },
+        {
+          "a": "✅ زيت ريد نايت",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٧ م"
         }
       ]
     },
@@ -5154,8 +5210,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٩ م",
             "notes": "",
             "code": "WNAS-OIL-01"
           }
@@ -5168,12 +5224,16 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٨:٠٥ ص",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٨:٠٥ ص"
+        },
+        {
+          "a": "✅ زيت وناسه",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:١٩ م"
         }
       ]
     },
@@ -5193,8 +5253,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٢١ م",
             "notes": "",
             "code": "ALRQ-OIL-01"
           }
@@ -5207,12 +5267,16 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٩:٠٠ ص",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٩:٠٠ ص"
+        },
+        {
+          "a": "✅ زيت الرقم الصعب",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٢١ م"
         }
       ]
     },
@@ -6418,7 +6482,7 @@
   "lP": 84,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783936440620,
-    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٤:٠٠ م"
+    "timestamp": 1783937125642,
+    "date": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٢٥ م"
   }
 }
