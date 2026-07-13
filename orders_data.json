@@ -6539,13 +6539,76 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٩:٢٣ م"
         }
       ]
+    },
+    "ORD-0086": {
+      "oc": "ORD-0086",
+      "client": "سجنتشر",
+      "prd": {
+        "name": "دفيوزر ومرشات",
+        "type": "عطر",
+        "size": "-",
+        "code": "DFYW-086",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس دفيوزر ومرشات",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DFYW-BOX-01"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر دفيوزر ومرشات",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DFYW-STK-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت دفيوزر ومرشات",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "DFYW-OIL-03"
+          }
+        }
+      },
+      "qty": 30000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T10:17:27.312Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ٢:١٧:٢٧ م",
+      "deadline": null,
+      "notes": "10 انواع دفيوزر \n5 انواع مرشات",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٧:٢٧ م"
+        }
+      ]
     }
   },
-  "lO": 85,
-  "lP": 85,
+  "lO": 86,
+  "lP": 86,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783937375961,
-    "date": "١٣‏/٧‏/٢٠٢٦، ٢:٠٩:٣٥ م"
+    "timestamp": 1783937852129,
+    "date": "١٣‏/٧‏/٢٠٢٦، ٢:١٧:٣٢ م"
   }
 }
