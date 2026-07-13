@@ -6172,13 +6172,64 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٠:٥٢ م"
         }
       ]
+    },
+    "ORD-0081": {
+      "oc": "ORD-0081",
+      "client": "نوار",
+      "prd": {
+        "name": "بيانا الاحمر",
+        "type": "عطر",
+        "size": "-",
+        "code": "BYAN-081",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس بيانا الاحمر",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بيانا الاحمر",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BYAN-DYE-02"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T09:51:38.244Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥١:٣٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ١:٥١:٣٨ م"
+        }
+      ]
     }
   },
-  "lO": 80,
-  "lP": 80,
+  "lO": 81,
+  "lP": 81,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783936257744,
-    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٠:٥٧ م"
+    "timestamp": 1783936308218,
+    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥١:٤٨ م"
   }
 }
