@@ -6223,13 +6223,76 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥١:٣٨ م"
         }
       ]
+    },
+    "ORD-0082": {
+      "oc": "ORD-0082",
+      "client": "نوار",
+      "prd": {
+        "name": "Rove",
+        "type": "عطر",
+        "size": "-",
+        "code": "ROVE-082",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس Rove",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ROVE-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ Rove",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ROVE-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت Rove",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ROVE-OIL-03"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T09:52:16.454Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥٢:١٦ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٢:١٦ م"
+        }
+      ]
     }
   },
-  "lO": 81,
-  "lP": 81,
+  "lO": 82,
+  "lP": 82,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783936308218,
-    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥١:٤٨ م"
+    "timestamp": 1783936341601,
+    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٢:٢١ م"
   }
 }
