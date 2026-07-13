@@ -5461,8 +5461,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٠ م",
             "notes": "",
             "code": "HDAY-OIL-01"
           }
@@ -5475,12 +5475,16 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:٠٦ ص",
       "deadline": null,
       "notes": "1000 حبه ( اسمين كل اسم 500 حبه)",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:٠٦ ص"
+        },
+        {
+          "a": "✅ زيت هدايا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٠ م"
         }
       ]
     },
@@ -5500,8 +5504,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٢ م",
             "notes": "",
             "code": "BYAN-BOX-01"
           },
@@ -5512,8 +5516,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٣ م",
             "notes": "",
             "code": "BYAN-STK-02"
           }
@@ -5526,12 +5530,20 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:٥٨ ص",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٧:٥٨ ص"
+        },
+        {
+          "a": "✅ بوكس بيانا كايا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٢ م"
+        },
+        {
+          "a": "✅ ستيكر بيانا كايا",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٣ م"
         }
       ]
     },
@@ -5716,8 +5728,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٩ م",
             "notes": "",
             "code": "LMSH-BOX-01"
           },
@@ -5728,8 +5740,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٩ م",
             "notes": "",
             "code": "LMSH-DYE-02"
           },
@@ -5740,8 +5752,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٤٠ م",
             "notes": "",
             "code": "LMSH-OIL-03"
           }
@@ -5754,12 +5766,24 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٢:٠٢ ص",
       "deadline": null,
       "notes": "4 اسماء كل اسم 250 حبه\nكوين - مس نور - عود - كادين",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٢:٠٢ ص"
+        },
+        {
+          "a": "✅ بوكس لمسه حرير",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٩ م"
+        },
+        {
+          "a": "✅ صبغ لمسه حرير",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٣٩ م"
+        },
+        {
+          "a": "✅ زيت لمسه حرير",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٤٠ م"
         }
       ]
     },
@@ -6482,7 +6506,7 @@
   "lP": 84,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783937125642,
-    "date": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٢٥ م"
+    "timestamp": 1783937142394,
+    "date": "١٣‏/٧‏/٢٠٢٦، ٢:٠٥:٤٢ م"
   }
 }
