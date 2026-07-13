@@ -6286,13 +6286,76 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٢:١٦ م"
         }
       ]
+    },
+    "ORD-0083": {
+      "oc": "ORD-0083",
+      "client": "احمد الهزال",
+      "prd": {
+        "name": "بكس هارد",
+        "type": "عطر",
+        "size": "-",
+        "code": "BKSH-083",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس بكس هارد",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSH-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بكس هارد",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSH-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت بكس هارد",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSH-OIL-03"
+          }
+        }
+      },
+      "qty": 3000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T09:53:14.189Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:١٤ م",
+      "deadline": null,
+      "notes": "6 انواع وكل نوع 500 حبه",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:١٤ م"
+        }
+      ]
     }
   },
-  "lO": 82,
-  "lP": 82,
+  "lO": 83,
+  "lP": 83,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783936341601,
-    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٢:٢١ م"
+    "timestamp": 1783936406316,
+    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:٢٦ م"
   }
 }
