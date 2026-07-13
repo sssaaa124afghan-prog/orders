@@ -2063,8 +2063,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٤ م",
             "notes": "",
             "code": "AH-BTL-01"
           },
@@ -2075,8 +2075,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٥ م",
             "notes": "",
             "code": "AH-CAP-02"
           },
@@ -2087,8 +2087,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٥ م",
             "notes": "",
             "code": "AH-BOX-03"
           },
@@ -2099,8 +2099,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٦ م",
             "notes": "",
             "code": "AH-STK-04"
           }
@@ -2113,12 +2113,28 @@
       "dateStr": "١‏/٤‏/٢٠٢٦ ٢:٣٤:٣١ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١‏/٤‏/٢٠٢٦ ٢:٣٤:٣١ م"
+        },
+        {
+          "a": "✅ غرشة ah",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٤ م"
+        },
+        {
+          "a": "✅ كاب ah",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٥ م"
+        },
+        {
+          "a": "✅ بوكس ah",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٥ م"
+        },
+        {
+          "a": "✅ ستيكر ah",
+          "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤٦ م"
         }
       ]
     },
@@ -6668,7 +6684,7 @@
   "lP": 86,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783937981835,
-    "date": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٤١ م"
+    "timestamp": 1783937991444,
+    "date": "١٣‏/٧‏/٢٠٢٦، ٢:١٩:٥١ م"
   }
 }
