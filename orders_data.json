@@ -6349,13 +6349,76 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:١٤ م"
         }
       ]
+    },
+    "ORD-0084": {
+      "oc": "ORD-0084",
+      "client": "ايمن الخالدي",
+      "prd": {
+        "name": "كينج",
+        "type": "عطر",
+        "size": "-",
+        "code": "KYNJ-084",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس كينج",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KYNJ-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ كينج",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KYNJ-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت كينج",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "KYNJ-OIL-03"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-13T09:53:54.873Z",
+      "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:٥٤ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:٥٤ م"
+        }
+      ]
     }
   },
-  "lO": 83,
-  "lP": 83,
+  "lO": 84,
+  "lP": 84,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783936406316,
-    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:٢٦ م"
+    "timestamp": 1783936440620,
+    "date": "١٣‏/٧‏/٢٠٢٦، ١:٥٤:٠٠ م"
   }
 }
