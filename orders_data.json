@@ -7050,13 +7050,76 @@
           "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٧:٢٤ م"
         }
       ]
+    },
+    "ORD-0091": {
+      "oc": "ORD-0091",
+      "client": "مصطفى تاب بيوتي",
+      "prd": {
+        "name": "ڤيولا",
+        "type": "عطر",
+        "size": "-",
+        "code": "YWLA-091",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس ڤيولا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YWLA-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ ڤيولا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YWLA-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت ڤيولا",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "YWLA-OIL-03"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-15T11:28:06.924Z",
+      "dateStr": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٠٦ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٠٦ م"
+        }
+      ]
     }
   },
-  "lO": 90,
-  "lP": 90,
+  "lO": 91,
+  "lP": 91,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784114849408,
-    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٧:٢٩ م"
+    "timestamp": 1784114892238,
+    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:١٢ م"
   }
 }
