@@ -6789,13 +6789,100 @@
           "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٥:٢٨ م"
         }
       ]
+    },
+    "ORD-0088": {
+      "oc": "ORD-0088",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "فيذر ورق",
+        "type": "عطر",
+        "size": "-",
+        "code": "FYZR-088",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة فيذر ورق",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYZR-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب فيذر ورق",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYZR-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس فيذر ورق",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYZR-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ فيذر ورق",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYZR-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت فيذر ورق",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "FYZR-OIL-05"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-15T11:26:08.708Z",
+      "dateStr": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٠٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٠٨ م"
+        }
+      ]
     }
   },
-  "lO": 87,
-  "lP": 87,
+  "lO": 88,
+  "lP": 88,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784114732413,
-    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٥:٣٢ م"
+    "timestamp": 1784114773654,
+    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:١٣ م"
   }
 }
