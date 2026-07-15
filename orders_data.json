@@ -7176,13 +7176,76 @@
           "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٥٢ م"
         }
       ]
+    },
+    "ORD-0093": {
+      "oc": "ORD-0093",
+      "client": "باهي",
+      "prd": {
+        "name": "اناقه",
+        "type": "عطر",
+        "size": "-",
+        "code": "ANAQ-093",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس اناقه",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ANAQ-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ اناقه",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ANAQ-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت اناقه",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ANAQ-OIL-03"
+          }
+        }
+      },
+      "qty": 20,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-15T11:30:28.464Z",
+      "dateStr": "١٥‏/٧‏/٢٠٢٦، ٣:٣٠:٢٨ م",
+      "deadline": null,
+      "notes": "اناقه الابيض10،000\nاناقه الاسود 10،000",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٥‏/٧‏/٢٠٢٦، ٣:٣٠:٢٨ م"
+        }
+      ]
     }
   },
-  "lO": 92,
-  "lP": 92,
+  "lO": 93,
+  "lP": 93,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784114936569,
-    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٥٦ م"
+    "timestamp": 1784115033844,
+    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٣٠:٣٣ م"
   }
 }
