@@ -6702,13 +6702,100 @@
           "d": "١٣‏/٧‏/٢٠٢٦، ٢:١٧:٢٧ م"
         }
       ]
+    },
+    "ORD-0087": {
+      "oc": "ORD-0087",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "مانديلا",
+        "type": "عطر",
+        "size": "-",
+        "code": "MAND-087",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة مانديلا",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MAND-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب مانديلا",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MAND-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس مانديلا",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MAND-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ مانديلا",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MAND-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت مانديلا",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "MAND-OIL-05"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-15T11:25:28.348Z",
+      "dateStr": "١٥‏/٧‏/٢٠٢٦، ٣:٢٥:٢٨ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٥:٢٨ م"
+        }
+      ]
     }
   },
-  "lO": 86,
-  "lP": 86,
+  "lO": 87,
+  "lP": 87,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1783938058523,
-    "date": "١٣‏/٧‏/٢٠٢٦، ٢:٢٠:٥٨ م"
+    "timestamp": 1784114732413,
+    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٥:٣٢ م"
   }
 }
