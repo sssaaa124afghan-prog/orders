@@ -6876,13 +6876,100 @@
           "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٠٨ م"
         }
       ]
+    },
+    "ORD-0089": {
+      "oc": "ORD-0089",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "قصه",
+        "type": "عطر",
+        "size": "-",
+        "code": "QSH-089",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة قصه",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب قصه",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس قصه",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ قصه",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت قصه",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-OIL-05"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-15T11:26:49.649Z",
+      "dateStr": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٤٩ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٤٩ م"
+        }
+      ]
     }
   },
-  "lO": 88,
-  "lP": 88,
+  "lO": 89,
+  "lP": 89,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784114773654,
-    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:١٣ م"
+    "timestamp": 1784114813664,
+    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٥٣ م"
   }
 }
