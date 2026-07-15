@@ -6963,13 +6963,100 @@
           "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٤٩ م"
         }
       ]
+    },
+    "ORD-0090": {
+      "oc": "ORD-0090",
+      "client": "علي اطياب",
+      "prd": {
+        "name": "اليجينت",
+        "type": "عطر",
+        "size": "-",
+        "code": "ALYJ-090",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة اليجينت",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALYJ-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب اليجينت",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALYJ-CAP-02"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس اليجينت",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALYJ-BOX-03"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ اليجينت",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALYJ-DYE-04"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت اليجينت",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "ALYJ-OIL-05"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-15T11:27:24.445Z",
+      "dateStr": "١٥‏/٧‏/٢٠٢٦، ٣:٢٧:٢٤ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٧:٢٤ م"
+        }
+      ]
     }
   },
-  "lO": 89,
-  "lP": 89,
+  "lO": 90,
+  "lP": 90,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784114813664,
-    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٦:٥٣ م"
+    "timestamp": 1784114849408,
+    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٧:٢٩ م"
   }
 }
