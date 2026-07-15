@@ -7113,13 +7113,76 @@
           "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٠٦ م"
         }
       ]
+    },
+    "ORD-0092": {
+      "oc": "ORD-0092",
+      "client": "Kb",
+      "prd": {
+        "name": "قصه",
+        "type": "عطر",
+        "size": "-",
+        "code": "QSH-092",
+        "comps": {
+          "box": {
+            "id": "box",
+            "dn": "بوكس قصه",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-BOX-01"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ قصه",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-DYE-02"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت قصه",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "QSH-OIL-03"
+          }
+        }
+      },
+      "qty": 100,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-15T11:28:52.539Z",
+      "dateStr": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٥٢ م",
+      "deadline": null,
+      "notes": "",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٥٢ م"
+        }
+      ]
     }
   },
-  "lO": 91,
-  "lP": 91,
+  "lO": 92,
+  "lP": 92,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784114892238,
-    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:١٢ م"
+    "timestamp": 1784114936569,
+    "date": "١٥‏/٧‏/٢٠٢٦، ٣:٢٨:٥٦ م"
   }
 }
