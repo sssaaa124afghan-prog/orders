@@ -7410,13 +7410,184 @@
           "d": "٢٥‏/٧‏/٢٠٢٦، ٩:٥١:١٧ ص"
         }
       ]
+    },
+    "ORD-0095": {
+      "oc": "ORD-0095",
+      "client": "باهي",
+      "prd": {
+        "name": "بكس توب بوتوم هارد",
+        "type": "عطر",
+        "size": "-",
+        "code": "BKST-095",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة بكس توب بوتوم هارد",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب بكس توب بوتوم هارد",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب بكس توب بوتوم هارد",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ بكس توب بوتوم هارد",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس بكس توب بوتوم هارد",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر بكس توب بوتوم هارد",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت بكس توب بوتوم هارد",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل بكس توب بوتوم هارد",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-BST-08"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بكس توب بوتوم هارد",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-DYE-09"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول بكس توب بوتوم هارد",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 10,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-ALC-10"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت بكس توب بوتوم هارد",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 11,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-OIL-11"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا بكس توب بوتوم هارد",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 12,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKST-BAC-12"
+          }
+        }
+      },
+      "qty": 10000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-25T05:54:59.462Z",
+      "dateStr": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٤:٥٩ ص",
+      "deadline": null,
+      "notes": "بكس هارد 5 اسماء \nكل اسم 2000 حبه",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٤:٥٩ ص"
+        }
+      ]
     }
   },
-  "lO": 94,
-  "lP": 94,
+  "lO": 95,
+  "lP": 95,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784958682845,
-    "date": "٢٥‏/٧‏/٢٠٢٦، ٩:٥١:٢٢ ص"
+    "timestamp": 1784958904977,
+    "date": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٥:٠٤ ص"
   }
 }
