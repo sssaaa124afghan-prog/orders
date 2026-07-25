@@ -8094,13 +8094,184 @@
           "d": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٧:٤٠ ص"
         }
       ]
+    },
+    "ORD-0099": {
+      "oc": "ORD-0099",
+      "client": "Coco",
+      "prd": {
+        "name": "بكس عادي ستيكر",
+        "type": "عطر",
+        "size": "-",
+        "code": "BKSA-099",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة بكس عادي ستيكر",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب بكس عادي ستيكر",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب بكس عادي ستيكر",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ بكس عادي ستيكر",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس بكس عادي ستيكر",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر بكس عادي ستيكر",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت بكس عادي ستيكر",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل بكس عادي ستيكر",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-BST-08"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ بكس عادي ستيكر",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-DYE-09"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول بكس عادي ستيكر",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 10,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-ALC-10"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت بكس عادي ستيكر",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 11,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-OIL-11"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا بكس عادي ستيكر",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 12,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "BKSA-BAC-12"
+          }
+        }
+      },
+      "qty": 250,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-25T05:59:19.687Z",
+      "dateStr": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٩:١٩ ص",
+      "deadline": null,
+      "notes": "بكس ستيكر 250 حبه كل اسم 50",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٩:١٩ ص"
+        }
+      ]
     }
   },
-  "lO": 98,
-  "lP": 98,
+  "lO": 99,
+  "lP": 99,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784959114902,
-    "date": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٨:٣٤ ص"
+    "timestamp": 1784959165076,
+    "date": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٩:٢٥ ص"
   }
 }
