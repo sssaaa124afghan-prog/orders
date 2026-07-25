@@ -7581,13 +7581,184 @@
           "d": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٤:٥٩ ص"
         }
       ]
+    },
+    "ORD-0096": {
+      "oc": "ORD-0096",
+      "client": "باهي",
+      "prd": {
+        "name": "سيت بكس نزوه",
+        "type": "عطر",
+        "size": "-",
+        "code": "SYTB-096",
+        "comps": {
+          "bottle": {
+            "id": "bottle",
+            "dn": "غرشة سيت بكس نزوه",
+            "name": "غرشة",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 1,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-BTL-01"
+          },
+          "cap": {
+            "id": "cap",
+            "dn": "كاب سيت بكس نزوه",
+            "name": "كاب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 2,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-CAP-02"
+          },
+          "pump": {
+            "id": "pump",
+            "dn": "بمب سيت بكس نزوه",
+            "name": "بمب",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 3,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-PMP-03"
+          },
+          "spray": {
+            "id": "spray",
+            "dn": "بخاخ سيت بكس نزوه",
+            "name": "بخاخ",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 4,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-SPR-04"
+          },
+          "box": {
+            "id": "box",
+            "dn": "بوكس سيت بكس نزوه",
+            "name": "بوكس",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 5,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-BOX-05"
+          },
+          "sticker": {
+            "id": "sticker",
+            "dn": "ستيكر سيت بكس نزوه",
+            "name": "ستيكر",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 6,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-STK-06"
+          },
+          "plate": {
+            "id": "plate",
+            "dn": "بلايت سيت بكس نزوه",
+            "name": "بلايت",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 7,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-PLT-07"
+          },
+          "bottomsticker": {
+            "id": "bottomsticker",
+            "dn": "ستيكر أسفل سيت بكس نزوه",
+            "name": "ستيكر أسفل",
+            "unit": "قطعة",
+            "qty": 1,
+            "idx": 8,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-BST-08"
+          },
+          "dye": {
+            "id": "dye",
+            "dn": "صبغ سيت بكس نزوه",
+            "name": "صبغ",
+            "unit": "مل",
+            "qty": 5,
+            "idx": 9,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-DYE-09"
+          },
+          "alcohol": {
+            "id": "alcohol",
+            "dn": "كحول سيت بكس نزوه",
+            "name": "كحول",
+            "unit": "%",
+            "qty": 70,
+            "idx": 10,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-ALC-10"
+          },
+          "oil": {
+            "id": "oil",
+            "dn": "زيت سيت بكس نزوه",
+            "name": "زيت",
+            "unit": "%",
+            "qty": 25,
+            "idx": 11,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-OIL-11"
+          },
+          "bacteria": {
+            "id": "bacteria",
+            "dn": "بكتيريا سيت بكس نزوه",
+            "name": "بكتيريا",
+            "unit": "%",
+            "qty": 5,
+            "idx": 12,
+            "received": false,
+            "recDate": null,
+            "notes": "",
+            "code": "SYTB-BAC-12"
+          }
+        }
+      },
+      "qty": 5000,
+      "price": 0,
+      "total": 0,
+      "date": "2026-07-25T05:55:47.963Z",
+      "dateStr": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٥:٤٧ ص",
+      "deadline": null,
+      "notes": "سيت بكس قطعتين",
+      "status": "active",
+      "pNotes": "",
+      "hist": [
+        {
+          "a": "📋 إنشاء",
+          "d": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٥:٤٧ ص"
+        }
+      ]
     }
   },
-  "lO": 95,
-  "lP": 95,
+  "lO": 96,
+  "lP": 96,
   "_meta": {
     "device": "device_8yp9oogz",
-    "timestamp": 1784958904977,
-    "date": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٥:٠٤ ص"
+    "timestamp": 1784958951990,
+    "date": "٢٥‏/٧‏/٢٠٢٦، ٩:٥٥:٥١ ص"
   }
 }
