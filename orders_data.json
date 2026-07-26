@@ -4419,8 +4419,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٩ ص",
             "notes": "",
             "code": "KWKW-BOX-01"
           },
@@ -4431,8 +4431,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٠ ص",
             "notes": "",
             "code": "KWKW-DYE-02"
           },
@@ -4443,8 +4443,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٠ ص",
             "notes": "",
             "code": "KWKW-OIL-03"
           }
@@ -4457,12 +4457,24 @@
       "dateStr": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٥٩ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٤‏/٦‏/٢٠٢٦ ١٢:١٩:٥٩ م"
+        },
+        {
+          "a": "✅ بوكس كوكو",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٩ ص"
+        },
+        {
+          "a": "✅ صبغ كوكو",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٠ ص"
+        },
+        {
+          "a": "✅ زيت كوكو",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٠ ص"
         }
       ]
     },
@@ -8498,7 +8510,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045858583,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٨ ص"
+    "timestamp": 1785045866225,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٦ ص"
   }
 }
