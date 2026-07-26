@@ -5303,8 +5303,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٩ ص",
             "notes": "",
             "code": "MRSH-OIL-01"
           }
@@ -5317,12 +5317,16 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٧:٢٠ ص",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٤٧:٢٠ ص"
+        },
+        {
+          "a": "✅ زيت مرشات بكس",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٩ ص"
         }
       ]
     },
@@ -8510,7 +8514,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045866225,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٢٦ ص"
+    "timestamp": 1785045873932,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٣٣ ص"
   }
 }
