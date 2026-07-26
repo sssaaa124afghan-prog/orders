@@ -4111,8 +4111,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٠٨ ص",
             "notes": "",
             "code": "BKSH-BOX-01"
           },
@@ -4123,8 +4123,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٠٩ ص",
             "notes": "",
             "code": "BKSH-STK-02"
           },
@@ -4135,8 +4135,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٠٩ ص",
             "notes": "",
             "code": "BKSH-DYE-03"
           }
@@ -4149,12 +4149,24 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ٢:١٦:٢٢ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ٢:١٦:٢٢ م"
+        },
+        {
+          "a": "✅ بوكس بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٠٨ ص"
+        },
+        {
+          "a": "✅ ستيكر بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٠٩ ص"
+        },
+        {
+          "a": "✅ صبغ بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٠٩ ص"
         }
       ]
     },
@@ -4174,8 +4186,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١١ ص",
             "notes": "",
             "code": "BKSS-BOX-01"
           },
@@ -4186,8 +4198,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٢ ص",
             "notes": "",
             "code": "BKSS-STK-02"
           },
@@ -4198,8 +4210,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٣ ص",
             "notes": "",
             "code": "BKSS-DYE-03"
           }
@@ -4212,12 +4224,24 @@
       "dateStr": "١٣‏/٥‏/٢٠٢٦، ٢:١٦:٥٤ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٥‏/٢٠٢٦، ٢:١٦:٥٤ م"
+        },
+        {
+          "a": "✅ بوكس بكس سلايد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١١ ص"
+        },
+        {
+          "a": "✅ ستيكر بكس سلايد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٢ ص"
+        },
+        {
+          "a": "✅ صبغ بكس سلايد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٣ ص"
         }
       ]
     },
@@ -8474,7 +8498,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045844135,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٠٤ ص"
+    "timestamp": 1785045858583,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:١٨ ص"
   }
 }
