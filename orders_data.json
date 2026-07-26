@@ -5790,8 +5790,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٠ ص",
             "notes": "",
             "code": "KAZA-BOX-01"
           },
@@ -5802,8 +5802,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥١ ص",
             "notes": "",
             "code": "KAZA-OIL-02"
           }
@@ -5816,12 +5816,20 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٩:٢١ ص",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٩:٢١ ص"
+        },
+        {
+          "a": "✅ بوكس كازان",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٠ ص"
+        },
+        {
+          "a": "✅ زيت كازان",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥١ ص"
         }
       ]
     },
@@ -5841,8 +5849,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٤ ص",
             "notes": "",
             "code": "ATRM-BOX-01"
           },
@@ -5853,8 +5861,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٤ ص",
             "notes": "",
             "code": "ATRM-DYE-02"
           },
@@ -5865,8 +5873,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٥ ص",
             "notes": "",
             "code": "ATRM-OIL-03"
           }
@@ -5879,12 +5887,24 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٠:٣٠ ص",
       "deadline": null,
       "notes": "6 اسماء كل اسم 250 حبه",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ١٠:٠٠:٣٠ ص"
+        },
+        {
+          "a": "✅ بوكس عطر مخملي",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٤ ص"
+        },
+        {
+          "a": "✅ صبغ عطر مخملي",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٤ ص"
+        },
+        {
+          "a": "✅ زيت عطر مخملي",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٥ ص"
         }
       ]
     },
@@ -5983,8 +6003,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٧ ص",
             "notes": "",
             "code": "BKSH-BOX-01"
           },
@@ -5995,8 +6015,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٨ ص",
             "notes": "",
             "code": "BKSH-STK-02"
           },
@@ -6007,8 +6027,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٨ ص",
             "notes": "",
             "code": "BKSH-DYE-03"
           },
@@ -6019,8 +6039,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٩ ص",
             "notes": "",
             "code": "BKSH-OIL-04"
           }
@@ -6033,12 +6053,28 @@
       "dateStr": "٥‏/٧‏/٢٠٢٦، ١:٣٣:٣٨ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٥‏/٧‏/٢٠٢٦، ١:٣٣:٣٨ م"
+        },
+        {
+          "a": "✅ بوكس بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٧ ص"
+        },
+        {
+          "a": "✅ ستيكر بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٨ ص"
+        },
+        {
+          "a": "✅ صبغ بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٨ ص"
+        },
+        {
+          "a": "✅ زيت بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٩ ص"
         }
       ]
     },
@@ -8538,7 +8574,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045890049,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٠ ص"
+    "timestamp": 1785045904558,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٤ ص"
   }
 }
