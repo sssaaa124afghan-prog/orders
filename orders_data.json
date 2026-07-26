@@ -6478,8 +6478,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٠ ص",
             "notes": "",
             "code": "KASH-BOX-01"
           },
@@ -6490,8 +6490,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٠ ص",
             "notes": "",
             "code": "KASH-DYE-02"
           },
@@ -6502,8 +6502,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢١ ص",
             "notes": "",
             "code": "KASH-OIL-03"
           }
@@ -6516,12 +6516,24 @@
       "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥٠:٥٢ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٠:٥٢ م"
+        },
+        {
+          "a": "✅ بوكس كاشوفالي",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٠ ص"
+        },
+        {
+          "a": "✅ صبغ كاشوفالي",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٠ ص"
+        },
+        {
+          "a": "✅ زيت كاشوفالي",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢١ ص"
         }
       ]
     },
@@ -6541,8 +6553,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٣ ص",
             "notes": "",
             "code": "BYAN-BOX-01"
           },
@@ -6553,8 +6565,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٣ ص",
             "notes": "",
             "code": "BYAN-DYE-02"
           }
@@ -6567,12 +6579,20 @@
       "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥١:٣٨ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥١:٣٨ م"
+        },
+        {
+          "a": "✅ بوكس بيانا الاحمر",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٣ ص"
+        },
+        {
+          "a": "✅ صبغ بيانا الاحمر",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٣ ص"
         }
       ]
     },
@@ -6592,8 +6612,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٥ ص",
             "notes": "",
             "code": "ROVE-BOX-01"
           },
@@ -6604,8 +6624,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٦ ص",
             "notes": "",
             "code": "ROVE-DYE-02"
           },
@@ -6616,8 +6636,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٧ ص",
             "notes": "",
             "code": "ROVE-OIL-03"
           }
@@ -6630,12 +6650,24 @@
       "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥٢:١٦ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٢:١٦ م"
+        },
+        {
+          "a": "✅ بوكس Rove",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٥ ص"
+        },
+        {
+          "a": "✅ صبغ Rove",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٦ ص"
+        },
+        {
+          "a": "✅ زيت Rove",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٢٧ ص"
         }
       ]
     },
@@ -8606,7 +8638,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045916711,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١٦ ص"
+    "timestamp": 1785045931297,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣١ ص"
   }
 }
