@@ -6169,8 +6169,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٤ ص",
             "notes": "",
             "code": "BKSH-CAP-02"
           },
@@ -6181,8 +6181,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٥ ص",
             "notes": "",
             "code": "BKSH-BOX-03"
           },
@@ -6193,8 +6193,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 4,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٥ ص",
             "notes": "",
             "code": "BKSH-PLT-04"
           },
@@ -6205,8 +6205,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 5,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٦ ص",
             "notes": "",
             "code": "BKSH-DYE-05"
           },
@@ -6217,8 +6217,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 6,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٩ ص",
             "notes": "",
             "code": "BKSH-OIL-06"
           }
@@ -6231,7 +6231,7 @@
       "dateStr": "٥‏/٧‏/٢٠٢٦، ١:٣٥:٠٧ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
@@ -6241,6 +6241,26 @@
         {
           "a": "✅ غرشة بكس هارد",
           "d": "١٣‏/٧‏/٢٠٢٦، ٢:٢٠:٣٥ م"
+        },
+        {
+          "a": "✅ كاب بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٤ ص"
+        },
+        {
+          "a": "✅ بوكس بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٥ ص"
+        },
+        {
+          "a": "✅ بلايت بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٥ ص"
+        },
+        {
+          "a": "✅ صبغ بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٦ ص"
+        },
+        {
+          "a": "✅ زيت بكس هارد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٩ ص"
         }
       ]
     },
@@ -6260,8 +6280,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١٠ ص",
             "notes": "",
             "code": "HAYL-BOX-01"
           },
@@ -6272,8 +6292,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١١ ص",
             "notes": "",
             "code": "HAYL-DYE-02"
           },
@@ -6284,8 +6304,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١١ ص",
             "notes": "",
             "code": "HAYL-OIL-03"
           }
@@ -6298,12 +6318,24 @@
       "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٤٩:٢٢ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٤٩:٢٢ م"
+        },
+        {
+          "a": "✅ بوكس هايل",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١٠ ص"
+        },
+        {
+          "a": "✅ صبغ هايل",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١١ ص"
+        },
+        {
+          "a": "✅ زيت هايل",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١١ ص"
         }
       ]
     },
@@ -8574,7 +8606,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045904558,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٠٤ ص"
+    "timestamp": 1785045916711,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:١٦ ص"
   }
 }
