@@ -5503,8 +5503,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٣٨ ص",
             "notes": "",
             "code": "QTAH-BOX-01"
           },
@@ -5515,8 +5515,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٣٩ ص",
             "notes": "",
             "code": "QTAH-STK-02"
           }
@@ -5529,12 +5529,20 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٣:٣٤ ص",
       "deadline": null,
       "notes": "بكس قطعه وحده - لونين برتقالي - زهري ( كل لون 250 حبه )  - 10 اسماء كل اسم 50 حبه",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٣:٣٤ ص"
+        },
+        {
+          "a": "✅ بوكس قطعه وحده",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٣٨ ص"
+        },
+        {
+          "a": "✅ ستيكر قطعه وحده",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٣٩ ص"
         }
       ]
     },
@@ -5554,8 +5562,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤٠ ص",
             "notes": "",
             "code": "BKSS-BOX-01"
           },
@@ -5566,8 +5574,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤١ ص",
             "notes": "",
             "code": "BKSS-STK-02"
           }
@@ -5580,12 +5588,20 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٥:٤٣ ص",
       "deadline": null,
       "notes": "بكس سلايد 500 حبه لونين كل لون 250 (اسود - بني) 10 اسماء كل اسم 50 حبه",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٥:٤٣ ص"
+        },
+        {
+          "a": "✅ بوكس بكس سلايد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤٠ ص"
+        },
+        {
+          "a": "✅ ستيكر بكس سلايد",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤١ ص"
         }
       ]
     },
@@ -5715,8 +5731,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤٤ ص",
             "notes": "",
             "code": "RWF-BOX-01"
           },
@@ -5727,8 +5743,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤٥ ص",
             "notes": "",
             "code": "RWF-OIL-02"
           }
@@ -5741,12 +5757,20 @@
       "dateStr": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٨:٤٣ ص",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "٢٢‏/٦‏/٢٠٢٦ ٩:٥٨:٤٣ ص"
+        },
+        {
+          "a": "✅ بوكس روف",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤٤ ص"
+        },
+        {
+          "a": "✅ زيت روف",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٤٥ ص"
         }
       ]
     },
@@ -8514,7 +8538,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045873932,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٣٣ ص"
+    "timestamp": 1785045890049,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٤:٥٠ ص"
   }
 }
