@@ -6750,8 +6750,8 @@
             "unit": "قطعة",
             "qty": 1,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣١ ص",
             "notes": "",
             "code": "KYNJ-BOX-01"
           },
@@ -6762,8 +6762,8 @@
             "unit": "مل",
             "qty": 5,
             "idx": 2,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣٢ ص",
             "notes": "",
             "code": "KYNJ-DYE-02"
           },
@@ -6774,8 +6774,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 3,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣٣ ص",
             "notes": "",
             "code": "KYNJ-OIL-03"
           }
@@ -6788,12 +6788,24 @@
       "dateStr": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:٥٤ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٧‏/٢٠٢٦، ١:٥٣:٥٤ م"
+        },
+        {
+          "a": "✅ بوكس كينج",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣١ ص"
+        },
+        {
+          "a": "✅ صبغ كينج",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣٢ ص"
+        },
+        {
+          "a": "✅ زيت كينج",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣٣ ص"
         }
       ]
     },
@@ -6813,8 +6825,8 @@
             "unit": "%",
             "qty": 25,
             "idx": 1,
-            "received": false,
-            "recDate": null,
+            "received": true,
+            "recDate": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣٤ ص",
             "notes": "",
             "code": "LMSH-OIL-01"
           }
@@ -6827,12 +6839,16 @@
       "dateStr": "١٣‏/٧‏/٢٠٢٦، ٢:٠٩:٢٣ م",
       "deadline": null,
       "notes": "",
-      "status": "active",
+      "status": "completed",
       "pNotes": "",
       "hist": [
         {
           "a": "📋 إنشاء",
           "d": "١٣‏/٧‏/٢٠٢٦، ٢:٠٩:٢٣ م"
+        },
+        {
+          "a": "✅ زيت لمسه حرير",
+          "d": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣٤ ص"
         }
       ]
     },
@@ -8638,7 +8654,7 @@
   "lP": 100,
   "_meta": {
     "device": "device_01eo3zem",
-    "timestamp": 1785045931297,
-    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٣١ ص"
+    "timestamp": 1785045940323,
+    "date": "٢٦‏/٧‏/٢٠٢٦ ١٠:٠٥:٤٠ ص"
   }
 }
